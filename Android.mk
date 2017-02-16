@@ -5,7 +5,7 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_PACKAGE_NAME := LineageSetupWizard
+LOCAL_PACKAGE_NAME := MoKeeSetupWizard
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_OVERRIDES_PACKAGES := Provision
@@ -16,8 +16,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v4 \
     android-support-v13 \
     libphonenumber \
-    org.cyanogenmod.platform.internal \
-    org.cyanogenmod.platform.sdk
+    org.mokee.platform.internal \
+    org.mokee.platform.sdk
 
 LOCAL_JAVA_LIBRARIES := \
     telephony-common
