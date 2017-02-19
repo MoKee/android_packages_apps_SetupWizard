@@ -28,6 +28,7 @@
   <string name="loading">Einen Moment...</string>
   <string name="setup_complete">Einrichtung abgeschlossen</string>
   <string name="setup_welcome">Willkommen</string>
+  <string name="setup_locale">Sprache</string>
   <string name="setup_wifi">WLAN auswählen</string>
   <string name="setup_sim_missing">SIM-Karte fehlt</string>
   <string name="setup_choose_data_sim">SIM-Karte für Daten wählen</string>
@@ -57,10 +58,13 @@
   <string name="yes">Ja</string>
   <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> – <xliff:g id="name">%s</xliff:g></string>
   <string name="emergency_call">Notruf</string>
+  <string name="setup_services">MoKee Funktionen</string>
   <string name="services_privacy_policy">Datenschutzbestimmungen</string>
   <string name="services_apply_theme"><xliff:g id="name" example="Material">%s</xliff:g> Design anwenden</string>
   <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s </xliff:g> Aktivieren sie spezifische Symbole , Hintergrundbilder und Schriftarten.</string>
   <string name="services_os_nav_keys_label"><b>Bildschirm-Navigationstasten</b> statt Hardwaretasten verwenden.</string>
+  <string name="setup_unlock">Entsperren</string>
+  <string name="setup_device_locked">Dieses Gerät wurde durch den Benutzer gesperrt.</string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">Wählen Sie einen Backup- Bildschirm Sperrtyp</string>
   <string name="settings_fingerprint_setup_details">Wie möchten Sie Ihren Bildschirm sperren?</string>
@@ -75,4 +79,5 @@
   <string name="settings_lockscreen_setup_details">Wie möchten Sie Ihren Bildschirm sperren?</string>
   <string name="lockscreen_setup_title">Schützen Sie Ihr Mobiltelefon</string>
   <string name="lockscreen_setup_summary"><b>Dieses Gerät schützen</b> erfordert ein PIN, Muster oder Kennwort zum Entsperren des Bildschirms</string>
+  <string name="lockscreen_setup_screen_lock_setup">Einrichten</string>
 </resources>
