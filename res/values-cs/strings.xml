@@ -28,6 +28,7 @@
   <string name="loading">Jen chvilku...</string>
   <string name="setup_complete">Nastavení dokončeno</string>
   <string name="setup_welcome">Vítejte</string>
+  <string name="setup_locale">Jazyk</string>
   <string name="setup_wifi">Vyberte Wifi</string>
   <string name="setup_sim_missing">SIM karta chybí</string>
   <string name="setup_choose_data_sim">Zvolte SIM pro data</string>
@@ -57,6 +58,8 @@
   <string name="yes">Ano</string>
   <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
   <string name="emergency_call">Tísňové volání</string>
+  <string name="services_explanation" product="tablet">Tyto služby rozšiřují funkce vašeho tabletu. Data budou použita v souladu se zásadami ochrany osobních údajů MoKee <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
+  <string name="services_explanation" product="default">Tyto služby rozšiřují funkce vašeho telefonu. Data budou použita v souladu se zásadami ochrany osobních údajů MoKee <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
   <string name="services_privacy_policy">Zásady ochrany osobních údajů</string>
   <string name="services_apply_theme">Použít motiv <xliff:g id="name" example="Material">%s</xliff:g></string>
   <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g> povolí unikátní ikony, tapety a písma.</string>
@@ -75,4 +78,5 @@
   <string name="settings_lockscreen_setup_details">Jak chcete zamknout obrazovku?</string>
   <string name="lockscreen_setup_title">Chraňte svůj telefon</string>
   <string name="lockscreen_setup_summary"><b>Chránit toto zařízení</b> a vyžaduje PIN, gesto nebo heslo pro odemknutí obrazovky</string>
+  <string name="lockscreen_setup_screen_lock_setup">Nastavit</string>
 </resources>
