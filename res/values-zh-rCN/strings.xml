@@ -41,7 +41,7 @@
   <string name="sim_missing_summary" product="default">在您的手机上未检测到 SIM 卡。请按照您手机附带说明书中的操作方法插入 SIM 卡。</string>
   <string name="choose_data_sim_summary" product="tablet">您想使用哪张 SIM 卡进行数据连接？您选择的 SIM 卡可能会在您设置平板电脑的时候产生流量费用。</string>
   <string name="choose_data_sim_summary" product="default">您想使用哪张 SIM 卡进行数据连接？您选择的 SIM 卡可能会在您设置手机的时候产生流量费用。</string>
-  <string name="date_time_summary">在您需要的时候设置时区与调整日期和时间</string>
+  <string name="date_time_summary">设置时区并调整日期和时间</string>
   <string name="backup_data_summary">备份应用数据、WLAN 密码和其它设置到 Google 服务器</string>
   <string name="other_services_summary">这些服务让 Google 为您工作，您可以在任何时候打开或关闭它们。数据将会按照 Google 的 <xliff:g id="name" example="Privacy Policy">%s</xliff:g> 被使用。</string>
   <string name="location_services_summary">位置服务允许系统和第三方应用收集和使用相关信息（比如您的大致位置）。例如，某个应用可能会使用您的大致位置来查找附近的咖啡馆。</string>
