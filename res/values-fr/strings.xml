@@ -34,7 +34,7 @@
   <string name="setup_choose_data_sim">Choisir une carte SIM pour les données</string>
   <string name="setup_location">Services de localisation</string>
   <string name="setup_other">Autres services</string>
-  <string name="setup_datetime">Date et heure</string>
+  <string name="setup_datetime">Date &amp; heure</string>
   <string name="setup_current_date">Date</string>
   <string name="setup_current_time">Heure</string>
   <string name="sim_missing_summary" product="tablet">Aucune carte SIM n\'a été détectée dans votre tablette. Pour insérer une carte SIM, lisez les instructions fournies avec votre appareil.</string>
@@ -81,7 +81,7 @@
   <!-- secure lock screen -->
   <string name="settings_lockscreen_setup_title">Sélectionner le type de verrouillage de l\'écran</string>
   <string name="settings_lockscreen_setup_details">Comment voulez-vous verrouiller votre écran ?</string>
-  <string name="lockscreen_setup_title">Protégez votre téléphone</string>
-  <string name="lockscreen_setup_summary"><b>Protégez cet appareil</b> et nécessite un code PIN, un dessin ou un mot de passe pour déverrouiller l’écran</string>
+  <string name="lockscreen_setup_title">Protéger votre téléphone</string>
+  <string name="lockscreen_setup_summary"><b>Protéger cet appareil</b> et nécessite un code PIN, un dessin ou un mot de passe pour déverrouiller l’écran</string>
   <string name="lockscreen_setup_screen_lock_setup">Configuration</string>
 </resources>
