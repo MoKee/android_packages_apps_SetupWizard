@@ -341,7 +341,7 @@ public class ChooseDataSimActivity extends BaseSetupWizardActivity {
         if (mIsAttached) {
             for (int i = 0; i < mSubInfoRecords.size(); i++) {
                 SubscriptionInfo subInfoRecord = mSubInfoRecords.valueAt(i);
-                mCheckBoxes.get(i).setChecked(SubscriptionManager.getDefaultDataSubscriptionId()
+                mCheckBoxes.get(subInfoRecord.getSimSlotIndex()).setChecked(SubscriptionManager.getDefaultDataSubscriptionId()
                         == subInfoRecord.getSubscriptionId());
                 if (LOGV) {
                     Log.v(TAG, "updateCurrentDataSub{" +
@@ -364,10 +364,12 @@ public class ChooseDataSimActivity extends BaseSetupWizardActivity {
     private void enableRows(boolean enabled) {
         for (int i = 0; i < mRows.size(); i++) {
             final View v =  mRows.get(i);
-            v.setEnabled(enabled);
-            final SubscriptionInfo subInfoRecord = (SubscriptionInfo)v.getTag();
-            if (subInfoRecord != null) {
-                updateCarrierText(subInfoRecord);
+            if (v != null) {
+                v.setEnabled(enabled);
+                final SubscriptionInfo subInfoRecord = (SubscriptionInfo)v.getTag();
+                if (subInfoRecord != null) {
+                    updateCarrierText(subInfoRecord);
+                }
             }
         }
     }
