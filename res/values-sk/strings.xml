@@ -18,9 +18,13 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Sprievodca nastavením</string>
   <!-- Partner SUW Strings -->
+  <string name="next">Ďalší</string>
+  <string name="skip">Preskočiť</string>
   <string name="done">Hotovo</string>
   <string name="ok">OK</string>
+  <string name="setup_welcome">Vitajte</string>
   <!-- Fingerprint setup -->
   <!-- secure lock screen -->
 </resources>
