@@ -68,6 +68,7 @@
   <string name="services_os_privacy_guard"><b>Povolit Ochranu soukromí</b> aby vaše osobní údaje například kontakty, zprávy nebo záznamy hovorů nebyli dostupné pro nově instalované aplikace</string>
   <string name="setup_unlock">Odemknout</string>
   <string name="setup_device_locked">Toto zařízení bylo uzamčen uživatelem.</string>
+  <string name="setup_device_locked_instructions"><i>Chcete-li povolit nebo zakázat tuto funkci, přejděte na Nastavení &gt; Zabezpečení</i></string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">Vybrat záložní zámek obrazovky</string>
   <string name="settings_fingerprint_setup_details">Jak chcete zamknout obrazovku?</string>
