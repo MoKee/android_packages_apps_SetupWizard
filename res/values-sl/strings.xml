@@ -28,6 +28,7 @@
   <string name="loading">Samo sec\u2026</string>
   <string name="setup_complete">Namestitev je končana</string>
   <string name="setup_welcome">Dobrodošli</string>
+  <string name="setup_locale">Jezik</string>
   <string name="setup_wifi">Izberite Wi-Fi</string>
   <string name="setup_sim_missing">Manjka SIM kartica</string>
   <string name="setup_choose_data_sim">Izberite SIM za podatke</string>
@@ -57,10 +58,13 @@
   <string name="yes">Da</string>
   <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
   <string name="emergency_call">Samo klici v sili</string>
+  <string name="setup_services">MoKee funkcije</string>
   <string name="services_privacy_policy">Pravilnik o zasebnosti</string>
   <string name="services_apply_theme">Uporabi <xliff:g id="name" example="Material">%s</xliff:g> temo</string>
   <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g> omogoča edinstvene ikone, ozadja in pisave.</string>
   <string name="services_os_nav_keys_label"><b>Uporabi zaslonske tipke</b> namesto vgrajenih tipk.</string>
+  <string name="setup_unlock">Odkleni</string>
+  <string name="setup_device_locked">To napravo je zaklenil uporabnik.</string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">Izberite varnostni način za zaklep zaslona</string>
   <string name="settings_fingerprint_setup_details">Kako bi želeli, da se zaslon zaklene?</string>
