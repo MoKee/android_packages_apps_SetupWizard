@@ -79,4 +79,5 @@
   <string name="settings_lockscreen_setup_details">Kako bi želeli, da se zaslon zaklene?</string>
   <string name="lockscreen_setup_title">Zaščitite vašo zasebnost</string>
   <string name="lockscreen_setup_summary"><b>Zaščitite to napravo</b> zahtevan je PIN, vzorec, ali geslo za odklepanje zaslona</string>
+  <string name="lockscreen_setup_screen_lock_setup">Nastavi</string>
 </resources>
