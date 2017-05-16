@@ -28,6 +28,7 @@
   <string name="loading">しばらくお待ちください\u2026</string>
   <string name="setup_complete">セットアップが完了しました</string>
   <string name="setup_welcome">ようこそ</string>
+  <string name="setup_locale">言語</string>
   <string name="setup_wifi">Wi-Fiの選択</string>
   <string name="setup_sim_missing">SIMカードがありません</string>
   <string name="setup_choose_data_sim">データ通信用のSIMを選択</string>
@@ -56,10 +57,12 @@
   <string name="yes">はい</string>
   <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
   <string name="emergency_call">緊急通報</string>
+  <string name="setup_services">MoKeeの機能</string>
   <string name="services_privacy_policy">プライバシーポリシー</string>
   <string name="services_apply_theme"><xliff:g id="name" example="Material">%s</xliff:g>テーマを適用</string>
   <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g>すると、テーマ固有のアイコン、壁紙、フォントが有効になります。</string>
   <string name="services_os_nav_keys_label">ハードウェアキーのかわりに<b>スクリーンナビゲーションキーを使用します</b>。</string>
+  <string name="setup_device_locked">このデバイスは、ユーザーによってロックされています。</string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">バックアップ画面ロックの種類を選択</string>
   <string name="settings_fingerprint_setup_details">どのように画面をロックしますか？</string>
@@ -68,6 +71,11 @@
   <string name="fingerprint_setup_backup_lock_method">もう一つのロック解除方法を設定</string>
   <string name="fingerprint_setup_add_fingerprint">指紋を追加</string>
   <string name="fingerprint_setup_screen_lock_setup">画面ロックを設定します。</string>
+  <string name="sim_locale_changed">%1$s SIM が検出されました</string>
   <!-- secure lock screen -->
+  <string name="settings_lockscreen_setup_title">ロック画面の種類を選択</string>
   <string name="settings_lockscreen_setup_details">どのように画面をロックしますか？</string>
+  <string name="lockscreen_setup_title">スマートフォンの保護</string>
+  <string name="lockscreen_setup_summary"><b>このデバイスの保護</b> PIN、パターン、または画面のロックを解除するパスワードが必要です。</string>
+  <string name="lockscreen_setup_screen_lock_setup">セットアップ</string>
 </resources>
