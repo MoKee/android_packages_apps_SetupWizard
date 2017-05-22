@@ -45,8 +45,11 @@
   <string name="other_services_summary">وضعت هذه الخدمات من جوجل لتعمل بالنسبة لك، ويمكنك تشغيلها أو إيقاف تشغيلها في أي وقت. ستستخدم البيانات وفقا Google <xliff:g id="name" example="Privacy Policy">%s </xliff:g>.</string>
   <string name="location_services_summary">يسمح تمكين خدمات الموقع و تطبيقات الطرف الثالث لجمع واستخدام بيانات مثل موقعك التقريبي. على سبيل المثال، قد تستخدم تطبيق خاص بك لتحديد موقع أقرب المقاهي لك.</string>
   <string name="location_access_summary"><b>السماح للتطبيقات التي طلبت الإذن </b> لاستخدام معلومات الموقع الخاصة بك. وقد يشمل هذا الموقع الحالي والمواقع السابقة الخاصة بك.</string>
+  <string name="location_battery_saving"><b>تقليل استهلاك البطارية</b> بتقليل عدد مرات تحديث ال GPS خلال الساعة.</string>
   <string name="location_network"><b>الاستخدام اللاسلكي</b> لمساعدة التطبيقات بتحديد الموقع الخاص بك.</string>
+  <string name="location_network_telephony"><b>استخدام ال WiFi وشبكة الهاتف المحمول</b> لمساعدة التطبيقات في تحديد الموقع الخاص بك.</string>
   <string name="location_network_gms"><b>استخدام خدمة قوقل ماب </b> لمساعدة التطبيقات في تحديد الموقع الخاص بك. وهذا يعني إرسال بيانات اي موقع إلى قوقل، حتى عندما لا تقوم بتشغيل أي تطبيقات.</string>
+  <string name="setup_mobile_data">تمكين تشغيل البيانات الخلوية</string>
   <string name="setup_mobile_data_no_service">لا يوجد خدمة متوفّرة</string>
   <string name="setup_mobile_data_emergency_only">مكالمات الطّوارئ فقط</string>
   <string name="no">لا</string>
