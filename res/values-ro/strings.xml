@@ -45,10 +45,14 @@
   <string name="other_services_summary">Aceste servicii pune Google să lucreze pentru tine, vă puteţi întoarce sau dezactiva în orice moment. Datele vor fi folosite în conformitate cu Google <xliff:g id="name" example="Privacy Policy">%s </xliff:g>.</string>
   <string name="location_services_summary">Serviciul de localizare permite Hărţi şi altor aplicaţii pentru a aduna şi a folosi date precum locaţia aproximativă. De exemplu, Hărţi poate utiliza locaţia aproximativă pentru a localiza cafenele în vecinătate.</string>
   <string name="location_access_summary"><b>Permite aplicațiilor care au cerut permisiunea</b> să utilizească informaţiile despre locaţia dvs. Aceasta poate include locaţia curentă şi locaţiile precedente.</string>
+  <string name="location_battery_saving"><b>Reduceți consumul bateriei</b>restrictionând numărul de conectări GPS pe oră.</string>
   <string name="location_network"><b>Utilizează Wi-Fi</b> pentru a ajuta aplicațiile să determine locaţia.</string>
+  <string name="location_network_telephony"><b>Folosiți conexiuni Wi-Fi și mobile</b> pentru a ajuta aplicațiile la determinarea locației.</string>
   <string name="location_network_gms"><b>Folosește serviciile de locație Google</b> pentru a ajuta aplicațiile să vă determine locaţia. Acest lucru înseamnă trimiterea datelor anonime de localizare la Google, chiar şi atunci când nu executați aplicații.</string>
+  <string name="setup_mobile_data">Porniți datele celulare</string>
   <string name="setup_mobile_data_no_service">Lipsă semnal</string>
   <string name="setup_mobile_data_emergency_only">Numai apeluri de urgenţă</string>
+  <string name="enable_mobile_data_summary">Doriți să utilizați datele mobile în timpul instalării? Aceasta poate genera costuri suplimentare.</string>
   <string name="no">Nu</string>
   <string name="yes">Da</string>
   <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
@@ -65,6 +69,10 @@
   <string name="fingerprint_setup_backup_lock_method">Configurarea unei metode secundare de deblocare</string>
   <string name="fingerprint_setup_add_fingerprint">Adaugă amprentă</string>
   <string name="fingerprint_setup_screen_lock_setup">Configurare ecran de blocare</string>
+  <string name="sim_locale_changed">Sim detectat %1$s</string>
   <!-- secure lock screen -->
+  <string name="settings_lockscreen_setup_title">Selectați tipul de blocare ecran</string>
   <string name="settings_lockscreen_setup_details">Cum doriţi pentru a bloca ecranul?</string>
+  <string name="lockscreen_setup_title">Protejați-vă telefonul</string>
+  <string name="lockscreen_setup_summary"><b>Protejați-vă telefonul</b> folosind un cod Pin, un model sau o parolă pentru a debloca ecranul</string>
 </resources>
