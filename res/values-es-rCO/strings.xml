@@ -68,6 +68,7 @@
   <string name="services_os_privacy_guard"><b>Habilitar protector de privacidad</b> para sus datos personales como contactos, mensajes o registros de llamadas no está disponible para aplicaciones recién instaladas</string>
   <string name="setup_unlock">Desbloquea</string>
   <string name="setup_device_locked">Este dispositivo ha sido bloqueado por el usuario.</string>
+  <string name="setup_device_locked_instructions"><i>Para activar/desactivar esta función, por favor, ve a Configuración &gt; Seguridad</i></string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">Seleccione el tipo de bloqueo de la pantalla de copia de seguridad</string>
   <string name="settings_fingerprint_setup_details">¿Cómo quieres bloquear tu pantalla?</string>
@@ -82,4 +83,5 @@
   <string name="settings_lockscreen_setup_details">¿Cómo quieres bloquear tu pantalla?</string>
   <string name="lockscreen_setup_title">Proteja su teléfono</string>
   <string name="lockscreen_setup_summary"><b>Proteger este dispositivo</b> y requerir un PIN, el patrón o la contraseña para desbloquear la pantalla</string>
+  <string name="lockscreen_setup_screen_lock_setup">Configurar</string>
 </resources>
