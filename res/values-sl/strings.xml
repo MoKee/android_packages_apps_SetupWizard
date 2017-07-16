@@ -59,12 +59,16 @@
   <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
   <string name="emergency_call">Samo klici v sili</string>
   <string name="setup_services">MoKee funkcije</string>
+  <string name="services_explanation" product="tablet">Te storitve vam omogočajo, da razširite zmogljivosti svoje tablice. Podatki se uporabijo v skladu z <xliff:g id="name" example="Privacy Policy">%s </xliff:g>.</string>
+  <string name="services_explanation" product="default">Te storitve vam omogočajo, da razširite zmogljivosti svojega telefona. Podatki se uporabijo v skladu z <xliff:g id="name" example="Privacy Policy">%s </xliff:g>.</string>
   <string name="services_privacy_policy">Pravilnik o zasebnosti</string>
   <string name="services_apply_theme">Uporabi <xliff:g id="name" example="Material">%s</xliff:g> temo</string>
   <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g> omogoča edinstvene ikone, ozadja in pisave.</string>
   <string name="services_os_nav_keys_label"><b>Uporabi zaslonske tipke</b> namesto vgrajenih tipk.</string>
+  <string name="services_os_privacy_guard"><b>Omogočite Privacy guard</b>, da vaši osebni podatki, kot so stiki, sporočila ali dnevniki klicev ne bodo na voljo na novo nameščenim aplikacijam</string>
   <string name="setup_unlock">Odkleni</string>
   <string name="setup_device_locked">To napravo je zaklenil uporabnik.</string>
+  <string name="setup_device_locked_instructions"><i>Za izklop/vklop te funkcije, prosimo, pojdite na nastavitve &gt; varnost</i></string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">Izberite varnostni način za zaklep zaslona</string>
   <string name="settings_fingerprint_setup_details">Kako bi želeli, da se zaslon zaklene?</string>
