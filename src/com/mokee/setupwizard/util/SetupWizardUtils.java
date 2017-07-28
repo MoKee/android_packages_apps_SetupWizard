@@ -49,7 +49,6 @@ import android.os.Binder;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.telephony.ServiceState;
-import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
@@ -117,16 +116,6 @@ public class SetupWizardUtils {
     public static boolean hasTelephony(Context context) {
         PackageManager packageManager = context.getPackageManager();
         return packageManager.hasSystemFeature(PackageManager.FEATURE_TELEPHONY);
-    }
-
-    public static boolean hasActiveSubscription(Context context) {
-        SubscriptionManager subscriptionManager = SubscriptionManager.from(context);
-        List<SubscriptionInfo> activeSubs = subscriptionManager.getActiveSubscriptionInfoList();
-        if (activeSubs == null || activeSubs.isEmpty()) {
-            return false;
-        } else {
-            return true;
-        }
     }
 
     public static boolean isMultiSimDevice(Context context) {
@@ -259,8 +248,6 @@ public class SetupWizardUtils {
             disableComponent(context, SimMissingActivity.class);
             disableComponent(context, ChooseDataSimActivity.class);
         } else if (!SetupWizardUtils.isMultiSimDevice(context)) {
-            disableComponent(context, ChooseDataSimActivity.class);
-        } else if (!SetupWizardUtils.hasActiveSubscription(context)) {
             disableComponent(context, ChooseDataSimActivity.class);
         }
         if (!SetupWizardUtils.hasWifi(context)) {
