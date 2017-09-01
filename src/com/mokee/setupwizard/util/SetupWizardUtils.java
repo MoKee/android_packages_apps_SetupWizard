@@ -29,7 +29,6 @@ import static android.content.pm.PackageManager.DONT_KILL_APP;
 import static android.content.pm.PackageManager.GET_ACTIVITIES;
 import static android.content.pm.PackageManager.GET_RECEIVERS;
 import static android.content.pm.PackageManager.GET_SERVICES;
-import static android.content.res.ThemeConfig.SYSTEM_DEFAULT;
 
 import static com.mokee.setupwizard.SetupWizardApp.KEY_DETECT_CAPTIVE_PORTAL;
 import static com.mokee.setupwizard.SetupWizardApp.LOGV;
@@ -222,24 +221,6 @@ public class SetupWizardUtils {
 
     public static boolean simMissing() {
         return PhoneMonitor.getInstance().simMissing();
-    }
-
-    public static String getDefaultThemePackageName(Context context) {
-        final String defaultThemePkg = MKSettings.Secure.getString(context.getContentResolver(),
-                MKSettings.Secure.DEFAULT_THEME_PACKAGE);
-        if (!TextUtils.isEmpty(defaultThemePkg)) {
-            PackageManager pm = context.getPackageManager();
-            try {
-                if (pm.getPackageInfo(defaultThemePkg, 0) != null) {
-                    return defaultThemePkg;
-                }
-            } catch (PackageManager.NameNotFoundException e) {
-                // doesn't exist so system will be default
-                Log.w(TAG, "Default theme " + defaultThemePkg + " not found");
-            }
-        }
-
-        return SYSTEM_DEFAULT;
     }
 
     public static void disableComponentsForMissingFeatures(Context context) {

@@ -25,7 +25,6 @@ import static com.mokee.setupwizard.SetupWizardApp.KEY_PRIVACY_GUARD;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.ThemeConfig;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.RemoteException;
@@ -46,7 +45,6 @@ import android.widget.TextView;
 import com.android.setupwizardlib.util.WizardManagerHelper;
 
 import com.mokee.setupwizard.R;
-import com.mokee.setupwizard.util.SetupWizardUtils;
 
 import mokee.hardware.MKHardwareManager;
 import mokee.providers.MKSettings;
@@ -59,24 +57,12 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
 
     private SetupWizardApp mSetupWizardApp;
 
-    private View mDefaultThemeRow;
     private View mNavKeysRow;
     private View mPrivacyGuardRow;
-    private CheckBox mDefaultTheme;
     private CheckBox mNavKeys;
     private CheckBox mPrivacyGuard;
 
     private boolean mHideNavKeysRow = false;
-    private boolean mHideThemeRow = false;
-
-    private View.OnClickListener mDefaultThemeClickListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            boolean checked = !mDefaultTheme.isChecked();
-            mDefaultTheme.setChecked(checked);
-            mSetupWizardApp.getSettingsBundle().putBoolean(KEY_APPLY_DEFAULT_THEME, checked);
-        }
-    };
 
     private View.OnClickListener mNavKeysClickListener = new View.OnClickListener() {
         @Override
@@ -125,26 +111,6 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
         privacyPolicy.setMovementMethod(LinkMovementMethod.getInstance());
         privacyPolicy.setText(ss);
 
-        mDefaultThemeRow = findViewById(R.id.theme);
-        mHideThemeRow = hideThemeSwitch(this);
-        if (mHideThemeRow) {
-            mDefaultThemeRow.setVisibility(View.GONE);
-        } else {
-            mDefaultThemeRow.setOnClickListener(mDefaultThemeClickListener);
-            String defaultTheme =
-                    getString(R.string.services_apply_theme,
-                            getString(R.string.default_theme_name));
-            String defaultThemeSummary = getString(R.string.services_apply_theme_label,
-                    defaultTheme);
-            final SpannableStringBuilder themeSpan =
-                    new SpannableStringBuilder(defaultThemeSummary);
-            themeSpan.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD),
-                    0, defaultTheme.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-            TextView theme = (TextView) findViewById(R.id.enable_theme_summary);
-            theme.setText(themeSpan);
-            mDefaultTheme = (CheckBox) findViewById(R.id.enable_theme_checkbox);
-        }
-
         mNavKeysRow = findViewById(R.id.nav_keys);
         mNavKeysRow.setOnClickListener(mNavKeysClickListener);
         mNavKeys = (CheckBox) findViewById(R.id.nav_keys_checkbox);
@@ -173,7 +139,6 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
     public void onResume() {
         super.onResume();
         updateDisableNavkeysOption();
-        updateThemeOption();
         updatePrivacyGuardOption();
     }
 
@@ -208,21 +173,6 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
         return R.drawable.ic_features;
     }
 
-    private void updateThemeOption() {
-        if (!mHideThemeRow) {
-            final Bundle myPageBundle = mSetupWizardApp.getSettingsBundle();
-            boolean themesChecked;
-            if (myPageBundle.containsKey(KEY_APPLY_DEFAULT_THEME)) {
-                themesChecked = myPageBundle.getBoolean(KEY_APPLY_DEFAULT_THEME);
-            } else {
-                themesChecked = getResources().getBoolean(
-                        R.bool.check_custom_theme_by_default);
-            }
-            mDefaultTheme.setChecked(themesChecked);
-            myPageBundle.putBoolean(KEY_APPLY_DEFAULT_THEME, themesChecked);
-        }
-    }
-
     private void updateDisableNavkeysOption() {
         if (!mHideNavKeysRow) {
             final Bundle myPageBundle = mSetupWizardApp.getSettingsBundle();
@@ -255,10 +205,5 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
     private static boolean isKeyDisablerActive(Context context) {
         final MKHardwareManager hardware = MKHardwareManager.getInstance(context);
         return hardware.get(MKHardwareManager.FEATURE_KEY_DISABLE);
-    }
-
-    private static boolean hideThemeSwitch(Context context) {
-        return SetupWizardUtils.getDefaultThemePackageName(context)
-                .equals(ThemeConfig.SYSTEM_DEFAULT);
     }
 }
