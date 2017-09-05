@@ -62,8 +62,6 @@
   <string name="services_explanation" product="tablet">Diese Dienste werden verwendet, um die Funktionen Ihres Telefons zu erweitern. Ihre Daten werden in Übereinstimmung mit den <xliff:g id="name" example="Datenschutzbestimmungen">%s</xliff:g> von MoKee\'s verwendet.</string>
   <string name="services_explanation" product="default">Diese Dienste werden verwendet, um die Funktionen Ihres Telefons zu erweitern. Ihre Daten werden in Übereinstimmung mit den <xliff:g id="name" example="Datenschutzbestimmungen">%s</xliff:g> von MoKee\'s verwendet.</string>
   <string name="services_privacy_policy">Datenschutzbestimmungen</string>
-  <string name="services_apply_theme"><xliff:g id="name" example="Material">%s</xliff:g> Design anwenden</string>
-  <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s </xliff:g> Aktivieren sie spezifische Symbole , Hintergrundbilder und Schriftarten.</string>
   <string name="services_os_nav_keys_label"><b>Bildschirm-Navigationstasten</b> statt Hardwaretasten verwenden.</string>
   <string name="services_os_privacy_guard"><b>Aktivieren Sie den Datenschutz-Wächter</b>, um Ihre persönlichen Daten wie Kontakte, Nachrichten oder Anrufslisten, für neu installierte Anwendungen, nicht verfügbar zu machen</string>
   <string name="setup_unlock">Entsperren</string>

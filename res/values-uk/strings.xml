@@ -62,8 +62,6 @@
   <string name="services_explanation" product="tablet">Ці послуги створено, щоб розширити можливості Вашого пристрою. Дані буде використано у відповідності до <xliff:g id="name" example="Privacy Policy">%s </xliff:g> MoKee\'s.</string>
   <string name="services_explanation" product="default">Ці послуги створено, щоб розширити можливості Вашого пристрою. Дані буде використано у відповідності до <xliff:g id="name" example="Privacy Policy">%s </xliff:g> MoKee\'s.</string>
   <string name="services_privacy_policy">Конфіденційність</string>
-  <string name="services_apply_theme">Застосувати тему <xliff:g id="name" example="Material">%s </xliff:g></string>
-  <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g> та використовувати її іконки, шпалери та шрифти.</string>
   <string name="services_os_nav_keys_label"><b>Використовувати навігаційні кнопки на екрані
 </b> замість апаратних.</string>
   <string name="services_os_privacy_guard"><b>Увімкнути Захист конфіденційності</b> щоб зробити ваші особисті дані, такі як контакти, повідомлення або журнал викликів не доступними для додатків, що будуть встановлені</string>

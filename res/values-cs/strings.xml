@@ -62,8 +62,6 @@
   <string name="services_explanation" product="tablet">Tyto služby rozšiřují funkce vašeho tabletu. Data budou použita v souladu se zásadami ochrany osobních údajů MoKee <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
   <string name="services_explanation" product="default">Tyto služby rozšiřují funkce vašeho telefonu. Data budou použita v souladu se zásadami ochrany osobních údajů MoKee <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
   <string name="services_privacy_policy">Zásady ochrany osobních údajů</string>
-  <string name="services_apply_theme">Použít motiv <xliff:g id="name" example="Material">%s</xliff:g></string>
-  <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g> povolí unikátní ikony, tapety a písma.</string>
   <string name="services_os_nav_keys_label"><b>Použít navigační klávesy na obrazovce</b> namísto hw kláves.</string>
   <string name="services_os_privacy_guard"><b>Povolit Ochranu soukromí</b> aby vaše osobní údaje například kontakty, zprávy nebo záznamy hovorů nebyli dostupné pro nově instalované aplikace</string>
   <string name="setup_unlock">Odemknout</string>

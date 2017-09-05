@@ -44,7 +44,6 @@
   <string name="data_sim_name">সিম <xliff:g id="sub">%d </xliff:g> - <xliff:g id="name">%s </xliff:g></string>
   <string name="emergency_call">জরুরী কল</string>
   <string name="services_privacy_policy">প্রাইভেসি পলিসি</string>
-  <string name="services_apply_theme"><xliff:g id="name" example="Material">%s </xliff:g> থিমটি প্রয়োগ করুন</string>
   <!-- Fingerprint setup -->
   <!-- secure lock screen -->
 </resources>

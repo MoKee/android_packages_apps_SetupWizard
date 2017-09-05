@@ -60,8 +60,6 @@
   <string name="emergency_call">Κλήση έκτακτης ανάγκης</string>
   <string name="setup_services">MoKee Xαρακτηριστικά</string>
   <string name="services_privacy_policy">Πολιτική απορρήτου</string>
-  <string name="services_apply_theme">Εφαρμογή του θέματος <xliff:g id="name" example="Material">%s</xliff:g></string>
-  <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g> ενεργοποιώντας μοναδικά εικονίδια, ταπετσαρίες και γραμματοσειρές.</string>
   <string name="services_os_nav_keys_label"><b>Κάντε χρήση των πλήκτρων πλοήγησης της οθόνης</b> αντί των φυσικών πλήκτρων.</string>
   <string name="services_os_privacy_guard"><b>Ενεργοποιείστε τη Προστασία Απορρήτου</b> για την απόκρυψη των προσωπικών σας δεδομένων όπως επαφές, μηνύματα ή το αρχείο κλήσεων από τις πρόσφατα εγκατεστημένες εφαρμογές</string>
   <string name="setup_unlock">Ξεκλείδωμα</string>

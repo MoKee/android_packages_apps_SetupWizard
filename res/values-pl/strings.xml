@@ -60,8 +60,6 @@
   <string name="emergency_call">Połączenie alarmowe</string>
   <string name="services_explanation" product="tablet">Te usługi są uruchomione w celu rozszerzenia możliwości twojego tabletu. Dane będą używane zgodnie z MoKee\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
   <string name="services_privacy_policy">Polityka Prywatności</string>
-  <string name="services_apply_theme">Zastosuj motyw <xliff:g id="name" example="Material">%s</xliff:g></string>
-  <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g> zawiera unikalne ikony, tapety i czcionki.</string>
   <string name="services_os_nav_keys_label"><b>Użyj ekranowych przycisków nawigacyjnych</b> zamiast klawiszy sprzętowych.</string>
   <string name="services_os_privacy_guard"><b>Włącz ochronę prywatności</b> aby twoje dane osobiste, takie jak kontakty, wiadomości lub rejestr połączeń nie były dostępne dla nowo zainstalowanych aplikacji</string>
   <string name="setup_unlock">Odblokuj</string>

@@ -62,8 +62,6 @@
   <string name="services_explanation" product="tablet">这些服务用于扩展您的平板电脑的功能。数据将根据魔趣的 <xliff:g id="name" example="Privacy Policy">%s</xliff:g> 使用。</string>
   <string name="services_explanation" product="default">这些服务用于扩展您手机的功能。数据将根据魔趣的 <xliff:g id="name" example="Privacy Policy">%s</xliff:g> 使用。</string>
   <string name="services_privacy_policy">隐私政策</string>
-  <string name="services_apply_theme">应用 <xliff:g id="name" example="Material">%s</xliff:g> 主题</string>
-  <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g> 启用个性化的图标、 壁纸和字体。</string>
   <string name="services_os_nav_keys_label"><b>使用虚拟导航键</b>替代实体按键。</string>
   <string name="services_os_privacy_guard"><b>启用隐私防护</b>新安装的应用将不能读取您的联系人、信息或通话记录等个人数据</string>
   <string name="setup_unlock">解锁</string>

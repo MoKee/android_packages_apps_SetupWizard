@@ -58,8 +58,6 @@
   <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
   <string name="emergency_call">Nødopkald</string>
   <string name="services_privacy_policy">Privatlivspolitik</string>
-  <string name="services_apply_theme">Anvend temaet <xliff:g id="name" example="Material">%s</xliff:g></string>
-  <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g> giver unikke ikoner, baggrunde og skrifttyper.</string>
   <string name="services_os_nav_keys_label"><b>Brug navigationstaster på skærmen</b> i stedet for fysiske knapper.</string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">Vælg låsetype til reserveskærm</string>

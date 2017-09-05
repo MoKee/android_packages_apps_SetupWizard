@@ -62,8 +62,6 @@
   <string name="services_explanation" product="tablet">Эти службы расширяют возможности вашего планшета. Данные будут использоваться в соответствии с <xliff:g id="name" example="Privacy Policy">%s</xliff:g> LineageOS.</string>
   <string name="services_explanation" product="default">Эти службы расширяют возможности вашего телефона. Данные будут использоваться в соответствии с <xliff:g id="name" example="Privacy Policy">%s</xliff:g> LineageOS.</string>
   <string name="services_privacy_policy">Политика Конфиденциальности</string>
-  <string name="services_apply_theme">Применить тему «<xliff:g id="name" example="Material">%s</xliff:g>»</string>
-  <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g> и использовать её значки, обои и шрифты.</string>
   <string name="services_os_nav_keys_label"><b>Использовать наэкранные навигационные кнопки</b> вместо аппаратных.</string>
   <string name="services_os_privacy_guard"><b>Включите защищённый режим,</b> чтобы ограничить доступ новых приложений к вашим персональным данным — контактам, сообщениям или журналу вызовов</string>
   <string name="setup_unlock">Разблокировать</string>

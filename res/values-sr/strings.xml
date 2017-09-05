@@ -58,8 +58,6 @@
   <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
   <string name="emergency_call">Хитан позив</string>
   <string name="services_privacy_policy">Политика приватности</string>
-  <string name="services_apply_theme">Примени <xliff:g id="name" example="Material">%s</xliff:g> тему</string>
-  <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g> омогућава јединствене иконе, тапете и фонтове.</string>
   <string name="services_os_nav_keys_label"><b>Користите навигационе тастере на екрану</b> уместо хардверских тастера.</string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">Одабир сигурносног екрана бекапа</string>

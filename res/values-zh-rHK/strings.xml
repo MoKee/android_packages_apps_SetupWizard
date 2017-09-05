@@ -62,8 +62,6 @@
   <string name="services_explanation" product="tablet">這些服務用來增強您的平板電腦的功能。資料將根據 MoKee 的 <xliff:g id="name" example="Privacy Policy">%s</xliff:g> 來使用。</string>
   <string name="services_explanation" product="default">這些服務用來增強您的手機的功能。資料將根據 MoKee 的 <xliff:g id="name" example="Privacy Policy">%s</xliff:g> 來使用。</string>
   <string name="services_privacy_policy">私隱條例</string>
-  <string name="services_apply_theme">套用 <xliff:g id="name" example="Material">%s</xliff:g> 主題</string>
-  <string name="services_apply_theme_label"><xliff:g id="name" example="Apply the Material theme">%s</xliff:g> 啓用獨特的圖示、 牆紙和字型。</string>
   <string name="services_os_nav_keys_label"><b>使用虛擬按鍵</b>替代實體按鍵。</string>
   <string name="services_os_privacy_guard"><b>啟用隱私守衛</b>，使您的個人資料，如聯絡人、訊息或通話記錄無法用於新安裝的應用程式</string>
   <string name="setup_unlock">解鎖</string>
