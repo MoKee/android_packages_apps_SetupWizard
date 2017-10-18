@@ -24,6 +24,7 @@
   <string name="skip">Langkau</string>
   <string name="start">Mula</string>
   <string name="done">Selesai</string>
+  <string name="ok">OK</string>
   <string name="loading">Sebentar</string>
   <string name="setup_complete">Tetapan selesai</string>
   <string name="setup_welcome">Selamat Datang</string>
@@ -68,5 +69,8 @@
   <string name="fingerprint_setup_screen_lock_setup">Tetapan kekunci skrin</string>
   <string name="sim_locale_changed">%1$s SIM dikesan</string>
   <!-- secure lock screen -->
+  <string name="settings_lockscreen_setup_title">Pilih jenis kunci skrin</string>
   <string name="settings_lockscreen_setup_details">Bagaimana anda mahu kunci skrin anda?</string>
+  <string name="lockscreen_setup_title">Lindungi peranti anda</string>
+  <string name="lockscreen_setup_summary"><b>Lindungi peranti ini</b> dan perlukan PIN, paten, atau kata laluan untuk membuka skrin</string>
 </resources>
