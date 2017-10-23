@@ -227,7 +227,9 @@ public class SetupWizardUtils {
     }
 
     public static void disableComponentsForMissingFeatures(Context context) {
-        disableComponent(context, BluetoothSetupActivity.class);
+        if (!hasLeanback(context)) {
+            disableComponent(context, BluetoothSetupActivity.class);
+        }
         if (!hasFingerprint(context)) {
             disableComponent(context, FingerprintActivity.class);
         }
