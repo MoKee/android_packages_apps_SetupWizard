@@ -41,7 +41,14 @@
   <string name="choose_data_sim_summary" product="tablet">Alin ang SIM ang gusto mong gamitin para sa data? Ang napiling SIM ay maaaring magkaroon ng mga singil sa network dahil ito ay gagamitin upang i-set up ang iyong tablet.</string>
   <string name="choose_data_sim_summary" product="default">Alin ang SIM ang gusto mong gamitin para sa data? Ang napiling SIM ay maaaring magkaroon ng mga singil sa network dahil ito ay gagamitin upang i-set up ang iyong telepono.</string>
   <string name="date_time_summary">Itakda ang iyong time zone at ayusin ang kasalukuyang petsa at oras kung kinakailangan</string>
+  <string name="backup_data_summary"><b> I-back up </ b> data ng app, mga password ng Wi-Fi, at iba pang mga setting sa mga server ng Google</string>
+  <string name="other_services_summary">Ang mga serbisyong ito ay nagtatrabaho sa Google para sa iyo, at maaari mong i-on o i-off ang mga ito anumang oras. Ang data ay gagamitin alinsunod sa <xliff: g id = "name" ng Google = "Patakaran sa Pagkapribado">% s </ xliff: g>.</string>
   <string name="location_services_summary">Pinapayagan ng mga serbisyo ng lokasyon ang mga system at mga apps ng third party na magtipon at gumamit ng data tulad ng iyong tinatayang lokasyon. Halimbawa, maaaring gamitin ng isang app ang iyong tinatayang lokasyon upang mahanap ang mga kalapit na tindahan ng kape.</string>
+  <string name="location_access_summary"><b> Payagan ang mga app na humiling ng iyong pahintulot </ b> upang gamitin ang impormasyon ng iyong lokasyon. Maaaring kasama nito ang iyong kasalukuyang lokasyon at mga nakaraang lokasyon.</string>
+  <string name="location_battery_saving"><b> Bawasan ang pagkonsumo ng baterya </ b> sa pamamagitan ng paghihigpit sa bilang ng mga pag-update ng GPS kada oras.</string>
+  <string name="location_network"><b> Gumamit ng Wi-Fi </ b> upang matulungan ang mga app na matukoy ang iyong lokasyon.</string>
+  <string name="location_network_telephony"><b> Gumamit ng Wi-Fi at cellular network </ b> upang matulungan ang mga app na matukoy ang iyong lokasyon.</string>
+  <string name="location_network_gms"><b> Gamitin ang serbisyo ng lokasyon ng Google </ b> upang matulungan ang mga app na matukoy ang iyong lokasyon. Nangangahulugan ito ng pagpapadala ng hindi nakikilalang data ng lokasyon sa Google, kahit na walang tumatakbo ang mga app.</string>
   <string name="setup_mobile_data">I-on ang cellular data</string>
   <string name="setup_mobile_data_no_service">Walang serbisyo</string>
   <string name="setup_mobile_data_emergency_only">Emergency na tawag lang</string>
@@ -51,6 +58,7 @@
   <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
   <string name="emergency_call">Emergency na tawag</string>
   <string name="services_privacy_policy">Patakaran sa privacy</string>
+  <string name="services_os_nav_keys_label"><b> Gamitin sa mga navigation key ng screen </ b> sa halip na mga key ng hardware.</string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">Piliin ang uri ng lock ng backup screen</string>
   <string name="settings_fingerprint_setup_details">Paano mo gustong i-lock ang iyong screen?</string>
@@ -64,4 +72,5 @@
   <string name="settings_lockscreen_setup_title">Piliin ang uri ng lock ng screen</string>
   <string name="settings_lockscreen_setup_details">Paano mo gustong i-lock ang iyong screen?</string>
   <string name="lockscreen_setup_title">Protektahan ang iyong telepono</string>
+  <string name="lockscreen_setup_summary"><b> Protektahan ang device na ito </ b> at mangailangan ng PIN, pattern, o password upang i-unlock ang screen</string>
 </resources>
