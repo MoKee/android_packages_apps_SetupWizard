@@ -42,6 +42,7 @@
   <string name="choose_data_sim_summary" product="default">Alin ang SIM ang gusto mong gamitin para sa data? Ang napiling SIM ay maaaring magkaroon ng mga singil sa network dahil ito ay gagamitin upang i-set up ang iyong telepono.</string>
   <string name="date_time_summary">Itakda ang iyong time zone at ayusin ang kasalukuyang petsa at oras kung kinakailangan</string>
   <string name="backup_data_summary"><b> I-back up </b> data ng app, mga password ng Wi-Fi, at iba pang mga setting sa mga server ng Google</string>
+  <string name="other_services_summary">Maglagay ng mga serbisyo ang Google para gumana para sa iyo, at maari ninyo itong i-on o i-off sa anumang oras. Datos ay gagamitin sa alinsunod ni Google <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
   <string name="location_services_summary">Pinapayagan ng mga serbisyo ng lokasyon ang mga system at mga apps ng third party na magtipon at gumamit ng data tulad ng iyong tinatayang lokasyon. Halimbawa, maaaring gamitin ng isang app ang iyong tinatayang lokasyon upang mahanap ang mga kalapit na tindahan ng kape.</string>
   <string name="location_access_summary"><b> Payagan ang mga app na humiling ng iyong pahintulot </b> upang gamitin ang impormasyon ng iyong lokasyon. Maaaring kasama nito ang iyong kasalukuyang lokasyon at mga nakaraang lokasyon.</string>
   <string name="location_battery_saving"><b> Bawasan ang pagkonsumo ng baterya </b> sa pamamagitan ng paghihigpit sa bilang ng mga pag-update ng GPS kada oras.</string>
