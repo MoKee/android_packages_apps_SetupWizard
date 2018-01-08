@@ -18,8 +18,19 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Setup Wizard</string>
   <!-- Partner SUW Strings -->
+  <string name="next">Susunod</string>
+  <string name="skip">Laktawan</string>
+  <string name="start">Simulan</string>
+  <string name="done">Natapos</string>
   <string name="ok">OK</string>
+  <string name="loading">Sandali lang\u2026</string>
+  <string name="setup_complete">Setup ay kompleto na</string>
+  <string name="setup_welcome">Maligayang pagdating</string>
+  <string name="setup_wifi">Pumili ng Wi-Fi</string>
+  <string name="setup_sim_missing">SIM car ay nawala</string>
+  <string name="setup_choose_data_sim">Pumili ng SIM para data</string>
   <!-- Fingerprint setup -->
   <!-- secure lock screen -->
 </resources>
