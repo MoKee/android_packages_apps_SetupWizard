@@ -31,6 +31,7 @@
   <string name="setup_wifi">Pumili ng Wi-Fi</string>
   <string name="setup_sim_missing">SIM car ay nawala</string>
   <string name="setup_choose_data_sim">Pumili ng SIM para data</string>
+  <string name="yes">Oo</string>
   <!-- Fingerprint setup -->
   <!-- secure lock screen -->
 </resources>
