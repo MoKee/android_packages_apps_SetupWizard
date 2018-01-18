@@ -28,9 +28,19 @@
   <string name="loading">Sandali lang\u2026</string>
   <string name="setup_complete">Setup ay kompleto na</string>
   <string name="setup_welcome">Maligayang pagdating</string>
+  <string name="setup_locale">Wika</string>
   <string name="setup_wifi">Pumili ng Wi-Fi</string>
   <string name="setup_sim_missing">SIM car ay nawala</string>
   <string name="setup_choose_data_sim">Pumili ng SIM para data</string>
+  <string name="setup_current_date">Kasalukuyang petsa</string>
+  <string name="setup_current_time">Kasalukuyang oras</string>
+  <string name="sim_missing_summary" product="tablet">Ang SIM card ay hindi nakita sa iyong tablet. Sa pagpasok ng SIM card, basahin ang mga instruksiyon na kasama sa iyong device.</string>
+  <string name="sim_missing_summary" product="default">Ang isang SIM card ay hindi nakita sa iyong telepono. Sa pag-insert ng SIM card, basahin ang mga instruction na ksama sa iyong device.</string>
+  <string name="choose_data_sim_summary" product="tablet">Aling SIM ang gusto mong gamitin para sa data? Ang napiling SIM ay maaaring magtamo ng network charges dahil gagamitin ito sa pag-set up sa iyong tablet.</string>
+  <string name="choose_data_sim_summary" product="default">Aling SIM ang gusto mong gamitin para sa data? Ang napiling SIM ay maaaring magtamo ng network charges dahil gagamitin ito sa pag-set up sa iyong telepono.</string>
+  <string name="date_time_summary">I-set ang iyong time zone at i-adjust ang kasalukuyang petsa at oras kung kinakailangan</string>
+  <string name="location_access_summary"><b>Pahintulutan ang mga app na humingi sa iyo ng pahintulot</b> upang gamitin ang impormasyon ng iyong lokasyon. Maaaring kasama dito ang iyong kasalukuyang lokasyon at mga nakaraang lokasyon.</string>
+  <string name="no">Hindi</string>
   <string name="yes">Oo</string>
   <!-- Fingerprint setup -->
   <!-- secure lock screen -->
