@@ -53,8 +53,7 @@
 
     <permission
         android:name="mokee.permission.FINISH_SETUP"
-        android:protectionLevel="signatureOrSystem"
-        androidprv:allowViaWhitelist="true" />
+        android:protectionLevel="signatureOrSystem" />
 
     <protected-broadcast android:name="com.mokee.setupwizard.SETUP_FINISHED"
                          android:permission="mokee.permission.FINISH_SETUP"/>
