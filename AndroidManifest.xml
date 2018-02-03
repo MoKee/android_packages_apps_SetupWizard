@@ -105,7 +105,7 @@
                   android:immersive="true"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_BLUETOOTH_SETUP" />
+                <action android:name="com.mokee.setupwizard.MOKEE_BLUETOOTH_SETUP" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -117,7 +117,7 @@
                   android:immersive="true"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_WELCOME" />
+                <action android:name="com.mokee.setupwizard.MOKEE_WELCOME" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -129,7 +129,7 @@
                   android:immersive="true"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_LOCALE" />
+                <action android:name="com.mokee.setupwizard.MOKEE_LOCALE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -141,7 +141,7 @@
                   android:immersive="true"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_DATETIME" />
+                <action android:name="com.mokee.setupwizard.MOKEE_DATETIME" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -154,7 +154,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_WIFI_SETUP" />
+                <action android:name="com.mokee.setupwizard.MOKEE_WIFI_SETUP" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -167,7 +167,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_CAPTIVE_PORTAL_SETUP" />
+                <action android:name="com.mokee.setupwizard.MOKEE_CAPTIVE_PORTAL_SETUP" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -180,7 +180,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_SIM_MISSING" />
+                <action android:name="com.mokee.setupwizard.MOKEE_SIM_MISSING" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -193,7 +193,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_CHOOSE_DATA_SIM" />
+                <action android:name="com.mokee.setupwizard.MOKEE_CHOOSE_DATA_SIM" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -206,7 +206,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_ENABLE_MOBILE_DATA" />
+                <action android:name="com.mokee.setupwizard.MOKEE_ENABLE_MOBILE_DATA" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -219,7 +219,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_LOCATION_SETTINGS" />
+                <action android:name="com.mokee.setupwizard.MOKEE_LOCATION_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -231,7 +231,7 @@
                   android:immersive="true"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_SETTINGS" />
+                <action android:name="com.mokee.setupwizard.MOKEE_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -244,7 +244,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_FINGERPRINT_SETTINGS" />
+                <action android:name="com.mokee.setupwizard.MOKEE_FINGERPRINT_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -257,7 +257,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_LOCKSCREEN_SETTINGS" />
+                <action android:name="com.mokee.setupwizard.MOKEE_LOCKSCREEN_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -269,7 +269,7 @@
                   android:immersive="true"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.mokee.setupwizard.LINEAGE_SETUP_COMPLETE" />
+                <action android:name="com.mokee.setupwizard.MOKEE_SETUP_COMPLETE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
