@@ -176,8 +176,8 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
     private void updateDisableNavkeysOption() {
         if (!mHideNavKeysRow) {
             final Bundle myPageBundle = mSetupWizardApp.getSettingsBundle();
-            boolean enabled = MKSettings.Secure.getInt(getContentResolver(),
-                    MKSettings.Secure.DEV_FORCE_SHOW_NAVBAR, 0) != 0;
+            boolean enabled = MKSettings.Global.getInt(getContentResolver(),
+                    MKSettings.Global.DEV_FORCE_SHOW_NAVBAR, 0) != 0;
             boolean checked = myPageBundle.containsKey(DISABLE_NAV_KEYS) ?
                     myPageBundle.getBoolean(DISABLE_NAV_KEYS) :
                     enabled;
