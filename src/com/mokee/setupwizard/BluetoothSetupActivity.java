@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
-import static com.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_SETUP_BLUETOOTH;
+import static org.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_SETUP_BLUETOOTH;
 
 import android.content.Intent;
 import android.util.Log;
 
-import com.mokee.setupwizard.util.SetupWizardUtils;
+import org.mokee.setupwizard.util.SetupWizardUtils;
 
 public class BluetoothSetupActivity extends SubBaseActivity {
 

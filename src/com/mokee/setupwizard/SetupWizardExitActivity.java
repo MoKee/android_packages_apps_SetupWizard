@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
 import static android.content.Intent.FLAG_ACTIVITY_CLEAR_TASK;
 import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 
-import static com.mokee.setupwizard.SetupWizardApp.LOGV;
+import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.annotation.Nullable;
 import android.content.Intent;
@@ -28,8 +28,8 @@ import android.util.Log;
 
 import com.android.setupwizardlib.util.SystemBarHelper;
 
-import com.mokee.setupwizard.util.PhoneMonitor;
-import com.mokee.setupwizard.util.SetupWizardUtils;
+import org.mokee.setupwizard.util.PhoneMonitor;
+import org.mokee.setupwizard.util.SetupWizardUtils;
 
 public class SetupWizardExitActivity extends BaseSetupWizardActivity {
 

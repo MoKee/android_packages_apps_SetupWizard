@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
-import static com.mokee.setupwizard.SetupWizardApp.ACTION_SETUP_LOCKSCREEN;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_DETAILS;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_TITLE;
-import static com.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_SETUP_LOCKSCREEN;
+import static org.mokee.setupwizard.SetupWizardApp.ACTION_SETUP_LOCKSCREEN;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_DETAILS;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_TITLE;
+import static org.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_SETUP_LOCKSCREEN;
 
 import android.content.Intent;
 import android.view.View;

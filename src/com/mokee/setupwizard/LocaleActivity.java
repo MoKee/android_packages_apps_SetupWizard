@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -41,8 +41,8 @@ import com.android.internal.telephony.MccTable;
 import com.android.internal.telephony.TelephonyIntents;
 import com.android.setupwizardlib.util.WizardManagerHelper;
 
-import com.mokee.setupwizard.R;
-import com.mokee.setupwizard.widget.LocalePicker;
+import org.mokee.setupwizard.R;
+import org.mokee.setupwizard.widget.LocalePicker;
 
 import java.util.List;
 import java.util.Locale;

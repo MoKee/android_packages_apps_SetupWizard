@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard.util;
+package org.mokee.setupwizard.util;
 
 import static android.app.StatusBarManager.DISABLE_NONE;
 import static android.app.StatusBarManager.DISABLE_NOTIFICATION_ALERTS;
@@ -30,8 +30,8 @@ import static android.content.pm.PackageManager.GET_ACTIVITIES;
 import static android.content.pm.PackageManager.GET_RECEIVERS;
 import static android.content.pm.PackageManager.GET_SERVICES;
 
-import static com.mokee.setupwizard.SetupWizardApp.KEY_DETECT_CAPTIVE_PORTAL;
-import static com.mokee.setupwizard.SetupWizardApp.LOGV;
+import static org.mokee.setupwizard.SetupWizardApp.KEY_DETECT_CAPTIVE_PORTAL;
+import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.app.StatusBarManager;
 import android.content.ComponentName;
@@ -55,14 +55,14 @@ import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.mokee.setupwizard.BluetoothSetupActivity;
-import com.mokee.setupwizard.ChooseDataSimActivity;
-import com.mokee.setupwizard.FingerprintActivity;
-import com.mokee.setupwizard.MobileDataActivity;
-import com.mokee.setupwizard.SetupWizardApp;
-import com.mokee.setupwizard.SimMissingActivity;
-import com.mokee.setupwizard.WifiSetupActivity;
-import com.mokee.setupwizard.wizardmanager.WizardManager;
+import org.mokee.setupwizard.BluetoothSetupActivity;
+import org.mokee.setupwizard.ChooseDataSimActivity;
+import org.mokee.setupwizard.FingerprintActivity;
+import org.mokee.setupwizard.MobileDataActivity;
+import org.mokee.setupwizard.SetupWizardApp;
+import org.mokee.setupwizard.SimMissingActivity;
+import org.mokee.setupwizard.WifiSetupActivity;
+import org.mokee.setupwizard.wizardmanager.WizardManager;
 
 import org.mokee.internal.util.PackageManagerUtils;
 

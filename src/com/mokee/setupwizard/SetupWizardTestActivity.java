@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
 import static android.content.pm.PackageManager.GET_ACTIVITIES;
 import static android.content.pm.PackageManager.GET_RECEIVERS;
 import static android.content.pm.PackageManager.GET_SERVICES;
 import static android.content.pm.PackageManager.MATCH_DISABLED_COMPONENTS;
 
-import static com.mokee.setupwizard.SetupWizardApp.LOGV;
+import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -31,7 +31,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.util.Log;
 
-import com.mokee.setupwizard.util.SetupWizardUtils;
+import org.mokee.setupwizard.util.SetupWizardUtils;
 
 import java.util.List;
 

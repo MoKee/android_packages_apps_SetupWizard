@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard.wizardmanager;
+package org.mokee.setupwizard.wizardmanager;
 
-import static com.mokee.setupwizard.SetupWizardApp.LOGV;
+import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.util.Log;
 import android.util.SparseArray;
 
-import com.mokee.setupwizard.SetupWizardApp;
+import org.mokee.setupwizard.SetupWizardApp;
 
 public class WizardTransitions extends SparseArray<String> implements Parcelable {
 

@@ -15,21 +15,21 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard.wizardmanager;
+package org.mokee.setupwizard.wizardmanager;
 
 
-import static com.mokee.setupwizard.SetupWizardApp.ACTION_LOAD;
-import static com.mokee.setupwizard.SetupWizardApp.ACTION_NEXT;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_ACTION_ID;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_FIRST_RUN;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_RESULT_CODE;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_SCRIPT_URI;
-import static com.mokee.setupwizard.SetupWizardApp.LOGV;
+import static org.mokee.setupwizard.SetupWizardApp.ACTION_LOAD;
+import static org.mokee.setupwizard.SetupWizardApp.ACTION_NEXT;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_ACTION_ID;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_FIRST_RUN;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_RESULT_CODE;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_SCRIPT_URI;
+import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import com.android.setupwizardlib.util.ResultCodes;
 import com.android.setupwizardlib.util.WizardManagerHelper;
 
-import com.mokee.setupwizard.util.SetupWizardUtils;
+import org.mokee.setupwizard.util.SetupWizardUtils;
 
 import android.annotation.Nullable;
 import android.app.Activity;

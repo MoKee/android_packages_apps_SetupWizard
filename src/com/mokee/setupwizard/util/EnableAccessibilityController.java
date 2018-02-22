@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.mokee.setupwizard.util;
+package org.mokee.setupwizard.util;
 
 import android.accessibilityservice.AccessibilityServiceInfo;
 import android.app.ActivityManager;

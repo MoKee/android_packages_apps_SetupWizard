@@ -1,4 +1,4 @@
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
 /*
  * Copyright (C) 2016 The CyanogenMod Project

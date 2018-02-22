@@ -15,18 +15,18 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
-import static com.mokee.setupwizard.SetupWizardApp.ACTION_SETUP_FINGERPRINT;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_ALLOW_SKIP;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_AUTO_FINISH;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_DETAILS;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_FIRST_RUN;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_MATERIAL_LIGHT;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_THEME;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_TITLE;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_USE_IMMERSIVE;
-import static com.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_SETUP_FINGERPRINT;
+import static org.mokee.setupwizard.SetupWizardApp.ACTION_SETUP_FINGERPRINT;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_ALLOW_SKIP;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_AUTO_FINISH;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_DETAILS;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_FIRST_RUN;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_MATERIAL_LIGHT;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_THEME;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_TITLE;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_USE_IMMERSIVE;
+import static org.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_SETUP_FINGERPRINT;
 
 import android.content.Intent;
 import android.view.View;

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard.widget;
+package org.mokee.setupwizard.widget;
 
-import com.mokee.setupwizard.R;
+import org.mokee.setupwizard.R;
 
 import android.annotation.Widget;
 import android.content.Context;

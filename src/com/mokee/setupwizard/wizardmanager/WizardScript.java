@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard.wizardmanager;
+package org.mokee.setupwizard.wizardmanager;
 
-import static com.mokee.setupwizard.SetupWizardApp.LOGV;
+import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import com.android.internal.util.XmlUtils;
 

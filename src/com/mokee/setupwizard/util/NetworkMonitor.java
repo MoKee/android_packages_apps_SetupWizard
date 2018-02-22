@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard.util;
+package org.mokee.setupwizard.util;
 
-import static com.mokee.setupwizard.SetupWizardApp.LOGV;
+import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -27,7 +27,7 @@ import android.net.NetworkInfo;
 import android.os.Handler;
 import android.util.Log;
 
-import com.mokee.setupwizard.SetupWizardApp;
+import org.mokee.setupwizard.SetupWizardApp;
 
 public class NetworkMonitor {
 

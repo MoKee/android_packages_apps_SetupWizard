@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
-import static com.mokee.setupwizard.SetupWizardApp.LOGV;
+import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -38,8 +38,8 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.mokee.setupwizard.util.PhoneMonitor;
-import com.mokee.setupwizard.util.SetupWizardUtils;
+import org.mokee.setupwizard.util.PhoneMonitor;
+import org.mokee.setupwizard.util.SetupWizardUtils;
 
 import java.util.List;
 

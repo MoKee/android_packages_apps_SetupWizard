@@ -15,21 +15,21 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
 import static com.android.setupwizardlib.util.ResultCodes.RESULT_ACTIVITY_NOT_FOUND;
 import static com.android.setupwizardlib.util.ResultCodes.RESULT_RETRY;
 import static com.android.setupwizardlib.util.ResultCodes.RESULT_SKIP;
 
-import static com.mokee.setupwizard.SetupWizardApp.ACTION_EMERGENCY_DIAL;
-import static com.mokee.setupwizard.SetupWizardApp.ACTION_NEXT;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_ACTION_ID;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_FIRST_RUN;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_HAS_MULTIPLE_USERS;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_RESULT_CODE;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_SCRIPT_URI;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_USE_IMMERSIVE;
-import static com.mokee.setupwizard.SetupWizardApp.LOGV;
+import static org.mokee.setupwizard.SetupWizardApp.ACTION_EMERGENCY_DIAL;
+import static org.mokee.setupwizard.SetupWizardApp.ACTION_NEXT;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_ACTION_ID;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_FIRST_RUN;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_HAS_MULTIPLE_USERS;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_RESULT_CODE;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_SCRIPT_URI;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_USE_IMMERSIVE;
+import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.annotation.NonNull;
 import android.annotation.Nullable;
@@ -56,7 +56,7 @@ import com.android.setupwizard.navigationbar.SetupWizardNavBar.NavigationBarList
 import com.android.setupwizardlib.util.SystemBarHelper;
 import com.android.setupwizardlib.util.WizardManagerHelper;
 
-import com.mokee.setupwizard.util.SetupWizardUtils;
+import org.mokee.setupwizard.util.SetupWizardUtils;
 
 import java.util.List;
 

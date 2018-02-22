@@ -6,7 +6,7 @@ adb shell pm enable com.google.android.setupwizard || true
 wait ${!}
 adb shell pm disable com.android.provision || true
 wait ${!}
-adb shell am start com.mokee.setupwizard/com.mokee.setupwizard.SetupWizardTestActivity
+adb shell am start org.mokee.setupwizard/org.mokee.setupwizard.SetupWizardTestActivity
 wait ${!}
 sleep 1
 adb shell am start com.google.android.setupwizard/com.google.android.setupwizard.SetupWizardTestActivity

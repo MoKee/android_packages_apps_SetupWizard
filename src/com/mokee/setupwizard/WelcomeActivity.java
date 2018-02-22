@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.mokee.setupwizard.util.EnableAccessibilityController;
+import org.mokee.setupwizard.util.EnableAccessibilityController;
 
 public class WelcomeActivity extends BaseSetupWizardActivity {
 

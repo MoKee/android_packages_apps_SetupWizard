@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
 import android.os.Bundle;
 import android.widget.ImageView;
 
 import com.android.setupwizardlib.util.ResultCodes;
 
-import com.mokee.setupwizard.util.PhoneMonitor;
+import org.mokee.setupwizard.util.PhoneMonitor;
 
 public class SimMissingActivity extends BaseSetupWizardActivity {
 

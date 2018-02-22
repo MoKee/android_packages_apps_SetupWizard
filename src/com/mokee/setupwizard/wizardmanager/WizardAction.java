@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard.wizardmanager;
+package org.mokee.setupwizard.wizardmanager;
 
 import static android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION;
 
-import static com.mokee.setupwizard.SetupWizardApp.LOGV;
+import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.content.Intent;
 import android.os.Parcel;

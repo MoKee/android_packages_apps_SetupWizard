@@ -15,15 +15,15 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
-import static com.mokee.setupwizard.SetupWizardApp.ACTION_SETUP_WIFI;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_MATERIAL_LIGHT;
-import static com.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_SETUP_WIFI;
+import static org.mokee.setupwizard.SetupWizardApp.ACTION_SETUP_WIFI;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_MATERIAL_LIGHT;
+import static org.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_SETUP_WIFI;
 
 import android.content.Intent;
 
-import com.mokee.setupwizard.util.SetupWizardUtils;
+import org.mokee.setupwizard.util.SetupWizardUtils;
 
 public class WifiSetupActivity extends SubBaseActivity {
 

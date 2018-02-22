@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
-import static com.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_SETUP_CAPTIVE_PORTAL;
+import static org.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_SETUP_CAPTIVE_PORTAL;
 
 import android.content.Context;
 import android.content.Intent;

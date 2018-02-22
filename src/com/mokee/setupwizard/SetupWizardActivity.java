@@ -15,21 +15,21 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
 import static android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION;
 
-import static com.mokee.setupwizard.SetupWizardApp.ACTION_LOAD;
-import static com.mokee.setupwizard.SetupWizardApp.EXTRA_SCRIPT_URI;
-import static com.mokee.setupwizard.SetupWizardApp.LOGV;
+import static org.mokee.setupwizard.SetupWizardApp.ACTION_LOAD;
+import static org.mokee.setupwizard.SetupWizardApp.EXTRA_SCRIPT_URI;
+import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.annotation.Nullable;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.mokee.setupwizard.util.SetupWizardUtils;
-import com.mokee.setupwizard.wizardmanager.WizardManager;
+import org.mokee.setupwizard.util.SetupWizardUtils;
+import org.mokee.setupwizard.wizardmanager.WizardManager;
 
 public class SetupWizardActivity extends BaseSetupWizardActivity {
     private static final String TAG = SetupWizardActivity.class.getSimpleName();

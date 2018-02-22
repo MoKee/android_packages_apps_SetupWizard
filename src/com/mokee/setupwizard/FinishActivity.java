@@ -16,13 +16,13 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard;
+package org.mokee.setupwizard;
 
-import static com.mokee.setupwizard.SetupWizardApp.DISABLE_NAV_KEYS;
-import static com.mokee.setupwizard.SetupWizardApp.KEY_APPLY_DEFAULT_THEME;
-import static com.mokee.setupwizard.SetupWizardApp.KEY_BUTTON_BACKLIGHT;
-import static com.mokee.setupwizard.SetupWizardApp.KEY_PRIVACY_GUARD;
-import static com.mokee.setupwizard.SetupWizardApp.LOGV;
+import static org.mokee.setupwizard.SetupWizardApp.DISABLE_NAV_KEYS;
+import static org.mokee.setupwizard.SetupWizardApp.KEY_APPLY_DEFAULT_THEME;
+import static org.mokee.setupwizard.SetupWizardApp.KEY_BUTTON_BACKLIGHT;
+import static org.mokee.setupwizard.SetupWizardApp.KEY_PRIVACY_GUARD;
+import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.animation.Animator;
 import android.app.Activity;
@@ -45,7 +45,7 @@ import android.widget.ProgressBar;
 
 import com.android.setupwizardlib.util.WizardManagerHelper;
 
-import com.mokee.setupwizard.util.EnableAccessibilityController;
+import org.mokee.setupwizard.util.EnableAccessibilityController;
 
 import mokee.hardware.MKHardwareManager;
 import mokee.providers.MKSettings;

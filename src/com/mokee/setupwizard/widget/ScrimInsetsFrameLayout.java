@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mokee.setupwizard.widget;
+package org.mokee.setupwizard.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -25,7 +25,7 @@ import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import com.mokee.setupwizard.R;
+import org.mokee.setupwizard.R;
 
 /**
  * A layout that draws something in the insets passed to {@link #fitSystemWindows(android.graphics.Rect)}, i.e. the area above UI chrome
