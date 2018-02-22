@@ -19,7 +19,6 @@
 package org.mokee.setupwizard;
 
 import static org.mokee.setupwizard.SetupWizardApp.DISABLE_NAV_KEYS;
-import static org.mokee.setupwizard.SetupWizardApp.KEY_APPLY_DEFAULT_THEME;
 import static org.mokee.setupwizard.SetupWizardApp.KEY_PRIVACY_GUARD;
 
 import android.app.Activity;
