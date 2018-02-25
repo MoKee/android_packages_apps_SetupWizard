@@ -67,7 +67,7 @@
   <string name="setup_unlock">Разблокировать</string>
   <string name="setup_device_locked">Это устройство заблокировано пользователем.</string>
   <string name="setup_device_locked_instructions"><i>Чтобы включить или отключить эту функцию перейдите в раздел настроек &gt;
-безопасности </i></string>
+безопасности</i></string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">Выберите тип блокировки при резервном копировании</string>
   <string name="settings_fingerprint_setup_details">Каким способом вы хотите блокировать экран?</string>

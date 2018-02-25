@@ -32,15 +32,15 @@
   <string name="setup_wifi">Vyberte Wifi</string>
   <string name="setup_sim_missing">SIM karta chybí</string>
   <string name="setup_choose_data_sim">Zvolte SIM pro data</string>
-  <string name="setup_location">Určení polohy</string>
+  <string name="setup_location">Služby určování polohy</string>
   <string name="setup_other">Ostatní služby</string>
   <string name="setup_datetime">Datum &amp; čas</string>
   <string name="setup_current_date">Aktuální datum</string>
   <string name="setup_current_time">Aktuální čas</string>
-  <string name="sim_missing_summary" product="tablet">SIM karta nebyla nalezena. Pro vložení SIM karty si přečtěte pokyny dodané s telefonem.</string>
-  <string name="sim_missing_summary" product="default">SIM karta nebyla nalezena. Pro vložení SIM karty si přečtěte pokyny dodané s telefonem.</string>
-  <string name="choose_data_sim_summary" product="tablet">Kterou SIM kartu chcete použít pro mobilní data? Mohou být na ní účtovány poplatky.</string>
-  <string name="choose_data_sim_summary" product="default">Kterou SIM kartu chcete použít pro mobilní data? Mohou být na ní účtovány poplatky.</string>
+  <string name="sim_missing_summary" product="tablet">SIM karta nebyla nalezena. Pro vložení SIM karty si přečtěte pokyny dodané se zařízením.</string>
+  <string name="sim_missing_summary" product="default">SIM karta nebyla nalezena. Pro vložení SIM karty si přečtěte pokyny dodané se zařízením.</string>
+  <string name="choose_data_sim_summary" product="tablet">Kterou SIM kartu chcete použít pro data? Za vybranou SIM kartu mohou být účtovány datové poplatky, když bude použita k nastavení tabletu.</string>
+  <string name="choose_data_sim_summary" product="default">Kterou SIM kartu chcete použít pro data? Za vybranou SIM kartu mohou být účtovány datové poplatky, když bude použita k nastavení telefonu.</string>
   <string name="date_time_summary">Nastavte své časové pásmo, aktuální datum a čas, je-li je to potřeba</string>
   <string name="backup_data_summary"><b>Zálohovat</b> data aplikací, hesla Wi-Fi a další nastavení do účtu Google</string>
   <string name="other_services_summary">Tyto služby Vám nabízí Google a Vy je můžete kdykoliv povolit či zakázat. Data budou použita v souladu se zásadami ochrany osobních údajů Google - <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
@@ -65,7 +65,7 @@
   <string name="services_os_nav_keys_label"><b>Použít navigační klávesy na obrazovce</b> namísto hw kláves.</string>
   <string name="services_os_privacy_guard"><b>Povolit Ochranu soukromí</b> aby vaše osobní údaje například kontakty, zprávy nebo záznamy hovorů nebyli dostupné pro nově instalované aplikace</string>
   <string name="setup_unlock">Odemknout</string>
-  <string name="setup_device_locked">Toto zařízení bylo uzamčen uživatelem.</string>
+  <string name="setup_device_locked">Toto zařízení bylo uzamčeno uživatelem.</string>
   <string name="setup_device_locked_instructions"><i>Chcete-li povolit nebo zakázat tuto funkci, přejděte na Nastavení &gt; Zabezpečení</i></string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">Vybrat záložní zámek obrazovky</string>
