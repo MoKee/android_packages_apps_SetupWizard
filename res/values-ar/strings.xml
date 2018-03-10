@@ -53,12 +53,20 @@
   <string name="setup_mobile_data">تمكين تشغيل البيانات الخلوية</string>
   <string name="setup_mobile_data_no_service">لا يوجد خدمة متوفّرة</string>
   <string name="setup_mobile_data_emergency_only">مكالمات الطّوارئ فقط</string>
+  <string name="enable_mobile_data_summary">هل تريد استخدام بيانات الجوال أثناء الإعداد؟ تشغيل البيانات قد تكون خاضعة لرسوم البيانات.</string>
   <string name="no">لا</string>
   <string name="yes">نعم</string>
   <string name="data_sim_name">شريحه <xliff:g id="sub">%d </xliff:g>-<xliff:g id="name">%s </xliff:g></string>
   <string name="emergency_call">مكالمة طوارئ</string>
+  <string name="setup_services">ميزات موكي</string>
+  <string name="services_explanation" product="tablet">These services work for you to extend the capabilities of your tablet. Data will be used in accordance with MoKee\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
+  <string name="services_explanation" product="default">These services work for you to extend the capabilities of your phone. Data will be used in accordance with MoKee\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
   <string name="services_privacy_policy">سياسة الخصوصية</string>
   <string name="services_os_nav_keys_label"><b>استخدام مفاتيح التنقل على الشاشة</b> بدلاً من مفاتيح الجهاز.</string>
+  <string name="services_os_privacy_guard"><b> تمكين حارس الخصوصية </b> لجعل بياناتك الشخصية مثل جهات الاتصال أو الرسائل أو سجلات المكالمات غير متاحة للتطبيقات المثبتة حديثا</string>
+  <string name="setup_unlock">الغاء التأمين</string>
+  <string name="setup_device_locked">تم تأمين هذا الجهاز من قبل المستخدم.</string>
+  <string name="setup_device_locked_instructions"><i>To turn this feature off/on, please go to Settings &gt; Security</i></string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">حدد نوع التامين الخاص بالشاشة</string>
   <string name="settings_fingerprint_setup_details">كيف ترغب بقفل الشاشة؟?</string>
@@ -67,8 +75,11 @@
   <string name="fingerprint_setup_backup_lock_method">إعداد ثانوي لفتح القفل</string>
   <string name="fingerprint_setup_add_fingerprint">إضافة بصمة الإصبع</string>
   <string name="fingerprint_setup_screen_lock_setup">إعداد قفل الشاشة</string>
+  <string name="sim_locale_changed">%1$s تم اكتشاف بطاقة سيم</string>
   <!-- secure lock screen -->
+  <string name="settings_lockscreen_setup_title">حدد نوع التامين الخاص بالشاشة</string>
   <string name="settings_lockscreen_setup_details">كيف ترغب بقفل الشاشة؟?</string>
   <string name="lockscreen_setup_title">حماية هاتفك</string>
   <string name="lockscreen_setup_summary"><b>حماية هذا الجهاز</b> وطلب رقم تعريف شخصي أو نمط أو كلمة مرور لإلغاء قفل الشاشة.</string>
+  <string name="lockscreen_setup_screen_lock_setup">إعداد</string>
 </resources>
