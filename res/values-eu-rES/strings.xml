@@ -20,6 +20,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Partner SUW Strings -->
   <string name="next">Hurrengoa</string>
+  <string name="done">Eginda</string>
   <string name="no">Ez</string>
   <!-- Fingerprint setup -->
   <!-- secure lock screen -->
