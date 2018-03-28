@@ -60,8 +60,10 @@
   <string name="emergency_call">Segélyhívás</string>
   <string name="setup_services">MoKee szolgáltatások</string>
   <string name="services_explanation" product="tablet">Ezek a szolgáltatások azon dolgoznak, hogy kibővítsék az Ön táblagépe képességeit. Az adatok felhasználása a LineageOS <xliff:g id="name" example="Privacy Policy">%s</xliff:g> alapján történik.</string>
+  <string name="services_explanation" product="default">Ezek a szolgáltatások azon dolgoznak, hogy kibővítsék az Ön telefonja képességeit. Az adatok felhasználása a MoKee <xliff:g id="name" example="Privacy Policy">%s</xliff:g> alapján történik.</string>
   <string name="services_privacy_policy">Adatvédelmi nyilatkozat</string>
   <string name="services_os_nav_keys_label"><b>A képernyő navigációs gombjainak használata</b> a hardveres gombok helyett.</string>
+  <string name="services_os_privacy_guard"><b>Engedélyezze az Adatvédelmet</b>, hogy a személyes adatai, mint a névjegyek, üzenetek vagy hívásnaplók ne legyenek elérhetőek az újonnan telepített alkalmazások számára</string>
   <string name="setup_unlock">Feloldás</string>
   <string name="setup_device_locked">A felhasználó zárolta a készüléket.</string>
   <string name="setup_device_locked_instructions"><i>A ki- és bekapcsoláshoz menten a Beállítások &gt; Biztonság menüponthoz</i></string>
