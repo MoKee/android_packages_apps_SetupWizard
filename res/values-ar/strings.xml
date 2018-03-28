@@ -69,7 +69,7 @@
   <string name="setup_device_locked_instructions"><i>To turn this feature off/on, please go to Settings &gt; Security</i></string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_title">حدد نوع التامين الخاص بالشاشة</string>
-  <string name="settings_fingerprint_setup_details">كيف ترغب بقفل الشاشة؟?</string>
+  <string name="settings_fingerprint_setup_details">كيف ترغب بقفل الشاشة؟</string>
   <string name="fingerprint_setup_title">خطوات اعداد البصمه</string>
   <string name="fingerprint_setup_summary">لاستخدام جهاز استشعار بصمات الأصابع لفتح الشاشة الخاصة بك، سوف تحتاج إلى:</string>
   <string name="fingerprint_setup_backup_lock_method">إعداد ثانوي لفتح القفل</string>
