@@ -46,7 +46,7 @@
   <string name="other_services_summary">Ces services sont mis à disposition par Google, et vous pouvez les activer ou les désactiver à tout moment. Les données seront utilisées conformément à la <xliff:g id="name" example="Privacy Policy">%s</xliff:g> de Google.</string>
   <string name="location_services_summary">Le service de localisation permet aux applications systèmes et tiers de recueillir et d\'utiliser des données comme votre localisation approximatif. Par exemple, une application peut utiliser votre localisation approximatif pour géolocaliser des cafés-restaurants à proximité.</string>
   <string name="location_access_summary"><b>Permettre aux applications ayant obtenu votre autorisation</b> d\'utiliser vos informations de localisation. Cela peut inclure votre position actuelle et les dernières positions.</string>
-  <string name="location_battery_saving"><b>Réduire la consommation batterie</b> en limitant le nombre de mise à jour GPS par heure.</string>
+  <string name="location_battery_saving"><b>Réduire la consommation de la pile</b> en limitant le nombre de mise à jour par heure du système GPS.</string>
   <string name="location_network"><b>Utiliser le Wi-Fi</b> pour aider les applications à déterminer votre localisation.</string>
   <string name="location_network_telephony"><b>Utiliser le Wi-Fi et les réseaux mobiles</b> pour aider les applications à déterminer votre localisation.</string>
   <string name="location_network_gms"><b>Utiliser le service de localisation de Google</b> pour aider les applications à déterminer votre position. Cela signifie d\'envoyer anonymement des données de localisation à Google, même lorsque qu\'aucune application est en cours d\'exécution.</string>
