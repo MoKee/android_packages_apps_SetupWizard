@@ -63,7 +63,7 @@
   <string name="services_explanation" product="default">Эти службы расширяют возможности вашего телефона. Данные будут использоваться в соответствии с <xliff:g id="name" example="Privacy Policy">%s</xliff:g> MoKee.</string>
   <string name="services_privacy_policy">Политикой конфиденциальности</string>
   <string name="services_os_nav_keys_label"><b>Использовать наэкранные навигационные кнопки</b> вместо аппаратных.</string>
-  <string name="services_os_privacy_guard"><b>Включить защищённый режим,</b> чтобы ограничить доступ новых приложений к вашим персональным данным — контактам, сообщениям или журналу вызовов</string>
+  <string name="services_os_privacy_guard"><b>Включить защищенный режим,</b> чтобы ограничить доступ новых приложений к вашим персональным данным — контактам, сообщениям или журналу вызовов</string>
   <string name="setup_unlock">Разблокировать</string>
   <string name="setup_device_locked">Это устройство заблокировано пользователем.</string>
   <string name="setup_device_locked_instructions"><i>Чтобы включить или отключить эту функцию перейдите в раздел настроек &gt;
