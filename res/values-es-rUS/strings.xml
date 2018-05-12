@@ -37,7 +37,7 @@
   <string name="setup_datetime">Fecha y hora</string>
   <string name="setup_current_date">Fecha actual</string>
   <string name="setup_current_time">Hora actual</string>
-  <string name="sim_missing_summary" product="tablet">No se ha detectado una tarjeta SIM en la tableta. Para insertar una tarjeta SIM, lea las instrucciones que vienen con la tableta.</string>
+  <string name="sim_missing_summary" product="tablet">No se ha detectado una tarjeta SIM en la tablet. Para insertar una tarjeta SIM, lee las instrucciones que vienen con la tablet.</string>
   <string name="sim_missing_summary" product="default">No se ha detectado una tarjeta SIM en el teléfono. Para insertar una tarjeta SIM, lea las instrucciones que vienen con el teléfono.</string>
   <string name="choose_data_sim_summary" product="tablet">¿Qué tarjeta SIM quiere utilizar para los datos? La tarjeta SIM seleccionada puede incurrir en cargos de red ya que se utilizará para configurar la tableta.</string>
   <string name="choose_data_sim_summary" product="default">¿Qué tarjeta SIM quiere utilizar para los datos? La tarjeta SIM seleccionada puede incurrir en cargos de red ya que se utilizará para configurar el teléfono.</string>
