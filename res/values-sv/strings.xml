@@ -21,6 +21,7 @@
   <!-- Partner SUW Strings -->
   <string name="next">Nästa</string>
   <string name="skip">Hoppa över</string>
+  <string name="start">Start</string>
   <string name="done">Färdig</string>
   <string name="ok">OK</string>
   <string name="loading">Bara en sek\u2026</string>
@@ -38,6 +39,7 @@
   <string name="yes">Ja</string>
   <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
   <string name="emergency_call">Nödsamtal</string>
+  <string name="setup_unlock">Lås upp</string>
   <!-- Fingerprint setup -->
   <string name="settings_fingerprint_setup_details">Hur skulle du vilja låsa din skärm?</string>
   <string name="fingerprint_setup_title">Ställ in fingeravtryck</string>
