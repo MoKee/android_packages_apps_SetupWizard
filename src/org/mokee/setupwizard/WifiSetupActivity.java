@@ -18,7 +18,6 @@
 package org.mokee.setupwizard;
 
 import static org.mokee.setupwizard.SetupWizardApp.ACTION_SETUP_WIFI;
-import static org.mokee.setupwizard.SetupWizardApp.EXTRA_MATERIAL_LIGHT;
 import static org.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_SETUP_WIFI;
 
 import android.content.Intent;

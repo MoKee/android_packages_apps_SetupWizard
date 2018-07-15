@@ -26,7 +26,6 @@ import android.util.Log;
 import org.mokee.setupwizard.util.NetworkMonitor;
 import org.mokee.setupwizard.util.PhoneMonitor;
 import org.mokee.setupwizard.util.SetupWizardUtils;
-import org.mokee.setupwizard.wizardmanager.WizardManager;
 
 public class SetupWizardApp extends Application {
 
@@ -79,12 +78,7 @@ public class SetupWizardApp extends Application {
     private final Bundle mSettingsBundle = new Bundle();
     private final Handler mHandler = new Handler();
 
-    private final Runnable mRadioTimeoutRunnable = new Runnable() {
-        @Override
-        public void run() {
-            mIsRadioReady = true;
-        }
-    };
+    private final Runnable mRadioTimeoutRunnable = () ->  mIsRadioReady = true;
 
     @Override
     public void onCreate() {

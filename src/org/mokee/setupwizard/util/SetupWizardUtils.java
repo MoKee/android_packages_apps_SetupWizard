@@ -52,7 +52,6 @@ import android.provider.Settings;
 import android.telephony.ServiceState;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
-import android.text.TextUtils;
 import android.util.Log;
 
 import org.mokee.setupwizard.BluetoothSetupActivity;
@@ -68,8 +67,6 @@ import org.mokee.internal.util.PackageManagerUtils;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import mokee.providers.MKSettings;
 
 public class SetupWizardUtils {
 
