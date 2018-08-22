@@ -20,8 +20,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v13 \
     android-support-v14-preference \
     libphonenumber \
-    org.mokee.platform.internal \
-    org.mokee.platform.sdk
+    org.mokee.platform.internal
 
 LOCAL_JAVA_LIBRARIES := \
     telephony-common
