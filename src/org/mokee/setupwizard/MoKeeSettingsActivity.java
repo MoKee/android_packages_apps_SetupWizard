@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
- * Copyright (C) 2017 The LineageOS Project
- * Copyright (C) 2017 The MoKee Open Source Project
+ * Copyright (C) 2017-2018 The LineageOS Project
+ * Copyright (C) 2017-2018 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -58,7 +58,7 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
     private CheckBox mNavKeys;
     private CheckBox mPrivacyGuard;
 
-    private boolean mHideNavKeysRow = false;
+    private boolean mSupportsKeyDisabler = false;
 
     private View.OnClickListener mNavKeysClickListener = view -> {
         boolean checked = !mNavKeys.isChecked();
@@ -104,18 +104,12 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
         View navKeysRow = findViewById(R.id.nav_keys);
         navKeysRow.setOnClickListener(mNavKeysClickListener);
         mNavKeys = (CheckBox) findViewById(R.id.nav_keys_checkbox);
-        boolean needsNavBar = true;
-        try {
-            IWindowManager windowManager = WindowManagerGlobal.getWindowManagerService();
-            needsNavBar = windowManager.needsNavigationBar();
-        } catch (RemoteException e) {
-        }
-        mHideNavKeysRow = hideKeyDisabler(this);
-        if (mHideNavKeysRow || needsNavBar) {
-            navKeysRow.setVisibility(View.GONE);
-        } else {
+        mSupportsKeyDisabler = isKeyDisablerSupported(this);
+        if (mSupportsKeyDisabler) {
             boolean navKeysDisabled = isKeyDisablerActive(this);
             mNavKeys.setChecked(navKeysDisabled);
+        } else {
+            navKeysRow.setVisibility(View.GONE);
         }
 
         View privacyGuardRow = findViewById(R.id.privacy_guard);
@@ -164,7 +158,7 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
     }
 
     private void updateDisableNavkeysOption() {
-        if (!mHideNavKeysRow) {
+        if (mSupportsKeyDisabler) {
             final Bundle myPageBundle = mSetupWizardApp.getSettingsBundle();
             boolean enabled = MKSettings.Global.getInt(getContentResolver(),
                     MKSettings.Global.DEV_FORCE_SHOW_NAVBAR, 0) != 0;
@@ -187,9 +181,9 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
         bundle.putBoolean(KEY_PRIVACY_GUARD, checked);
     }
 
-    private static boolean hideKeyDisabler(Context context) {
+    private static boolean isKeyDisablerSupported(Context context) {
         final MKHardwareManager hardware = MKHardwareManager.getInstance(context);
-        return !hardware.isSupported(MKHardwareManager.FEATURE_KEY_DISABLE);
+        return hardware.isSupported(MKHardwareManager.FEATURE_KEY_DISABLE);
     }
 
     private static boolean isKeyDisablerActive(Context context) {
