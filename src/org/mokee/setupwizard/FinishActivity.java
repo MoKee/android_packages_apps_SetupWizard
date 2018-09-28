@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
- * Copyright (C) 2017 The LineageOS Project
- * Copyright (C) 2017 The MoKee Open Source Project
+ * Copyright (C) 2017-2018 The LineageOS Project
+ * Copyright (C) 2017-2018 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,6 +34,7 @@ import android.graphics.Bitmap;
 import android.graphics.Point;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.UserHandle;
 import android.preference.PreferenceManager;
 import android.view.View;
 import android.view.ViewAnimationUtils;
@@ -199,8 +200,8 @@ public class FinishActivity extends BaseSetupWizardActivity {
     private static void writeDisableNavkeysOption(Context context, boolean enabled) {
         final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 
-        MKSettings.Global.putInt(context.getContentResolver(),
-                MKSettings.Global.DEV_FORCE_SHOW_NAVBAR, enabled ? 1 : 0);
+        MKSettings.System.putIntForUser(context.getContentResolver(),
+                MKSettings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0, UserHandle.USER_CURRENT);
         MKHardwareManager hardware = MKHardwareManager.getInstance(context);
         hardware.set(MKHardwareManager.FEATURE_KEY_DISABLE, enabled);
 
