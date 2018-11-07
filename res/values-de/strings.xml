@@ -18,68 +18,68 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Einrichtungsassistent</string>
-  <!-- Partner SUW Strings -->
-  <string name="next">Weiter</string>
-  <string name="skip">Überspringen</string>
-  <string name="start">Start</string>
-  <string name="done">Fertig</string>
-  <string name="ok">Ok</string>
-  <string name="loading">Wird geladen</string>
-  <string name="setup_complete">Die Einrichtung ist abgeschlossen</string>
-  <string name="setup_welcome">Herzlich Willkommen</string>
-  <string name="setup_locale">Sprache</string>
-  <string name="setup_wifi">WLAN auswählen</string>
-  <string name="setup_sim_missing">SIM-Karte fehlt</string>
-  <string name="setup_choose_data_sim">Wählen Sie ein SIM-Karte für Mobilfunkdaten aus</string>
-  <string name="setup_location">Standortdienste</string>
-  <string name="setup_other">Sonstige Dienste</string>
-  <string name="setup_datetime">Datum &amp; Uhrzeit</string>
-  <string name="setup_current_date">Aktuelles Datum</string>
-  <string name="setup_current_time">Aktuelle Uhrzeit</string>
-  <string name="sim_missing_summary" product="tablet">Es wurde keine SIM-Karte in Ihrem Smartphone erkannt. Um eine SIM-Karte einzulegen, lesen Sie sich die dem Smartphone beiliegende Bedienungsanleitung durch.</string>
-  <string name="sim_missing_summary" product="default">Es wurde keine SIM-Karte in Ihrem Smartphone erkannt. Um eine SIM-Karte einzulegen, lesen Sie sich die Bedienungsanleitung durch, die Ihrem Smartphone beiliegt.</string>
-  <string name="choose_data_sim_summary" product="tablet">Welche SIM-Karte soll für Mobilfunkdaten verwendet werden? Da die ausgewählte SIM-Karte bei der Einrichtung des Smartphones verwendet wird, können für Sie Kosten anfallen.</string>
-  <string name="choose_data_sim_summary" product="default">Welche SIM-Karte soll für Mobilfunkdaten verwendet werden? Da die ausgewählte SIM-Karte bei der Einrichtung des Smartphones verwendet wird, können für Sie Kosten anfallen.</string>
-  <string name="date_time_summary">Stellen Sie Ihre Zeitzone ein und passen Sie bei Bedarf das Datum und die Uhrzeit an</string>
-  <string name="backup_data_summary"><b>Sichern</b> Sie App-Daten, WLAN-Passwörter und andere Einstellungen, auf Google-Servern</string>
-  <string name="other_services_summary">Diese Dienste werden von Google zur Verfügung gestellt und können jederzeit aktiviert oder deaktiviert werden. Die Daten werden in Übereinstimmung mit Googles <xliff:g id="name" example="Datenschutzbestimmungen">%s</xliff:g> genutzt.</string>
-  <string name="location_services_summary">Standortdienste erlauben es Systemapps oder Apps von Drittanbietern Daten, wie z. B. Ihren ungefähren Standort zu bestimmen und zu verwenden. Zum Beispiel könnte eine App Ihren ungefähren Standort verwenden, um Cafés in der Nähe zu finden.</string>
-  <string name="location_access_summary"><b>Erlaube Apps, die nach Ihrer Berechtigung gefragt haben,</b> Standortinformationen zu verwenden. Das könnte Ihren derzeitigen und vergangenen Standort beinhalten.</string>
-  <string name="location_battery_saving"><b>Batterieverbrauch reduzieren</b> durch die Begrenzug der Anzahl an GPS-Updates pro Stunde.</string>
-  <string name="location_network"><b>WLAN nutzen</b>, um Apps zu helfen, Ihren Standort zu ermitteln.</string>
-  <string name="location_network_telephony"><b>WLAN und mobiles Netzwerk aktivieren</b>, um Apps den Standortabruf zu ermöglichen.</string>
-  <string name="location_network_gms"><b>Googles Standortdienst verwenden</b>, um Apps bei der Bestimmung Ihrer Position zu helfen. Das bedeutet, dass anonymisierte Standortdaten an Google gesendet werden, auch wenn keine App aktiv ist.</string>
-  <string name="setup_mobile_data">Mobilefunkdaten aktivieren</string>
-  <string name="setup_mobile_data_no_service">Kein Netz</string>
-  <string name="setup_mobile_data_emergency_only">Nur Notrufe</string>
-  <string name="enable_mobile_data_summary">Mobilfunkdaten bei der Einrichtung verwenden? Dadurch können für Sie Kosten anfallen.</string>
-  <string name="no">Nein</string>
-  <string name="yes">Ja</string>
-  <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> – <xliff:g id="name">%s</xliff:g></string>
-  <string name="emergency_call">Notruf</string>
-  <string name="setup_services">MoKee Funktionen</string>
-  <string name="services_explanation" product="tablet">Diese Dienste werden verwendet, um die Funktionen Ihres Telefons zu erweitern. Ihre Daten werden in Übereinstimmung mit den <xliff:g id="name" example="Datenschutzbestimmungen">%s</xliff:g> von MoKee\'s verwendet.</string>
-  <string name="services_explanation" product="default">Diese Dienste werden verwendet, um die Funktionen Ihres Telefons zu erweitern. Ihre Daten werden in Übereinstimmung mit den <xliff:g id="name" example="Datenschutzbestimmungen">%s</xliff:g> von MoKee\'s verwendet.</string>
-  <string name="services_privacy_policy">Datenschutzbestimmungen</string>
-  <string name="services_os_nav_keys_label"><b>Bildschirm-Navigationstasten</b> statt Hardwaretasten verwenden.</string>
-  <string name="services_os_privacy_guard"><b>Aktivieren Sie den Datenschutz-Wächter</b>, um Ihre persönlichen Daten wie Kontakte, Nachrichten oder Anrufslisten, für neu installierte Anwendungen, nicht verfügbar zu machen</string>
-  <string name="setup_unlock">Entsperren</string>
-  <string name="setup_device_locked">Dieses Gerät wurde durch den Benutzer gesperrt.</string>
-  <string name="setup_device_locked_instructions"><i>Um diese Funktion zu aktivieren/deaktivieren, gehen Sie bitte zu Einstellungen &gt; Sicherheit</i></string>
-  <!-- Fingerprint setup -->
-  <string name="settings_fingerprint_setup_title">Wählen Sie einen Backup- Bildschirm Sperrtyp</string>
-  <string name="settings_fingerprint_setup_details">Wie möchten Sie Ihren Bildschirm sperren?</string>
-  <string name="fingerprint_setup_title">Fingerabdruck einrichten</string>
-  <string name="fingerprint_setup_summary">Sie benötigen um ihren Bildschirm mit dem Fingerabdrucksensor entsperren zu können folgendes:</string>
-  <string name="fingerprint_setup_backup_lock_method">Einrichtung einer alternativen Entsperrungsmethode</string>
-  <string name="fingerprint_setup_add_fingerprint">Füge deinen Fingerabdruck hinzu</string>
-  <string name="fingerprint_setup_screen_lock_setup">Bildschirmsperre einrichten</string>
-  <string name="sim_locale_changed">%1$s SIM erkannt</string>
-  <!-- secure lock screen -->
-  <string name="settings_lockscreen_setup_title">Displaysperre wählen</string>
-  <string name="settings_lockscreen_setup_details">Wie möchten Sie Ihren Bildschirm sperren?</string>
-  <string name="lockscreen_setup_title">Schützen Sie Ihr Mobiltelefon</string>
-  <string name="lockscreen_setup_summary"><b>Dieses Gerät schützen</b> erfordert ein PIN, Muster oder Kennwort zum Entsperren des Bildschirms</string>
-  <string name="lockscreen_setup_screen_lock_setup">Einrichten</string>
+    <string name="app_name">Einrichtungsassistent</string>
+    <!-- Partner SUW Strings -->
+    <string name="next">Weiter</string>
+    <string name="skip">Überspringen</string>
+    <string name="start">Start</string>
+    <string name="done">Fertig</string>
+    <string name="ok">Ok</string>
+    <string name="loading">Wird geladen</string>
+    <string name="setup_complete">Die Einrichtung ist abgeschlossen</string>
+    <string name="setup_welcome">Herzlich Willkommen</string>
+    <string name="setup_locale">Sprache</string>
+    <string name="setup_wifi">WLAN auswählen</string>
+    <string name="setup_sim_missing">SIM-Karte fehlt</string>
+    <string name="setup_choose_data_sim">Wählen Sie ein SIM-Karte für Mobilfunkdaten aus</string>
+    <string name="setup_location">Standortdienste</string>
+    <string name="setup_other">Sonstige Dienste</string>
+    <string name="setup_datetime">Datum &amp; Uhrzeit</string>
+    <string name="setup_current_date">Aktuelles Datum</string>
+    <string name="setup_current_time">Aktuelle Uhrzeit</string>
+    <string name="sim_missing_summary" product="tablet">Es wurde keine SIM-Karte in Ihrem Smartphone erkannt. Um eine SIM-Karte einzulegen, lesen Sie sich die dem Smartphone beiliegende Bedienungsanleitung durch.</string>
+    <string name="sim_missing_summary" product="default">Es wurde keine SIM-Karte in Ihrem Smartphone erkannt. Um eine SIM-Karte einzulegen, lesen Sie sich die Bedienungsanleitung durch, die Ihrem Smartphone beiliegt.</string>
+    <string name="choose_data_sim_summary" product="tablet">Welche SIM-Karte soll für Mobilfunkdaten verwendet werden? Da die ausgewählte SIM-Karte bei der Einrichtung des Smartphones verwendet wird, können für Sie Kosten anfallen.</string>
+    <string name="choose_data_sim_summary" product="default">Welche SIM-Karte soll für Mobilfunkdaten verwendet werden? Da die ausgewählte SIM-Karte bei der Einrichtung des Smartphones verwendet wird, können für Sie Kosten anfallen.</string>
+    <string name="date_time_summary">Stellen Sie Ihre Zeitzone ein und passen Sie bei Bedarf das Datum und die Uhrzeit an</string>
+    <string name="backup_data_summary"><b>Sichern</b> Sie App-Daten, WLAN-Passwörter und andere Einstellungen, auf Google-Servern</string>
+    <string name="other_services_summary">Diese Dienste werden von Google zur Verfügung gestellt und können jederzeit aktiviert oder deaktiviert werden. Die Daten werden in Übereinstimmung mit Googles <xliff:g id="name" example="Datenschutzbestimmungen">%s</xliff:g> genutzt.</string>
+    <string name="location_services_summary">Standortdienste erlauben es Systemapps oder Apps von Drittanbietern Daten, wie z. B. Ihren ungefähren Standort zu bestimmen und zu verwenden. Zum Beispiel könnte eine App Ihren ungefähren Standort verwenden, um Cafés in der Nähe zu finden.</string>
+    <string name="location_access_summary"><b>Erlaube Apps, die nach Ihrer Berechtigung gefragt haben,</b> Standortinformationen zu verwenden. Das könnte Ihren derzeitigen und vergangenen Standort beinhalten.</string>
+    <string name="location_battery_saving"><b>Batterieverbrauch reduzieren</b> durch die Begrenzug der Anzahl an GPS-Updates pro Stunde.</string>
+    <string name="location_network"><b>WLAN nutzen</b>, um Apps zu helfen, Ihren Standort zu ermitteln.</string>
+    <string name="location_network_telephony"><b>WLAN und mobiles Netzwerk aktivieren</b>, um Apps den Standortabruf zu ermöglichen.</string>
+    <string name="location_network_gms"><b>Googles Standortdienst verwenden</b>, um Apps bei der Bestimmung Ihrer Position zu helfen. Das bedeutet, dass anonymisierte Standortdaten an Google gesendet werden, auch wenn keine App aktiv ist.</string>
+    <string name="setup_mobile_data">Mobilefunkdaten aktivieren</string>
+    <string name="setup_mobile_data_no_service">Kein Netz</string>
+    <string name="setup_mobile_data_emergency_only">Nur Notrufe</string>
+    <string name="enable_mobile_data_summary">Mobilfunkdaten bei der Einrichtung verwenden? Dadurch können für Sie Kosten anfallen.</string>
+    <string name="no">Nein</string>
+    <string name="yes">Ja</string>
+    <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> – <xliff:g id="name">%s</xliff:g></string>
+    <string name="emergency_call">Notruf</string>
+    <string name="setup_services">MoKee Funktionen</string>
+    <string name="services_explanation" product="tablet">Diese Dienste werden verwendet, um die Funktionen Ihres Telefons zu erweitern. Ihre Daten werden in Übereinstimmung mit den <xliff:g id="name" example="Datenschutzbestimmungen">%s</xliff:g> von MoKee\'s verwendet.</string>
+    <string name="services_explanation" product="default">Diese Dienste werden verwendet, um die Funktionen Ihres Telefons zu erweitern. Ihre Daten werden in Übereinstimmung mit den <xliff:g id="name" example="Datenschutzbestimmungen">%s</xliff:g> von MoKee\'s verwendet.</string>
+    <string name="services_privacy_policy">Datenschutzbestimmungen</string>
+    <string name="services_os_nav_keys_label"><b>Bildschirm-Navigationstasten</b> statt Hardwaretasten verwenden.</string>
+    <string name="services_os_privacy_guard"><b>Aktivieren Sie den Datenschutz-Wächter</b>, um Ihre persönlichen Daten wie Kontakte, Nachrichten oder Anrufslisten, für neu installierte Anwendungen, nicht verfügbar zu machen</string>
+    <string name="setup_unlock">Entsperren</string>
+    <string name="setup_device_locked">Dieses Gerät wurde durch den Benutzer gesperrt.</string>
+    <string name="setup_device_locked_instructions"><i>Um diese Funktion zu aktivieren/deaktivieren, gehen Sie bitte zu Einstellungen &gt; Sicherheit</i></string>
+    <!-- Fingerprint setup -->
+    <string name="settings_fingerprint_setup_title">Wählen Sie einen Backup- Bildschirm Sperrtyp</string>
+    <string name="settings_fingerprint_setup_details">Wie möchten Sie Ihren Bildschirm sperren?</string>
+    <string name="fingerprint_setup_title">Fingerabdruck einrichten</string>
+    <string name="fingerprint_setup_summary">Sie benötigen um ihren Bildschirm mit dem Fingerabdrucksensor entsperren zu können folgendes:</string>
+    <string name="fingerprint_setup_backup_lock_method">Einrichtung einer alternativen Entsperrungsmethode</string>
+    <string name="fingerprint_setup_add_fingerprint">Füge deinen Fingerabdruck hinzu</string>
+    <string name="fingerprint_setup_screen_lock_setup">Bildschirmsperre einrichten</string>
+    <string name="sim_locale_changed">%1$s SIM erkannt</string>
+    <!-- secure lock screen -->
+    <string name="settings_lockscreen_setup_title">Displaysperre wählen</string>
+    <string name="settings_lockscreen_setup_details">Wie möchten Sie Ihren Bildschirm sperren?</string>
+    <string name="lockscreen_setup_title">Schützen Sie Ihr Mobiltelefon</string>
+    <string name="lockscreen_setup_summary"><b>Dieses Gerät schützen</b> erfordert ein PIN, Muster oder Kennwort zum Entsperren des Bildschirms</string>
+    <string name="lockscreen_setup_screen_lock_setup">Einrichten</string>
 </resources>

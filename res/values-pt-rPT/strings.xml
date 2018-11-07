@@ -18,44 +18,44 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Assistente de configuração</string>
-  <!-- Partner SUW Strings -->
-  <string name="next">Próximo</string>
-  <string name="skip">Pular</string>
-  <string name="start">Inicio</string>
-  <string name="done">Concluído</string>
-  <string name="loading">Um momento\u2026</string>
-  <string name="setup_complete">A configuração está completa</string>
-  <string name="setup_welcome">Bem-vindo</string>
-  <string name="setup_wifi">Selecionar rede Wi-Fi</string>
-  <string name="setup_sim_missing">Falta o cartão SIM</string>
-  <string name="setup_choose_data_sim">Escolha um SIM para os dados</string>
-  <string name="setup_location">Serviços de localização</string>
-  <string name="setup_other">Outros serviços</string>
-  <string name="setup_datetime">Data &amp; hora</string>
-  <string name="setup_current_date">Data atual</string>
-  <string name="setup_current_time">Hora atual</string>
-  <string name="sim_missing_summary" product="tablet">Não foi detetado nenhum cartão SIM no seu tablet. Para inserir um cartão SIM, leia o manual de instruções que veio com o seu dispositivo.</string>
-  <string name="sim_missing_summary" product="default">Não foi detetado nenhum cartão SIM no seu telefone. Para inserir um cartão SIM, leia o manual de instruções que veio com o seu dispositivo.</string>
-  <string name="choose_data_sim_summary" product="tablet">Qual o cartão SIM que quer usar para os dados? O SIM selecionado pode incorrer em custos de rede adicionais, pois será usado para configurar o seu tablet.</string>
-  <string name="choose_data_sim_summary" product="default">Qual o cartão SIM que quer usar para os dados? O SIM selecionado pode incorrer em custos de rede adicionais, pois será usado para configurar o seu telefone.</string>
-  <string name="date_time_summary">Defina o fuso horário e ajuste a hora e a data atual, se necessário</string>
-  <string name="backup_data_summary">Efetuar uma <b>cópia de segurança</b> dos dados das aplicações, palavras-passe de acesso de redes sem fios e outras definições para os servidores da Google</string>
-  <string name="other_services_summary">Estes serviços colocam o Google a trabalhar para si, e pode ligá-los ou desligá-los a qualquer momento. Os dados serão utilizados em conformidade com a <xliff:g id="name" example="Privacy Policy">%s</xliff:g> do Google.</string>
-  <string name="location_services_summary">Os serviços de localização permitem às aplicações de sistema e de terceiros reunir e utilizar dados tais como a sua localização aproximada. Por exemplo, uma aplicação pode usar a sua localização aproximada para localizar cafés ou bares nas proximidades.</string>
-  <string name="location_access_summary"><b>Permitir às aplicações que pediram a sua permissão</b> para usar as suas informações de localização. Isso pode incluir a sua localização atual bem como localizações anteriores.</string>
-  <string name="location_network"><b>Usar Wi-Fi</b> para ajudar as aplicações a determinar a sua localização.</string>
-  <string name="location_network_telephony"><b>Usar Wi-Fi e redes móveis</b> para ajudar as aplicações a determinar a sua localização.</string>
-  <string name="location_network_gms"><b>Usar o serviço de localização do Google</b> para ajudar as aplicações a determinar a sua localização. Isto significa o envio de dados de localização anónimos para o Google, mesmo quando nenhuma aplicação estiver a funcionar.</string>
-  <string name="setup_mobile_data">Ligar os dados móveis</string>
-  <string name="setup_mobile_data_no_service">Sem serviço</string>
-  <string name="setup_mobile_data_emergency_only">Apenas chamadas de emergência</string>
-  <string name="enable_mobile_data_summary">Quer usar os dados móveis durante a instalação? Ligar os dados móveis pode estar sujeito a gastos adicionais.</string>
-  <string name="no">Não</string>
-  <string name="yes">Sim</string>
-  <string name="emergency_call">Chamadas de emergência</string>
-  <string name="services_privacy_policy">Política de privacidade</string>
-  <string name="services_os_nav_keys_label"><b>Usar os botões de navegação no ecrã</b>, em vez dos botões do dispositivo.</string>
-  <!-- Fingerprint setup -->
-  <!-- secure lock screen -->
+    <string name="app_name">Assistente de configuração</string>
+    <!-- Partner SUW Strings -->
+    <string name="next">Próximo</string>
+    <string name="skip">Pular</string>
+    <string name="start">Inicio</string>
+    <string name="done">Concluído</string>
+    <string name="loading">Um momento\u2026</string>
+    <string name="setup_complete">A configuração está completa</string>
+    <string name="setup_welcome">Bem-vindo</string>
+    <string name="setup_wifi">Selecionar rede Wi-Fi</string>
+    <string name="setup_sim_missing">Falta o cartão SIM</string>
+    <string name="setup_choose_data_sim">Escolha um SIM para os dados</string>
+    <string name="setup_location">Serviços de localização</string>
+    <string name="setup_other">Outros serviços</string>
+    <string name="setup_datetime">Data &amp; hora</string>
+    <string name="setup_current_date">Data atual</string>
+    <string name="setup_current_time">Hora atual</string>
+    <string name="sim_missing_summary" product="tablet">Não foi detetado nenhum cartão SIM no seu tablet. Para inserir um cartão SIM, leia o manual de instruções que veio com o seu dispositivo.</string>
+    <string name="sim_missing_summary" product="default">Não foi detetado nenhum cartão SIM no seu telefone. Para inserir um cartão SIM, leia o manual de instruções que veio com o seu dispositivo.</string>
+    <string name="choose_data_sim_summary" product="tablet">Qual o cartão SIM que quer usar para os dados? O SIM selecionado pode incorrer em custos de rede adicionais, pois será usado para configurar o seu tablet.</string>
+    <string name="choose_data_sim_summary" product="default">Qual o cartão SIM que quer usar para os dados? O SIM selecionado pode incorrer em custos de rede adicionais, pois será usado para configurar o seu telefone.</string>
+    <string name="date_time_summary">Defina o fuso horário e ajuste a hora e a data atual, se necessário</string>
+    <string name="backup_data_summary">Efetuar uma <b>cópia de segurança</b> dos dados das aplicações, palavras-passe de acesso de redes sem fios e outras definições para os servidores da Google</string>
+    <string name="other_services_summary">Estes serviços colocam o Google a trabalhar para si, e pode ligá-los ou desligá-los a qualquer momento. Os dados serão utilizados em conformidade com a <xliff:g id="name" example="Privacy Policy">%s</xliff:g> do Google.</string>
+    <string name="location_services_summary">Os serviços de localização permitem às aplicações de sistema e de terceiros reunir e utilizar dados tais como a sua localização aproximada. Por exemplo, uma aplicação pode usar a sua localização aproximada para localizar cafés ou bares nas proximidades.</string>
+    <string name="location_access_summary"><b>Permitir às aplicações que pediram a sua permissão</b> para usar as suas informações de localização. Isso pode incluir a sua localização atual bem como localizações anteriores.</string>
+    <string name="location_network"><b>Usar Wi-Fi</b> para ajudar as aplicações a determinar a sua localização.</string>
+    <string name="location_network_telephony"><b>Usar Wi-Fi e redes móveis</b> para ajudar as aplicações a determinar a sua localização.</string>
+    <string name="location_network_gms"><b>Usar o serviço de localização do Google</b> para ajudar as aplicações a determinar a sua localização. Isto significa o envio de dados de localização anónimos para o Google, mesmo quando nenhuma aplicação estiver a funcionar.</string>
+    <string name="setup_mobile_data">Ligar os dados móveis</string>
+    <string name="setup_mobile_data_no_service">Sem serviço</string>
+    <string name="setup_mobile_data_emergency_only">Apenas chamadas de emergência</string>
+    <string name="enable_mobile_data_summary">Quer usar os dados móveis durante a instalação? Ligar os dados móveis pode estar sujeito a gastos adicionais.</string>
+    <string name="no">Não</string>
+    <string name="yes">Sim</string>
+    <string name="emergency_call">Chamadas de emergência</string>
+    <string name="services_privacy_policy">Política de privacidade</string>
+    <string name="services_os_nav_keys_label"><b>Usar os botões de navegação no ecrã</b>, em vez dos botões do dispositivo.</string>
+    <!-- Fingerprint setup -->
+    <!-- secure lock screen -->
 </resources>

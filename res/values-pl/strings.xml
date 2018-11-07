@@ -18,68 +18,68 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Kreator konfiguracji</string>
-  <!-- Partner SUW Strings -->
-  <string name="next">Dalej</string>
-  <string name="skip">Pomiń</string>
-  <string name="start">Rozpocznij</string>
-  <string name="done">Zrobione</string>
-  <string name="ok">Ok</string>
-  <string name="loading">Chwileczkę\u2026</string>
-  <string name="setup_complete">Konfiguracja zakończona</string>
-  <string name="setup_welcome">Witam cię</string>
-  <string name="setup_locale">Język</string>
-  <string name="setup_wifi">Wybierz Wi-Fi</string>
-  <string name="setup_sim_missing">Brak karty SIM</string>
-  <string name="setup_choose_data_sim">Wybierz kartę SIM dla danych mobilnych</string>
-  <string name="setup_location">Usługi lokalizacyjne</string>
-  <string name="setup_other">Inne usługi</string>
-  <string name="setup_datetime">Data i czas</string>
-  <string name="setup_current_date">Aktualna data</string>
-  <string name="setup_current_time">Aktualny czas</string>
-  <string name="sim_missing_summary" product="tablet">Karta SIM nie została wykryta w tablecie. Aby włożyć kartę SIM, przeczytaj instrukcję dołączoną do tabletu.</string>
-  <string name="sim_missing_summary" product="default">Karta SIM nie została wykryta w twoim smartfonie. Aby włożyć kartę SIM, przeczytaj instrukcję dołączoną do smartfonu.</string>
-  <string name="choose_data_sim_summary" product="tablet">Której karty SIM chcesz używać do transmisji danych? Wybrana karta SIM może generować dodatkowe koszty, bo zostanie użyta do skonfigurowania tabletu.</string>
-  <string name="choose_data_sim_summary" product="default">Której karty SIM chcesz używać do transmisji danych? Wybrana karta SIM może generować dodatkowe koszty, bo zostanie użyta do skonfigurowania smartfonu.</string>
-  <string name="date_time_summary">Ustaw strefę czasową, bieżącą datę i czas</string>
-  <string name="backup_data_summary">Wykonaj <b>kopię zapasową</b> danych aplikacji, haseł Wi-Fi i innych ustawień na serwerach Google</string>
-  <string name="other_services_summary">Usługi te umożliwiają działanie aplikacjom Google, możesz jest włączyć lub wyłączyć w każdej chwili. Dane będą wykorzystywane zgodnie z <xliff:g id="name" example="Polityką Prywatności">%s</xliff:g> Google.</string>
-  <string name="location_services_summary">Usługi lokalizacji pozwalają systemowi i innym aplikacjom zbierać dane o użytkowniku w celu szybszego ustalania przybliżonej lokalizacji. Np. jakaś aplikacja może użyć twojej przybliżonej lokalizacji do wskazania najbliższej kawiarni.</string>
-  <string name="location_access_summary"><b>Zezwalaj aplikacjom, które poprosiły o pozwolenie</b>, na używanie informacji o twojej lokalizacji. Może to obejmować twoją bieżącą i poprzednie lokalizacje.</string>
-  <string name="location_battery_saving"><b>Zmniejsz zużycie baterii</b> poprzez ograniczenie liczby aktualizacji GPS na godzinę.</string>
-  <string name="location_network"><b>Użyj Wi-Fi</b>, aby pomóc aplikacjom w określeniu twojej lokalizacji.</string>
-  <string name="location_network_telephony"><b>Użyj Wi-Fi i sieci komórkowych</b>, aby pomóc aplikacjom w określeniu twojej lokalizacji.</string>
-  <string name="location_network_gms"><b>Użyj usług lokalizacji Google</b>, aby pomóc aplikacjom w określaniu twojej lokalizacji. Oznacza to wysyłanie anonimowych danych o twojej lokalizacji do Google, nawet jeśli żadna aplikacja nie jest uruchomiona.</string>
-  <string name="setup_mobile_data">Włącz dane mobilne</string>
-  <string name="setup_mobile_data_no_service">Brak usługi</string>
-  <string name="setup_mobile_data_emergency_only">Tylko połączenia alarmowe</string>
-  <string name="enable_mobile_data_summary">Czy chcesz użyć mobilnej transmisji danych podczas instalacji? Włącznie transmisji danych może wiązać się z dodatkowymi opłatami.</string>
-  <string name="no">Nie</string>
-  <string name="yes">Tak</string>
-  <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
-  <string name="emergency_call">Połączenie alarmowe</string>
-  <string name="setup_services">Funkcje MoKee</string>
-  <string name="services_explanation" product="tablet">Te usługi są uruchomione w celu rozszerzenia możliwości twojego tabletu. Dane będą używane zgodnie z MoKee\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
-  <string name="services_explanation" product="default">Te usługi są uruchomione w celu rozszerzenia możliwości twojego urządzenia. Dane będą używane zgodnie z MoKee\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
-  <string name="services_privacy_policy">Polityka Prywatności</string>
-  <string name="services_os_nav_keys_label"><b>Użyj ekranowych przycisków nawigacyjnych</b> zamiast klawiszy sprzętowych.</string>
-  <string name="services_os_privacy_guard"><b>Włącz ochronę prywatności</b> aby twoje dane osobiste, takie jak kontakty, wiadomości lub rejestr połączeń nie były dostępne dla nowo zainstalowanych aplikacji</string>
-  <string name="setup_unlock">Odblokuj</string>
-  <string name="setup_device_locked">To urządzenie zostało zablokowane przez użytkownika.</string>
-  <string name="setup_device_locked_instructions"><i>Aby wyłączyć/załączyć, przejdź do Ustawień &gt; Zabezpieczeń</i></string>
-  <!-- Fingerprint setup -->
-  <string name="settings_fingerprint_setup_title">Wybierz rodzaj kopii zapasowej ekranu blokady</string>
-  <string name="settings_fingerprint_setup_details">Jak chcesz blokować ekran?</string>
-  <string name="fingerprint_setup_title">Konfiguracja linii papilarnych</string>
-  <string name="fingerprint_setup_summary">Aby użyć swojego odcisku palca do odblokowania ekranu, musisz:</string>
-  <string name="fingerprint_setup_backup_lock_method">Ustaw drugą metodę odblokowania</string>
-  <string name="fingerprint_setup_add_fingerprint">Dodaj swój odcisk palca</string>
-  <string name="fingerprint_setup_screen_lock_setup">Konfiguracja ekranu blokady</string>
-  <string name="sim_locale_changed">%1$s SIM wykryta</string>
-  <!-- secure lock screen -->
-  <string name="settings_lockscreen_setup_title">Wybierz typ blokady ekranu</string>
-  <string name="settings_lockscreen_setup_details">Jak chcesz blokować ekran?</string>
-  <string name="lockscreen_setup_title">Zabezpiecz swój telefon</string>
-  <string name="lockscreen_setup_summary"><b>Zabezpiecz urządzenie</b> i ustaw PIN, wzór albo hasło, aby odblokować ekran</string>
-  <string name="lockscreen_setup_screen_lock_setup">Konfiguracja</string>
+    <string name="app_name">Kreator konfiguracji</string>
+    <!-- Partner SUW Strings -->
+    <string name="next">Dalej</string>
+    <string name="skip">Pomiń</string>
+    <string name="start">Rozpocznij</string>
+    <string name="done">Zrobione</string>
+    <string name="ok">Ok</string>
+    <string name="loading">Chwileczkę\u2026</string>
+    <string name="setup_complete">Konfiguracja zakończona</string>
+    <string name="setup_welcome">Witam cię</string>
+    <string name="setup_locale">Język</string>
+    <string name="setup_wifi">Wybierz Wi-Fi</string>
+    <string name="setup_sim_missing">Brak karty SIM</string>
+    <string name="setup_choose_data_sim">Wybierz kartę SIM dla danych mobilnych</string>
+    <string name="setup_location">Usługi lokalizacyjne</string>
+    <string name="setup_other">Inne usługi</string>
+    <string name="setup_datetime">Data i czas</string>
+    <string name="setup_current_date">Aktualna data</string>
+    <string name="setup_current_time">Aktualny czas</string>
+    <string name="sim_missing_summary" product="tablet">Karta SIM nie została wykryta w tablecie. Aby włożyć kartę SIM, przeczytaj instrukcję dołączoną do tabletu.</string>
+    <string name="sim_missing_summary" product="default">Karta SIM nie została wykryta w twoim smartfonie. Aby włożyć kartę SIM, przeczytaj instrukcję dołączoną do smartfonu.</string>
+    <string name="choose_data_sim_summary" product="tablet">Której karty SIM chcesz używać do transmisji danych? Wybrana karta SIM może generować dodatkowe koszty, bo zostanie użyta do skonfigurowania tabletu.</string>
+    <string name="choose_data_sim_summary" product="default">Której karty SIM chcesz używać do transmisji danych? Wybrana karta SIM może generować dodatkowe koszty, bo zostanie użyta do skonfigurowania smartfonu.</string>
+    <string name="date_time_summary">Ustaw strefę czasową, bieżącą datę i czas</string>
+    <string name="backup_data_summary">Wykonaj <b>kopię zapasową</b> danych aplikacji, haseł Wi-Fi i innych ustawień na serwerach Google</string>
+    <string name="other_services_summary">Usługi te umożliwiają działanie aplikacjom Google, możesz jest włączyć lub wyłączyć w każdej chwili. Dane będą wykorzystywane zgodnie z <xliff:g id="name" example="Polityką Prywatności">%s</xliff:g> Google.</string>
+    <string name="location_services_summary">Usługi lokalizacji pozwalają systemowi i innym aplikacjom zbierać dane o użytkowniku w celu szybszego ustalania przybliżonej lokalizacji. Np. jakaś aplikacja może użyć twojej przybliżonej lokalizacji do wskazania najbliższej kawiarni.</string>
+    <string name="location_access_summary"><b>Zezwalaj aplikacjom, które poprosiły o pozwolenie</b>, na używanie informacji o twojej lokalizacji. Może to obejmować twoją bieżącą i poprzednie lokalizacje.</string>
+    <string name="location_battery_saving"><b>Zmniejsz zużycie baterii</b> poprzez ograniczenie liczby aktualizacji GPS na godzinę.</string>
+    <string name="location_network"><b>Użyj Wi-Fi</b>, aby pomóc aplikacjom w określeniu twojej lokalizacji.</string>
+    <string name="location_network_telephony"><b>Użyj Wi-Fi i sieci komórkowych</b>, aby pomóc aplikacjom w określeniu twojej lokalizacji.</string>
+    <string name="location_network_gms"><b>Użyj usług lokalizacji Google</b>, aby pomóc aplikacjom w określaniu twojej lokalizacji. Oznacza to wysyłanie anonimowych danych o twojej lokalizacji do Google, nawet jeśli żadna aplikacja nie jest uruchomiona.</string>
+    <string name="setup_mobile_data">Włącz dane mobilne</string>
+    <string name="setup_mobile_data_no_service">Brak usługi</string>
+    <string name="setup_mobile_data_emergency_only">Tylko połączenia alarmowe</string>
+    <string name="enable_mobile_data_summary">Czy chcesz użyć mobilnej transmisji danych podczas instalacji? Włącznie transmisji danych może wiązać się z dodatkowymi opłatami.</string>
+    <string name="no">Nie</string>
+    <string name="yes">Tak</string>
+    <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
+    <string name="emergency_call">Połączenie alarmowe</string>
+    <string name="setup_services">Funkcje MoKee</string>
+    <string name="services_explanation" product="tablet">Te usługi są uruchomione w celu rozszerzenia możliwości twojego tabletu. Dane będą używane zgodnie z MoKee\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
+    <string name="services_explanation" product="default">Te usługi są uruchomione w celu rozszerzenia możliwości twojego urządzenia. Dane będą używane zgodnie z MoKee\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
+    <string name="services_privacy_policy">Polityka Prywatności</string>
+    <string name="services_os_nav_keys_label"><b>Użyj ekranowych przycisków nawigacyjnych</b> zamiast klawiszy sprzętowych.</string>
+    <string name="services_os_privacy_guard"><b>Włącz ochronę prywatności</b> aby twoje dane osobiste, takie jak kontakty, wiadomości lub rejestr połączeń nie były dostępne dla nowo zainstalowanych aplikacji</string>
+    <string name="setup_unlock">Odblokuj</string>
+    <string name="setup_device_locked">To urządzenie zostało zablokowane przez użytkownika.</string>
+    <string name="setup_device_locked_instructions"><i>Aby wyłączyć/załączyć, przejdź do Ustawień &gt; Zabezpieczeń</i></string>
+    <!-- Fingerprint setup -->
+    <string name="settings_fingerprint_setup_title">Wybierz rodzaj kopii zapasowej ekranu blokady</string>
+    <string name="settings_fingerprint_setup_details">Jak chcesz blokować ekran?</string>
+    <string name="fingerprint_setup_title">Konfiguracja linii papilarnych</string>
+    <string name="fingerprint_setup_summary">Aby użyć swojego odcisku palca do odblokowania ekranu, musisz:</string>
+    <string name="fingerprint_setup_backup_lock_method">Ustaw drugą metodę odblokowania</string>
+    <string name="fingerprint_setup_add_fingerprint">Dodaj swój odcisk palca</string>
+    <string name="fingerprint_setup_screen_lock_setup">Konfiguracja ekranu blokady</string>
+    <string name="sim_locale_changed">%1$s SIM wykryta</string>
+    <!-- secure lock screen -->
+    <string name="settings_lockscreen_setup_title">Wybierz typ blokady ekranu</string>
+    <string name="settings_lockscreen_setup_details">Jak chcesz blokować ekran?</string>
+    <string name="lockscreen_setup_title">Zabezpiecz swój telefon</string>
+    <string name="lockscreen_setup_summary"><b>Zabezpiecz urządzenie</b> i ustaw PIN, wzór albo hasło, aby odblokować ekran</string>
+    <string name="lockscreen_setup_screen_lock_setup">Konfiguracja</string>
 </resources>
