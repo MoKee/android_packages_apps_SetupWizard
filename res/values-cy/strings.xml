@@ -63,7 +63,7 @@
     <string name="services_explanation" product="default">Mae\'r nodweddion hyn yn gweithio er mwyn ymestyn galluoedd dy ffôn. Caiff data ei ddefnyddio yn ôl <xliff:g id="name" example="Privacy Policy">%s</xliff:g> MoKee.</string>
     <string name="services_privacy_policy">Polisi Preifatrwydd</string>
     <string name="services_os_nav_keys_label"><b>Defnyddio bysellau llywio ar y sgrin</b> yn hytrach na botymau\'r ddyfais.</string>
-    <string name="services_os_privacy_guard"><b>Galluoga\'r Gwarchodwr Preifatrwydd</b> fel nad yw dy ddata personol megis cysylltiadau, negeseuon na logiau galwadau ar gael i apiau newydd sy\'n cael eu gosod.</string>
+    <string name="services_os_privacy_guard"><b>Galluogi\'r Gwarchodwr Preifatrwydd</b> fel nad yw dy ddata personol, megis cysylltiadau, negeseuon na logiau galwadau, ar gael i apiau newydd sy\'n cael eu gosod.</string>
     <string name="setup_unlock">Datgloi</string>
     <string name="setup_device_locked">Mae\'r ddyfais hon wedi ei chloi gan y defnyddiwr.</string>
     <string name="setup_device_locked_instructions"><i>I droi\'r nodwedd hon ymlaen/i ffwrdd, edrycha yn Gosodiadau &gt; Diogelwch</i></string>
