@@ -3,6 +3,7 @@
 <!--
      Copyright (C) 2013-2015 The CyanogenMod Project
      Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2017 The MoKee Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -61,13 +62,10 @@
     <string name="services_explanation" product="tablet">Ces services fonctionnent pour étendre les fonctionnalités de votre tablette. Les données seront utilisées conformément à la <xliff:g id="name" example="Politique de confidentialité">%s</xliff:g> de MoKee.</string>
     <string name="services_explanation" product="default">Ces services fonctionnent pour étendre les fonctionnalités de votre téléphone. Les données seront utilisées conformément à la <xliff:g id="name" example="Politique de confidentialité">%s</xliff:g> de MoKee.</string>
     <string name="services_privacy_policy">Politique de confidentialité</string>
-    <string name="services_help_improve_cm">Contribuer à l\'amélioration de <xliff:g id="name" example="MoKee">%s</xliff:g></string>
-    <string name="services_metrics_label"><xliff:g id="name" example="Help improve MoKee">%1$s</xliff:g> en envoyant automatiquement des données de diagnostic et d\'utilisation à MoKee. Ces informations ne peuvent pas être utilisées pour vous identifier et aident nos équipes à améliorer l\'autonomie de la batterie et les performances des applications, et à développer de nouvelles fonctionnalités pour <xliff:g id="name" example="MoKee">%2$s</xliff:g>.</string>
     <string name="services_os_nav_keys_label"><b>Utilisation des touches de navigation de l\'écran</b> au lieu des touches physiques.</string>
     <string name="services_os_privacy_guard"><b>Activer la protection des données</b> pour que vos données personnelles comme les contacts, messages ou les journaux d\'appels ne soient pas disponibles pour les applications nouvellement installées</string>
     <string name="setup_unlock">Déverrouiller</string>
     <string name="setup_device_locked">Cet appareil a été verrouillé par l\'utilisateur.</string>
-    <string name="setup_require_cyanogen_label"><b>Nécessite le mot de passe de votre compte</b> afin d\'utiliser votre appareil même après une réinitialisation d\'usine.</string>
     <string name="setup_device_locked_instructions"><i>Pour activer/désactiver cette fonction, veuillez vous rendre dans Paramètres &gt; Sécurité</i></string>
     <!-- Fingerprint setup -->
     <string name="settings_fingerprint_setup_title">Sélection du type de verrouillage d\'écran de sauvegarde</string>

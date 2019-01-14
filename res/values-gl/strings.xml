@@ -3,6 +3,7 @@
 <!--
      Copyright (C) 2013-2015 The CyanogenMod Project
      Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2017 The MoKee Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -61,13 +62,10 @@
     <string name="services_explanation" product="tablet">Estes servizos serven para mellorar as capacidades da súa tableta. Os datos utilizaranse de acordo coa <xliff:g id="name" example="Política de privacidade">%s</xliff:g> de MoKee.</string>
     <string name="services_explanation" product="default">Estes servizos serven para mellorar as capacidades da súa teléfono Os datos utilizaranse de acordo coa <xliff:g id="name" example="Política de privacidade">%s</xliff:g> de MoKee.</string>
     <string name="services_privacy_policy">Política de privacidade</string>
-    <string name="services_help_improve_cm">Axuda a mellorar <xliff:g id="name" example="MoKee">%s</xliff:g></string>
-    <string name="services_metrics_label"><xliff:g id="name" example="Axuda a mellorar MoKee">%1$s</xliff:g> enviando automaticamente diagnóstico e uso de datos a MoKee. Esta información non se pode utilizar para identificalo a vostede e acaba nas mans dos equipos que traballan en cousas como a duración da batería, rendemento das aplicacións e novas características de <xliff:g id="name" example="MoKee">%2$s</xliff:g>.</string>
     <string name="services_os_nav_keys_label"><b>Usar as teclas de navegación</b> en vez das do hardware.</string>
     <string name="services_os_privacy_guard"><b>Habilitar Privacy guard</b> para seus datos personais como contactos, mensaxes o rexistros de chamadas non está dispoñible para aplicacións recién instaladas</string>
     <string name="setup_unlock">Desbloquear</string>
     <string name="setup_device_locked">Este dispositivo foi bloqueado polo usuario.</string>
-    <string name="setup_require_cyanogen_label"><b>Precísase o seu contrasinal</b> para poder utilizar o seu dispositivo mesmo tras unha restauración de fábrica.</string>
     <string name="setup_device_locked_instructions"><i>Para acender ou apagar esta funcionalidade, vaia a Configuración &gt; Seguranza</i></string>
     <!-- Fingerprint setup -->
     <string name="settings_fingerprint_setup_title">Seleccione o tipo de copia de seguranza de pantalla de bloqueo</string>
