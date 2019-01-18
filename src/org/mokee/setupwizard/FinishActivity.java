@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
- * Copyright (C) 2017-2018 The LineageOS Project
- * Copyright (C) 2017-2018 The MoKee Open Source Project
+ * Copyright (C) 2017-2019 The LineageOS Project
+ * Copyright (C) 2017-2019 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -44,7 +44,6 @@ import com.android.setupwizardlib.util.WizardManagerHelper;
 
 import org.mokee.setupwizard.util.EnableAccessibilityController;
 
-import mokee.hardware.MKHardwareManager;
 import mokee.providers.MKSettings;
 
 public class FinishActivity extends BaseSetupWizardActivity {
@@ -202,8 +201,6 @@ public class FinishActivity extends BaseSetupWizardActivity {
 
         MKSettings.System.putIntForUser(context.getContentResolver(),
                 MKSettings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0, UserHandle.USER_CURRENT);
-        MKHardwareManager hardware = MKHardwareManager.getInstance(context);
-        hardware.set(MKHardwareManager.FEATURE_KEY_DISABLE, enabled);
 
         /* Save/restore button timeouts to disable them in softkey mode */
         if (enabled) {
