@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
- * Copyright (C) 2017-2018 The LineageOS Project
- * Copyright (C) 2017-2018 The MoKee Open Source Project
+ * Copyright (C) 2017-2019 The LineageOS Project
+ * Copyright (C) 2017-2019 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -109,8 +109,8 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
         mNavKeys = (CheckBox) findViewById(R.id.nav_keys_checkbox);
         mSupportsKeyDisabler = isKeyDisablerSupported(this);
         if (mSupportsKeyDisabler) {
-            boolean navKeysDisabled = isKeyDisablerActive(this);
-            mNavKeys.setChecked(navKeysDisabled);
+            mNavKeys.setChecked(MKSettings.System.getIntForUser(getContentResolver(),
+                    MKSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0);
         } else {
             navKeysRow.setVisibility(View.GONE);
         }
@@ -187,10 +187,5 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
     private static boolean isKeyDisablerSupported(Context context) {
         final MKHardwareManager hardware = MKHardwareManager.getInstance(context);
         return hardware.isSupported(MKHardwareManager.FEATURE_KEY_DISABLE);
-    }
-
-    private static boolean isKeyDisablerActive(Context context) {
-        final MKHardwareManager hardware = MKHardwareManager.getInstance(context);
-        return hardware.get(MKHardwareManager.FEATURE_KEY_DISABLE);
     }
 }
