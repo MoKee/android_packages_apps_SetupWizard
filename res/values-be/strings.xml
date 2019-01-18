@@ -59,8 +59,8 @@
     <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">Экстранны выклік</string>
     <string name="setup_services">Асаблівасці MoKee</string>
-    <string name="services_explanation" product="tablet">Гэтыя службы пашыраюць магчымасці вашага планшэта. Дадзеныя будуць выкарыстоўвацца ў адпаведнасці с <xliff:g id="name" example="Privacy Policy">%s</xliff:g> LineageOS.</string>
-    <string name="services_explanation" product="default">Гэтыя службы пашыраюць магчымасці вашага тэлефона. Дадзеныя будуць выкарыстоўвацца ў адпаведнасці з <xliff:g id="name" example="Privacy Policy">%s</xliff:g> LineageOS.</string>
+    <string name="services_explanation" product="tablet">Гэтыя службы пашыраюць магчымасці вашага планшэта. Дадзеныя будуць выкарыстоўвацца ў адпаведнасці с <xliff:g id="name" example="Privacy Policy">%s</xliff:g> MoKee.</string>
+    <string name="services_explanation" product="default">Гэтыя службы пашыраюць магчымасці вашага тэлефона. Дадзеныя будуць выкарыстоўвацца ў адпаведнасці з <xliff:g id="name" example="Privacy Policy">%s</xliff:g> MoKee.</string>
     <string name="services_privacy_policy">Палітыка прыватнасці</string>
     <string name="services_os_nav_keys_label"><b>Скарыстаць на экранные навігацыйныя кнопкі</b> заміж апаратных.</string>
     <string name="services_os_privacy_guard"><b>Уключыце абаронены рэжым, </b> каб абмежаваць доступ новых праграм да вашых персанальных дадзеных - кантактам, паведамленнях або журналу выклікаў</string>
