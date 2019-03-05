@@ -19,7 +19,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">app_name</string>
-    <!-- Partner SUW Strings -->
     <string name="next">Next</string>
     <string name="skip">Skip</string>
     <string name="start">Start</string>
@@ -39,6 +38,4 @@
     <string name="sim_missing_summary" product="tablet">SIM card may not be inserted in your tablet.
 To insert SIM card, read the instructions that came with your device.</string>
     <string name="location_access_summary"><b>allow apps that have asked your permission</b> to use your location information. This may include your current location and past locations.</string>
-    <!-- Fingerprint setup -->
-    <!-- secure lock screen -->
 </resources>
