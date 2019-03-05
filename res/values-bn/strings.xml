@@ -19,7 +19,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Setup Wizard</string>
-    <!-- Partner SUW Strings -->
     <string name="next">Next</string>
     <string name="skip">Skip</string>
     <string name="start">Start</string>
@@ -44,6 +43,4 @@
     <string name="data_sim_name">সিম <xliff:g id="sub">%d </xliff:g> - <xliff:g id="name">%s </xliff:g></string>
     <string name="emergency_call">জরুরী কল</string>
     <string name="services_privacy_policy">প্রাইভেসি পলিসি</string>
-    <!-- Fingerprint setup -->
-    <!-- secure lock screen -->
 </resources>

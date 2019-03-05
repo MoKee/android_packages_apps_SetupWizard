@@ -19,7 +19,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Мастер настройки</string>
-    <!-- Partner SUW Strings -->
     <string name="next">Далее</string>
     <string name="skip">Пропустить</string>
     <string name="start">Начать</string>
@@ -67,7 +66,6 @@
     <string name="setup_unlock">Разблокировать</string>
     <string name="setup_device_locked">Устройство заблокировано пользователем.</string>
     <string name="setup_device_locked_instructions"><i>Чтобы включить или отключить эту функцию, перейдите в меню «Настройки &gt; Безопасность»</i></string>
-    <!-- Fingerprint setup -->
     <string name="settings_fingerprint_setup_title">Выберите запасной режим блокировки экрана</string>
     <string name="settings_fingerprint_setup_details">Как следует блокировать экран?</string>
     <string name="fingerprint_setup_title">Настройка отпечатков пальцев</string>
@@ -76,7 +74,6 @@
     <string name="fingerprint_setup_add_fingerprint">Добавить ваши отпечатки</string>
     <string name="fingerprint_setup_screen_lock_setup">Настроить экран блокировки</string>
     <string name="sim_locale_changed">Обнаружена %1$s SIM-карта</string>
-    <!-- secure lock screen -->
     <string name="settings_lockscreen_setup_title">Выбрать способ блокировки экрана</string>
     <string name="settings_lockscreen_setup_details">Как вы хотите заблокировать ваш экран?</string>
     <string name="lockscreen_setup_title">Защитите свой телефон</string>
