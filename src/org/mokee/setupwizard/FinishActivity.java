@@ -18,6 +18,7 @@
 
 package org.mokee.setupwizard;
 
+import static org.mokee.setupwizard.SetupWizardApp.ACTION_SETUP_COMPLETE;
 import static org.mokee.setupwizard.SetupWizardApp.DISABLE_NAV_KEYS;
 import static org.mokee.setupwizard.SetupWizardApp.KEY_BUTTON_BACKLIGHT;
 import static org.mokee.setupwizard.SetupWizardApp.LOGV;
@@ -44,6 +45,9 @@ import com.google.android.setupcompat.util.WizardManagerHelper;
 import org.mokee.setupwizard.util.EnableAccessibilityController;
 
 import mokee.providers.MKSettings;
+
+import static android.os.Binder.getCallingUserHandle;
+import static org.mokee.setupwizard.Manifest.permission.FINISH_SETUP;
 
 public class FinishActivity extends BaseSetupWizardActivity {
 
@@ -100,6 +104,10 @@ public class FinishActivity extends BaseSetupWizardActivity {
     }
 
     private void startFinishSequence() {
+        Intent i = new Intent(ACTION_SETUP_COMPLETE);
+        i.setPackage(getPackageName());
+        sendBroadcastAsUser(i, getCallingUserHandle(), FINISH_SETUP);
+
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LOCKED);
         hideBackButton();
         hideNextButton();
