@@ -61,6 +61,7 @@ public class SetupWizardApp extends Application {
 
     public static final String KEY_DETECT_CAPTIVE_PORTAL = "captive_portal_detection_enabled";
     public static final String DISABLE_NAV_KEYS = "disable_nav_keys";
+    public static final String KEY_BOTTOM_GESTURE_NAV = "bottom_gesture_nav";
     public static final String KEY_BUTTON_BACKLIGHT = "pre_navbar_button_backlight";
     public static final String KEY_PRIVACY_GUARD = "privacy_guard_default";
 

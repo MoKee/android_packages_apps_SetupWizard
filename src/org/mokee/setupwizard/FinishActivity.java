@@ -19,6 +19,7 @@
 package org.mokee.setupwizard;
 
 import static org.mokee.setupwizard.SetupWizardApp.DISABLE_NAV_KEYS;
+import static org.mokee.setupwizard.SetupWizardApp.KEY_BOTTOM_GESTURE_NAV;
 import static org.mokee.setupwizard.SetupWizardApp.KEY_BUTTON_BACKLIGHT;
 import static org.mokee.setupwizard.SetupWizardApp.KEY_PRIVACY_GUARD;
 import static org.mokee.setupwizard.SetupWizardApp.LOGV;
@@ -171,6 +172,7 @@ public class FinishActivity extends BaseSetupWizardActivity {
         }
         handlePrivacyGuard(mSetupWizardApp);
         handleNavKeys(mSetupWizardApp);
+        handleBottomGestureNav(mSetupWizardApp);
         final WallpaperManager wallpaperManager =
                 WallpaperManager.getInstance(mSetupWizardApp);
         wallpaperManager.forgetLoadedWallpaper();
@@ -193,6 +195,15 @@ public class FinishActivity extends BaseSetupWizardActivity {
         if (setupWizardApp.getSettingsBundle().containsKey(DISABLE_NAV_KEYS)) {
             writeDisableNavkeysOption(setupWizardApp,
                     setupWizardApp.getSettingsBundle().getBoolean(DISABLE_NAV_KEYS));
+        }
+    }
+
+    private static void handleBottomGestureNav(SetupWizardApp setupWizardApp) {
+        if (setupWizardApp.getSettingsBundle().containsKey(KEY_BOTTOM_GESTURE_NAV)) {
+            MKSettings.System.putIntForUser(setupWizardApp.getContentResolver(),
+                    MKSettings.System.USE_BOTTOM_GESTURE_NAVIGATION,
+                    setupWizardApp.getSettingsBundle().getBoolean(KEY_BOTTOM_GESTURE_NAV) ? 1 : 0,
+                    UserHandle.USER_CURRENT);
         }
     }
 
