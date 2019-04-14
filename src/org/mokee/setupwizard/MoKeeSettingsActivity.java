@@ -53,7 +53,7 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
 
     public static final String TAG = MoKeeSettingsActivity.class.getSimpleName();
 
-    public static final String PRIVACY_POLICY_URI = "http://www.mokeedev.com/en/legal";
+    public static final String PRIVACY_POLICY_URI = "https://www.mokeedev.com/en/legal";
 
     private SetupWizardApp mSetupWizardApp;
 
