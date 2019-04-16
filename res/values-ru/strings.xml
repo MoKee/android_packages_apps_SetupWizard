@@ -62,6 +62,9 @@
     <string name="services_explanation" product="default">Эти службы работают для вас, чтобы расширить возможности вашего телефона. Данные будут использоваться в соответствии с <xliff:g id="name" example="Privacy Policy">%s</xliff:g> MoKee.</string>
     <string name="services_privacy_policy">политикой конфиденциальности</string>
     <string name="services_os_nav_keys_label"><b>Использовать экранные навигационные кнопки</b> вместо аппаратных.</string>
+    <string name="services_os_bottom_gesture"><b>Использовать жесты снизу вверх</b> для навигации.</string>
+    <string name="services_os_bottom_gesture_nav_keys"><b>Использовать жесты снизу вверх</b> вместо аппаратных кнопок.</string>
+    <string name="services_os_bottom_gesture_nav_bar"><b>Использовать жесты снизу вверх</b> вместо кнопок навигации экрана.</string>
     <string name="services_os_privacy_guard"><b>Включить Защиту конфиденциальности,</b> чтобы ограничить доступ вновь установленных приложений к вашим персональным данным, таким как контакты, сообщения или журналы вызовов</string>
     <string name="setup_unlock">Разблокировать</string>
     <string name="setup_device_locked">Устройство заблокировано пользователем.</string>
