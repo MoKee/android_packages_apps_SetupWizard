@@ -27,6 +27,7 @@
     <string name="loading">Oota hetk\u2026</string>
     <string name="setup_complete">Seadistus on valmis</string>
     <string name="setup_welcome">Tere tulemast</string>
+    <string name="setup_locale">Keel</string>
     <string name="setup_wifi">Vali Wi-Fi</string>
     <string name="setup_sim_missing">SIM-kaart on puudu</string>
     <string name="setup_choose_data_sim">Vali SIM andmete jaoks</string>
@@ -44,16 +45,27 @@
     <string name="other_services_summary">Need teenused panevad Google sinu heaks tööle ning sul on võimalus neid sätteid igal ajal sisse või välja lülitada. Andmeid kasutatakse vastavalt Google <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="location_services_summary">Asukohateenused võimaldavad süsteemil ja kolmandate osapoolte rakendustel koguda ja kasutada informatsiooni sinu umbkaudse asukoha kohta. Näiteks võib rakendus kasutada sinu umbkautset asukohta, et leida lähedal asuvaid kohvikuid.</string>
     <string name="location_access_summary"><b>Luba rakendustel, mis on küsinud Teie nõusolekut</b> kasutada Teie asukoha informatsiooni. See võib tähendada nii Teie praegust kui ka eelnevaid asukohti.</string>
+    <string name="location_battery_saving"><b>Vähenda akukasutust</b> piirates GPSI värskenduste kordi tunnis.</string>
     <string name="location_network"><b>Kasuta Wi-Fi-t</b> aitamaks rakendustel asukohta kindlaks määrata .</string>
+    <string name="location_network_telephony"><b>Kasta Wifi ja mobiilivõrku</b>et aidata rakendustel teie asukohta määrata.</string>
     <string name="location_network_gms"><b>Kasuta Google asukohateenuseid</b>, mis aitab rakendustel Teie asukohta kindlaks määrata. See tähendab anonüümsete asukoha andmete saatmist Google-sse, isegi kui ükski rakendus ei tööta.</string>
+    <string name="setup_mobile_data">Lülita mobiilne andmeside sisse</string>
     <string name="setup_mobile_data_no_service">Teenus puudub</string>
     <string name="setup_mobile_data_emergency_only">Üksnes hädaabikõned</string>
+    <string name="enable_mobile_data_summary">Kas te tahate kasutada mobiilset andmesidet häälestamise ajal? Mobiilse andmeside sisselülitamisel võivad kaasneda teenustasud.</string>
     <string name="no">Ei</string>
     <string name="yes">Jah</string>
     <string name="data_sim_name">SIM <xliff:g id="sub">%d </xliff:g> - <xliff:g id="name">%s </xliff:g></string>
     <string name="emergency_call">Hädaabinumbril helistamine</string>
+    <string name="setup_services">MoKee funktsioonid</string>
+    <string name="services_explanation" product="tablet">Need teenused aitavad teil oma tableti võimalusi laiendada. Andmeid kasutatakse vastavalt MoKee\'le <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
+    <string name="services_explanation" product="default">Need teenused aitavad teil oma telefoni võimalusi laiendada. Andmeid kasutatakse vastavalt MoKee\'le <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="services_privacy_policy">Privaatsuspoliitika</string>
     <string name="services_os_nav_keys_label"><b>Kasuta ekraanil olevaid navigeerimisklahve</b> riistvaraliste nuppude asemel.</string>
+    <string name="services_os_bottom_gesture"><b>Kasutage altpoolt liikuvaid žeste</b> navigeerimiseks.</string>
+    <string name="services_os_bottom_gesture_nav_keys"><b>Kasutage altpoolt liikuvaid žeste</b> riistvara võtmete asemel.</string>
+    <string name="services_os_bottom_gesture_nav_bar"><b>Kasutage altpoolt liikuvaid žeste</b> ekraani navigeerimisklahvide asemel.</string>
+    <string name="services_os_privacy_guard"><b>Luba privaatsuse valvur</b> , et muuta teie isiklikud andmed, näiteks kontaktid, sõnumid või kõnelogid äsja installitud rakenduste jaoks kättesaadavaks</string>
     <string name="setup_unlock">Ava lukustus</string>
     <string name="setup_device_locked">Seade on kasutaja poolt lukustatud.</string>
     <string name="setup_device_locked_instructions"><i>Funktsiooni sisse/välja lülitamiseks mine Seaded &gt; Turvalisus</i></string>
@@ -64,5 +76,10 @@
     <string name="fingerprint_setup_backup_lock_method">Häälesta teisejärguline avamise meetod</string>
     <string name="fingerprint_setup_add_fingerprint">Lisa oma sõrmejälg</string>
     <string name="fingerprint_setup_screen_lock_setup">Ekraaniluku seadistamine</string>
+    <string name="sim_locale_changed">%1$s SIM kaart leitud</string>
+    <string name="settings_lockscreen_setup_title">Valige lukustusekraani tüüp</string>
     <string name="settings_lockscreen_setup_details">Kuidas soovite ekraani lukustada?</string>
+    <string name="lockscreen_setup_title">Kaitske oma telefoni</string>
+    <string name="lockscreen_setup_summary"><b>Kaitske seda seadet</b> ja vajage PIN-koodi, mustrit või parooli, et avada ekraan</string>
+    <string name="lockscreen_setup_screen_lock_setup">Sätesta</string>
 </resources>
