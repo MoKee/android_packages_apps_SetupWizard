@@ -62,6 +62,9 @@
     <string name="services_explanation" product="default">Estes serviços servem para ampliar os recursos do seu telefone. Os dados serão utilizados conforme a <xliff:g id="name" example="Privacy Policy">%s</xliff:g> do MoKee.</string>
     <string name="services_privacy_policy">Política de Privacidade</string>
     <string name="services_os_nav_keys_label"><b>Use as teclas de navegação na tela</b> em vez de botões físicos.</string>
+    <string name="services_os_bottom_gesture"><b>Use os gestos de deslizar para baixo</b> para navegação.</string>
+    <string name="services_os_bottom_gesture_nav_keys"><b>Use os gestos de deslize para baixo</b> em vez de usar as teclas de hardware.</string>
+    <string name="services_os_bottom_gesture_nav_bar"><b>Use os gestos de deslize para baixo</b> em vez das teclas de navegação na tela.</string>
     <string name="services_os_privacy_guard"><b>Ative a Proteção da Privacidade</b> para tornar dados pessoais como contatos, mensagens ou registro de chamadas indisponíveis para aplicativos recém-instalados</string>
     <string name="setup_unlock">Desbloquear</string>
     <string name="setup_device_locked">Este dispositivo foi bloqueado pelo usuário.</string>
