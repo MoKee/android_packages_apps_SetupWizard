@@ -35,7 +35,5 @@
     <string name="setup_datetime">Date and time</string>
     <string name="setup_current_date">Setup Current Date</string>
     <string name="setup_current_time">Set Current Time</string>
-    <string name="sim_missing_summary" product="tablet">SIM card may not be inserted in your tablet.
-To insert SIM card, read the instructions that came with your device.</string>
     <string name="location_access_summary"><b>allow apps that have asked your permission</b> to use your location information. This may include your current location and past locations.</string>
 </resources>
