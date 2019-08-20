@@ -75,6 +75,6 @@
     <string name="sim_locale_changed">%1$s SIM na-detect</string>
     <string name="settings_lockscreen_setup_title">Pumili ng klase sa screen lock</string>
     <string name="settings_lockscreen_setup_details">Paano mo gustong i-lock ang iyong screen?</string>
-    <string name="lockscreen_setup_title">Protektahan ang iyong telepono</string>
+    <string name="lockscreen_setup_title" product="default">Protektahan ang iyong telepono</string>
     <string name="lockscreen_setup_summary"><b>Protektahan ang device</b> at mangailangan ng PIN, pattern, o password upang i-unlock ang screen</string>
 </resources>
