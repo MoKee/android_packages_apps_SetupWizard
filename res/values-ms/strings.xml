@@ -68,6 +68,6 @@
     <string name="sim_locale_changed">%1$s SIM dikesan</string>
     <string name="settings_lockscreen_setup_title">Pilih jenis kunci skrin</string>
     <string name="settings_lockscreen_setup_details">Bagaimana anda mahu kunci skrin anda?</string>
-    <string name="lockscreen_setup_title">Lindungi peranti anda</string>
+    <string name="lockscreen_setup_title" product="default">Lindungi peranti anda</string>
     <string name="lockscreen_setup_summary"><b>Lindungi peranti ini</b> dan perlukan PIN, paten, atau kata laluan untuk membuka skrin</string>
 </resources>
