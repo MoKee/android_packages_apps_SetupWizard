@@ -42,7 +42,7 @@ import android.view.WindowManagerGlobal;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import com.android.setupwizardlib.util.WizardManagerHelper;
+import com.google.android.setupcompat.util.WizardManagerHelper;
 
 import org.mokee.setupwizard.R;
 
