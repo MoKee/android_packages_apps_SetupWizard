@@ -62,6 +62,9 @@
     <string name="services_explanation" product="default">Ове услуге проширују могућности вашег телефона. Подаци ће бити коришћени у складу са <xliff:g id="name" example="Privacy Policy">%s</xliff:g> MoKee-а.</string>
     <string name="services_privacy_policy">Политика приватности</string>
     <string name="services_os_nav_keys_label"><b>Користите навигациону дугмад на екрану</b> уместо физичку.</string>
+    <string name="services_os_bottom_gesture"><b>Користи превлачење прстом нагоре гесту</b> за навигацију.</string>
+    <string name="services_os_bottom_gesture_nav_keys"><b>Користи превлачење прстом нагоре гесту </b>уместо тастера уређаја.</string>
+    <string name="services_os_bottom_gesture_nav_bar"><b>Користи превлачење прстом нагоре гесту </b>уместо навигације приказане на екрану.</string>
     <string name="services_os_privacy_guard"><b>Омогућите заштиту приватности</b> да бисте новим апликацијама ограничили приступ вашим личним подацима — контактима, порукама или евиденцији позива.</string>
     <string name="setup_unlock">Откључај</string>
     <string name="setup_device_locked">Корисник је закључао уређај.</string>
@@ -76,6 +79,7 @@
     <string name="sim_locale_changed">Препозната је %1$s SIM картица</string>
     <string name="settings_lockscreen_setup_title">Изаберите метод закључавања екрана</string>
     <string name="settings_lockscreen_setup_details">Како желите да закључате екран?</string>
+    <string name="lockscreen_setup_title" product="tablet">Заштитите таблет</string>
     <string name="lockscreen_setup_title" product="default">Заштитите телефон</string>
     <string name="lockscreen_setup_summary"><b>Заштитите уређај</b> помоћу PIN кода, шаблона или лозинке.</string>
     <string name="lockscreen_setup_screen_lock_setup">Подеси</string>
