@@ -62,7 +62,6 @@
     <string name="services_explanation" product="default">Disse tjenester giver dig flere muligheder med din telefon. Data bliver anvendt i overensstemmelse med MoKee\' <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="services_privacy_policy">Privatlivspolitik</string>
     <string name="services_os_nav_keys_label"><b>Brug navigationstaster på skærmen</b> i stedet for fysiske knapper.</string>
-    <string name="services_os_privacy_guard"><b>Aktivér Privatlivsvagt</b> for at gøre dine personlige data såsom kontaktet, beskeder og opkaldsliste utilgængelige for apps installeret for nylig</string>
     <string name="setup_unlock">Lås op</string>
     <string name="setup_device_locked">Denne enhed er blevet låst af brugeren.</string>
     <string name="setup_device_locked_instructions"><i>For at slå denne funktion til/fra, skal du gå til Indstillinger &gt; Sikkerhed</i></string>

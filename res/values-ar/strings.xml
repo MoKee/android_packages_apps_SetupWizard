@@ -65,7 +65,6 @@
     <string name="services_os_bottom_gesture"><b>استخدم الإيماءات السفلية لأعلى</b> للتنقل.</string>
     <string name="services_os_bottom_gesture_nav_keys"><b>استخدم الإيماءات السفلية لأعلى</b> بدلاً من مفاتيح الأجهزة.</string>
     <string name="services_os_bottom_gesture_nav_bar"><b>استخدم الإيماءات السفلية لأعلى</b> بدلاً من مفاتيح التنقل في الشاشة.</string>
-    <string name="services_os_privacy_guard"><b> تمكين حارس الخصوصية </b> لجعل بياناتك الشخصية مثل جهات الاتصال أو الرسائل أو سجلات المكالمات غير متاحة للتطبيقات المثبتة حديثا</string>
     <string name="setup_unlock">فتح القفل</string>
     <string name="setup_device_locked">هذا الجهاز تم قفله من قبل المستخدم.</string>
     <string name="setup_device_locked_instructions"><i>من أجل تشغيل/تعطيل هذه الميزة، الرجاء إذهب إلى إعدادات &gt; الأمان</i></string>

@@ -62,7 +62,6 @@
     <string name="services_explanation" product="default">Ove usluge rade za vas da povećaju mogućnosti vašeg telefona. Podatci će se upotrebljavati u suglasnosti s MoKee-ovom <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="services_privacy_policy">Pravila privatnosti</string>
     <string name="services_os_nav_keys_label"><b>Koristite navigacijske tipke na zaslonu</b>umjesto hardverskih tipki.</string>
-    <string name="services_os_privacy_guard"><b>Omogućite Nadzor privatnosti</b> da biste učinili svoje osobne podatke poput kontakata, poruka ili zapisa poziva nedostupnima za novo instalirane aplikacije.</string>
     <string name="setup_unlock">Otključaj</string>
     <string name="setup_device_locked">Uređaj je zaključao korisnik.</string>
     <string name="setup_device_locked_instructions"><i>Da bi isključili/uključili ovo, idite u Postavke &gt; Privatnost</i></string>

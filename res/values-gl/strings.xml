@@ -62,7 +62,6 @@
     <string name="services_explanation" product="default">Estes servizos serven para mellorar as capacidades da súa teléfono Os datos utilizaranse de acordo coa <xliff:g id="name" example="Política de privacidade">%s</xliff:g> de MoKee.</string>
     <string name="services_privacy_policy">Política de privacidade</string>
     <string name="services_os_nav_keys_label"><b>Usar as teclas de navegación</b> en vez das do hardware.</string>
-    <string name="services_os_privacy_guard"><b>Habilitar Privacy guard</b> para seus datos personais como contactos, mensaxes o rexistros de chamadas non está dispoñible para aplicacións recién instaladas</string>
     <string name="setup_unlock">Desbloquear</string>
     <string name="setup_device_locked">Este dispositivo foi bloqueado polo usuario.</string>
     <string name="setup_device_locked_instructions"><i>Para acender ou apagar esta funcionalidade, vaia a Configuración &gt; Seguranza</i></string>

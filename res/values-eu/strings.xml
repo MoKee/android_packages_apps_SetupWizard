@@ -62,7 +62,6 @@
     <string name="services_explanation" product="default">Zerbitzu hauek telefonoaren gaitasunak hobetzeko zure mesedetan egiten dute lan. Datuak MoKeeen <xliff:g id="name" example="Privacy Policy">%s</xliff:g> arabera erabiliko dira.</string>
     <string name="services_privacy_policy">Pribatutasun politika</string>
     <string name="services_os_nav_keys_label"><b>Erabili pantailako nabigazio teklak</b> hardware teklen ordez.</string>
-    <string name="services_os_privacy_guard"><b>Gaitu Privacy guard</b> zure datu pertsonalak, esaterako kontaktuak, mezuak edo deien erregistroa instalatu berri dituzun aplikazioen eskura egon ez daitezen</string>
     <string name="setup_unlock">Desblokeatu</string>
     <string name="setup_device_locked">Erabiltzaileak gailu hau blokeatu du.</string>
     <string name="setup_device_locked_instructions"><i>Ezaugarri hau gaitu edo ezgaitzeko zoaz hona: Ezarpenak &gt; Segurtasuna</i></string>

@@ -62,7 +62,6 @@
     <string name="services_explanation" product="default">שירותים אלה פועלים עבורך כדי להרחיב את יכולות המכשיר שלך. המידע ישומש בכפוף ל־<xliff:g id="name" example="Privacy Policy">%s</xliff:g> של MoKee.</string>
     <string name="services_privacy_policy">מדיניות הפרטיות</string>
     <string name="services_os_nav_keys_label"><b>השתמש במקשי הניווט במסך</b> במקום במקשים הפיזיים.</string>
-    <string name="services_os_privacy_guard"><b>הפעל את שומר הפרטיות</b> כדי למנוע גישה לפרטיים האישים שלך מיישומים חדשים</string>
     <string name="setup_unlock">פתיחה</string>
     <string name="setup_device_locked">מכשיר זה ננעל על-ידי המשתמש.</string>
     <string name="setup_device_locked_instructions"><i>כדי להפעיל/לכבות אפשרות זו, גש להגדרות &gt; אבטחה</i></string>

@@ -65,7 +65,6 @@
     <string name="services_os_bottom_gesture"><b>使用底部向上滑動手勢</b>進行導航操作</string>
     <string name="services_os_bottom_gesture_nav_keys"><b>使用底部向上滑動的手勢</b>而不是實體按鍵。</string>
     <string name="services_os_bottom_gesture_nav_bar"><b>使用底部向上滑動的手勢</b>而不是螢幕導航鍵。</string>
-    <string name="services_os_privacy_guard"><b>啟用隱私守衛</b>，使您的個人資料，如聯絡人、訊息或通話記錄無法用於新安裝的應用程式</string>
     <string name="setup_unlock">解鎖</string>
     <string name="setup_device_locked">已被使用者鎖定此裝置。</string>
     <string name="setup_device_locked_instructions"><i>如要開啟/關閉此功能，請到設定 &gt; 安全性</i></string>

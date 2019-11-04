@@ -62,7 +62,6 @@
     <string name="services_explanation" product="default">Layanan ini bekerja untuk menambahkan kemampuan ponsel Anda. Data yang digunakan tunduk pada <xliff:g id="name" example="Privacy Policy">%s</xliff:g> MoKee.</string>
     <string name="services_privacy_policy">Kebijakan privasi</string>
     <string name="services_os_nav_keys_label"><b>Digunakan pada tombol navigasi layar</b> bukan tombol perangkat keras.</string>
-    <string name="services_os_privacy_guard"><b>Aktifkan keamanan privasi</b> untuk membuat data pribadi Anda seperti kontak, pesan atau log panggilan menjadi tidak tersedia untuk aplikasi baru yang terpasang</string>
     <string name="setup_unlock">Buka kunci</string>
     <string name="setup_device_locked">Perangkat ini telah dikunci oleh pengguna.</string>
     <string name="setup_device_locked_instructions"><i>Untuk mengaktifkan/menonaktifkan fitur ini, silakan masuk ke Pengaturan &gt; Keamanan</i></string>

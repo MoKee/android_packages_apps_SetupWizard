@@ -65,7 +65,6 @@
     <string name="services_os_bottom_gesture"><b>Use os gestos de deslizar para baixo</b> para navegação.</string>
     <string name="services_os_bottom_gesture_nav_keys"><b>Use os gestos de deslize</b> em vez de usar as teclas de hardware.</string>
     <string name="services_os_bottom_gesture_nav_bar"><b>Use os gestos de deslize</b> em vez das teclas de navegação na tela.</string>
-    <string name="services_os_privacy_guard"><b>Ative a Proteção da Privacidade</b> para tornar dados pessoais como contatos, mensagens ou registro de chamadas indisponíveis para aplicativos recém-instalados</string>
     <string name="setup_unlock">Desbloquear</string>
     <string name="setup_device_locked">Este dispositivo foi bloqueado pelo usuário.</string>
     <string name="setup_device_locked_instructions"><i>Para ativar ou desativar este recurso, por favor vá para Configurações e Segurança</i></string>

@@ -20,7 +20,6 @@ package org.mokee.setupwizard;
 
 import static org.mokee.setupwizard.SetupWizardApp.DISABLE_NAV_KEYS;
 import static org.mokee.setupwizard.SetupWizardApp.KEY_BUTTON_BACKLIGHT;
-import static org.mokee.setupwizard.SetupWizardApp.KEY_PRIVACY_GUARD;
 import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.animation.Animator;
@@ -169,7 +168,6 @@ public class FinishActivity extends BaseSetupWizardActivity {
         if (mEnableAccessibilityController != null) {
             mEnableAccessibilityController.onDestroy();
         }
-        handlePrivacyGuard(mSetupWizardApp);
         handleNavKeys(mSetupWizardApp);
         final WallpaperManager wallpaperManager =
                 WallpaperManager.getInstance(mSetupWizardApp);
@@ -178,15 +176,6 @@ public class FinishActivity extends BaseSetupWizardActivity {
         Intent intent = WizardManagerHelper.getNextIntent(getIntent(),
                 Activity.RESULT_OK);
         startActivityForResult(intent, NEXT_REQUEST);
-    }
-
-    private static void handlePrivacyGuard(SetupWizardApp setupWizardApp) {
-        Bundle mPrivacyData = setupWizardApp.getSettingsBundle();
-        if (mPrivacyData != null && mPrivacyData.containsKey(KEY_PRIVACY_GUARD)) {
-            MKSettings.Secure.putInt(setupWizardApp.getContentResolver(),
-                    MKSettings.Secure.PRIVACY_GUARD_DEFAULT,
-                    mPrivacyData.getBoolean(KEY_PRIVACY_GUARD) ? 1 : 0);
-        }
     }
 
     private static void handleNavKeys(SetupWizardApp setupWizardApp) {

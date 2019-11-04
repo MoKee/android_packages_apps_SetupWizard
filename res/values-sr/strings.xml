@@ -65,7 +65,6 @@
     <string name="services_os_bottom_gesture"><b>Користи превлачење прстом нагоре гесту</b> за навигацију.</string>
     <string name="services_os_bottom_gesture_nav_keys"><b>Користи превлачење прстом нагоре гесту </b>уместо тастера уређаја.</string>
     <string name="services_os_bottom_gesture_nav_bar"><b>Користи превлачење прстом нагоре гесту </b>уместо навигације приказане на екрану.</string>
-    <string name="services_os_privacy_guard"><b>Омогућите заштиту приватности</b> да бисте новим апликацијама ограничили приступ вашим личним подацима — контактима, порукама или евиденцији позива.</string>
     <string name="setup_unlock">Откључај</string>
     <string name="setup_device_locked">Корисник је закључао уређај.</string>
     <string name="setup_device_locked_instructions"><i>Да бисте искључили или укључили ову функцију, идите у мени Подешавања &gt; Безбедност“</i></string>

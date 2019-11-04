@@ -63,7 +63,6 @@
     <string name="services_privacy_policy">Політика Конфіденційності</string>
     <string name="services_os_nav_keys_label"><b>Використовувати навігаційні кнопки на екрані
 </b> замість апаратних.</string>
-    <string name="services_os_privacy_guard"><b>Увімкнути Вартового приватності</b> щоб зробити ваші особисті дані, такі як контакти, повідомлення або журнал викликів не доступними для застосунків, що будуть встановлені</string>
     <string name="setup_unlock">Розблокувати</string>
     <string name="setup_device_locked">Цей пристрій заблоковано користувачем.</string>
     <string name="setup_device_locked_instructions"><i>Щоб увімкнути/вимкнути цю функцію, будь ласка, перейдіть до Налаштування &gt; Безпека</i></string>

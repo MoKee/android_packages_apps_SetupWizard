@@ -62,7 +62,6 @@
     <string name="services_explanation" product="default">Esto servicios furrulen por ti pa estender les capacidaes del to teléfonu. Los datos usaránse acordies cola <xliff:g id="name" example="Privacy Policy">%s</xliff:g> de MoKee.</string>
     <string name="services_privacy_policy">Política de privacidá</string>
     <string name="services_os_nav_keys_label"><b>Usar tecles de navegación na pantalla</b> en cuantes de tecles físiques.</string>
-    <string name="services_os_privacy_guard"><b>Habilitar Guardián de privacidá</b> pa facer que los tos datos personales como contautos, mensaxes, rexistros de llamaes... etc, nun tean disponibles p\'aplicaciones que teas acabante d\'instalar</string>
     <string name="setup_unlock">Desbloquiar</string>
     <string name="setup_device_locked">Esti preséu ta bloquiáu pol usuariu.</string>
     <string name="setup_device_locked_instructions"><i>Pa apagar/prender esta carauterística, por favor vete a Axustes &gt; Seguranza</i></string>

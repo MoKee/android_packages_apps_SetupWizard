@@ -62,7 +62,6 @@
     <string name="services_explanation" product="default">Các dịch vụ này giúp mở rộng khả năng làm việc điện thoại của bạn. Dữ liệu sẽ được sử dụng theo MoKee <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="services_privacy_policy">Chính sách về quyền riêng tư</string>
     <string name="services_os_nav_keys_label"><b>Sử dụng các phím điều hướng trên màn hình</b> thay cho các phím cứng.</string>
-    <string name="services_os_privacy_guard"><b>Cho phép bảo vệ sự riêng tư</b> để làm cho dữ liệu cá nhân của bạn như danh bạ, tin nhắn hay nhật ký cuộc gọi không có sẵn cho các ứng dụng mới được cài đặt</string>
     <string name="setup_unlock">Mở khóa</string>
     <string name="setup_device_locked">Thiết bị này đã bị khoá bởi người dùng.</string>
     <string name="setup_device_locked_instructions"><i>Để bật/tắt tính năng này, hãy truy cập Cài đặt &gt; bảo mật</i></string>

@@ -65,7 +65,6 @@
     <string name="services_os_bottom_gesture"><b>Lentről felfelé csúsztatási mozdulatokat</b> használhat a navigációhoz.</string>
     <string name="services_os_bottom_gesture_nav_keys"><b>Lentről felfelé csúsztatási mozdulatokat</b> használhat a hardvergombok helyett.</string>
     <string name="services_os_bottom_gesture_nav_bar"><b>Lentről felfelé csúsztatási mozdulatokat</b> használhat a képernyő navigációs gombjai helyett.</string>
-    <string name="services_os_privacy_guard"><b>Engedélyezze az adatvédelmet</b>, hogy a személyes adatai, mint a névjegyek, üzenetek vagy hívásnaplók ne legyenek elérhetőek az újonnan telepített alkalmazások számára</string>
     <string name="setup_unlock">Feloldás</string>
     <string name="setup_device_locked">Ezt az eszközt a felhasználó zárolta.</string>
     <string name="setup_device_locked_instructions"><i>A szolgáltatás ki/be kapcsolásához, kérjük menjen ide: Beállítások &gt; Biztonság</i></string>

@@ -19,7 +19,6 @@
 package org.mokee.setupwizard;
 
 import static org.mokee.setupwizard.SetupWizardApp.DISABLE_NAV_KEYS;
-import static org.mokee.setupwizard.SetupWizardApp.KEY_PRIVACY_GUARD;
 
 import android.app.Activity;
 import android.content.Context;
@@ -57,7 +56,6 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
     private SetupWizardApp mSetupWizardApp;
 
     private CheckBox mNavKeys;
-    private CheckBox mPrivacyGuard;
 
     private boolean mSupportsKeyDisabler = false;
 
@@ -65,12 +63,6 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
         boolean checked = !mNavKeys.isChecked();
         mNavKeys.setChecked(checked);
         mSetupWizardApp.getSettingsBundle().putBoolean(DISABLE_NAV_KEYS, checked);
-    };
-
-    private View.OnClickListener mPrivacyGuardClickListener = view -> {
-        boolean checked = !mPrivacyGuard.isChecked();
-        mPrivacyGuard.setChecked(checked);
-        mSetupWizardApp.getSettingsBundle().putBoolean(KEY_PRIVACY_GUARD, checked);
     };
 
     @Override
@@ -114,19 +106,12 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
         } else {
             navKeysRow.setVisibility(View.GONE);
         }
-
-        View privacyGuardRow = findViewById(R.id.privacy_guard);
-        privacyGuardRow.setOnClickListener(mPrivacyGuardClickListener);
-        mPrivacyGuard = (CheckBox) findViewById(R.id.privacy_guard_checkbox);
-        mPrivacyGuard.setChecked(MKSettings.Secure.getInt(getContentResolver(),
-                MKSettings.Secure.PRIVACY_GUARD_DEFAULT, 0) == 1);
     }
 
     @Override
     public void onResume() {
         super.onResume();
         updateDisableNavkeysOption();
-        updatePrivacyGuardOption();
     }
 
     @Override
@@ -171,17 +156,6 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
             mNavKeys.setChecked(checked);
             myPageBundle.putBoolean(DISABLE_NAV_KEYS, checked);
         }
-    }
-
-    private void updatePrivacyGuardOption() {
-        final Bundle bundle = mSetupWizardApp.getSettingsBundle();
-        boolean enabled = MKSettings.Secure.getInt(getContentResolver(),
-                MKSettings.Secure.PRIVACY_GUARD_DEFAULT, 0) != 0;
-        boolean checked = bundle.containsKey(KEY_PRIVACY_GUARD) ?
-                bundle.getBoolean(KEY_PRIVACY_GUARD) :
-                enabled;
-        mPrivacyGuard.setChecked(checked);
-        bundle.putBoolean(KEY_PRIVACY_GUARD, checked);
     }
 
     private static boolean isKeyDisablerSupported(Context context) {
