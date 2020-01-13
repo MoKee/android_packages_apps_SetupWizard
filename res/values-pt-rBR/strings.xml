@@ -63,8 +63,8 @@
     <string name="services_privacy_policy">Política de Privacidade</string>
     <string name="services_os_nav_keys_label"><b>Use as teclas de navegação na tela</b> em vez de botões físicos.</string>
     <string name="services_os_bottom_gesture"><b>Use os gestos de deslizar para baixo</b> para navegação.</string>
-    <string name="services_os_bottom_gesture_nav_keys"><b>Use os gestos de deslize para baixo</b> em vez de usar as teclas de hardware.</string>
-    <string name="services_os_bottom_gesture_nav_bar"><b>Use os gestos de deslize para baixo</b> em vez das teclas de navegação na tela.</string>
+    <string name="services_os_bottom_gesture_nav_keys"><b>Use os gestos de deslize</b> em vez de usar as teclas de hardware.</string>
+    <string name="services_os_bottom_gesture_nav_bar"><b>Use os gestos de deslize</b> em vez das teclas de navegação na tela.</string>
     <string name="services_os_privacy_guard"><b>Ative a Proteção da Privacidade</b> para tornar dados pessoais como contatos, mensagens ou registro de chamadas indisponíveis para aplicativos recém-instalados</string>
     <string name="setup_unlock">Desbloquear</string>
     <string name="setup_device_locked">Este dispositivo foi bloqueado pelo usuário.</string>
@@ -79,6 +79,7 @@
     <string name="sim_locale_changed">Cartão SIM %1$s detectado</string>
     <string name="settings_lockscreen_setup_title">Selecione o tipo de bloqueio de tela</string>
     <string name="settings_lockscreen_setup_details">Como você gostaria de bloquear a tela?</string>
+    <string name="lockscreen_setup_title" product="tablet">Proteja o seu tablet</string>
     <string name="lockscreen_setup_title" product="default">Proteger seu smartphone</string>
     <string name="lockscreen_setup_summary"><b>Proteger este dispositivo</b> e pedir PIN, padrão ou senha para desbloquear a tela</string>
     <string name="lockscreen_setup_screen_lock_setup">Configurar</string>
