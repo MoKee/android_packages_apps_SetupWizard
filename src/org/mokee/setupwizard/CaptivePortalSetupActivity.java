@@ -38,7 +38,7 @@ public class CaptivePortalSetupActivity extends SubBaseActivity {
 
     public static final String TAG = CaptivePortalSetupActivity.class.getSimpleName();
 
-    private static final String DEFAULT_SERVER = "captive.v2ex.co";
+    private static final String DEFAULT_SERVER = "www.googleapis.cn";
     private static final int CAPTIVE_PORTAL_SOCKET_TIMEOUT_MS = 10000;
 
     private URL mCaptivePortalUrl;
