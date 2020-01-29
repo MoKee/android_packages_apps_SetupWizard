@@ -62,9 +62,6 @@
     <string name="services_explanation" product="default">这些服务用于扩展您手机的功能。数据将根据魔趣的 <xliff:g id="name" example="Privacy Policy">%s</xliff:g> 使用。</string>
     <string name="services_privacy_policy">隐私政策</string>
     <string name="services_os_nav_keys_label"><b>使用虚拟导航键</b>替代实体按键。</string>
-    <string name="services_os_bottom_gesture"><b>使用从屏幕底部向上滑动的手势</b>进行导航操作。</string>
-    <string name="services_os_bottom_gesture_nav_keys"><b>使用从屏幕底部向上滑动的手势</b>替代实体按键。</string>
-    <string name="services_os_bottom_gesture_nav_bar"><b>使用从屏幕底部向上滑动的手势</b>替代导航栏。</string>
     <string name="services_os_privacy_guard"><b>启用隐私防护</b>使新安装的应用不能获取您的联系人、信息或通话记录等个人数据</string>
     <string name="setup_unlock">解锁</string>
     <string name="setup_device_locked">此设备的持有者锁定了该设备。</string>

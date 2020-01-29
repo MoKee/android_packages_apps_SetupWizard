@@ -19,7 +19,6 @@
 package org.mokee.setupwizard;
 
 import static org.mokee.setupwizard.SetupWizardApp.DISABLE_NAV_KEYS;
-import static org.mokee.setupwizard.SetupWizardApp.KEY_BOTTOM_GESTURE_NAV;
 import static org.mokee.setupwizard.SetupWizardApp.KEY_PRIVACY_GUARD;
 
 import android.app.Activity;
@@ -58,26 +57,14 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
     private SetupWizardApp mSetupWizardApp;
 
     private CheckBox mNavKeys;
-    private CheckBox mBottomGestureNav;
     private CheckBox mPrivacyGuard;
-
-    private View navKeysRow;
-    private View bottomGestureNavRow;
 
     private boolean mSupportsKeyDisabler = false;
 
     private View.OnClickListener mNavKeysClickListener = view -> {
         boolean checked = !mNavKeys.isChecked();
         mNavKeys.setChecked(checked);
-        bottomGestureNavRow.setEnabled(!checked);
         mSetupWizardApp.getSettingsBundle().putBoolean(DISABLE_NAV_KEYS, checked);
-    };
-
-    private View.OnClickListener mBottomGestureNavClickListener = view -> {
-        boolean checked = !mBottomGestureNav.isChecked();
-        mBottomGestureNav.setChecked(checked);
-        navKeysRow.setEnabled(!checked);
-        mSetupWizardApp.getSettingsBundle().putBoolean(KEY_BOTTOM_GESTURE_NAV, checked);
     };
 
     private View.OnClickListener mPrivacyGuardClickListener = view -> {
@@ -117,7 +104,7 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
         privacyPolicy.setMovementMethod(LinkMovementMethod.getInstance());
         privacyPolicy.setText(ss);
 
-        navKeysRow = findViewById(R.id.nav_keys);
+        View navKeysRow = findViewById(R.id.nav_keys);
         navKeysRow.setOnClickListener(mNavKeysClickListener);
         mNavKeys = (CheckBox) findViewById(R.id.nav_keys_checkbox);
         mSupportsKeyDisabler = isKeyDisablerSupported(this);
@@ -127,29 +114,6 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
         } else {
             navKeysRow.setVisibility(View.GONE);
         }
-
-        bottomGestureNavRow = findViewById(R.id.bottom_gesture_nav);
-        bottomGestureNavRow.setOnClickListener(mBottomGestureNavClickListener);
-        mBottomGestureNav = (CheckBox) findViewById(R.id.bottom_gesture_nav_checkbox);
-        TextView bottomGestureNavSummary = findViewById(R.id.bottom_gesture_nav_summary);
-        boolean hasNavigationBar = true;
-        try {
-            IWindowManager windowManager = WindowManagerGlobal.getWindowManagerService();
-            hasNavigationBar = windowManager.hasNavigationBar();
-        } catch (RemoteException e) {
-            Log.e(TAG, "Error getting navigation bar status");
-        }
-        if (!hasNavigationBar) {
-            if (mSupportsKeyDisabler) {
-                bottomGestureNavSummary.setText(R.string.services_os_bottom_gesture_nav_keys);
-            } else {
-                bottomGestureNavSummary.setText(R.string.services_os_bottom_gesture);
-            }
-        } else {
-            bottomGestureNavSummary.setText(R.string.services_os_bottom_gesture_nav_bar);
-        }
-        mBottomGestureNav.setChecked(MKSettings.System.getIntForUser(getContentResolver(),
-                MKSettings.System.USE_BOTTOM_GESTURE_NAVIGATION, 0, UserHandle.USER_CURRENT) != 0);
 
         View privacyGuardRow = findViewById(R.id.privacy_guard);
         privacyGuardRow.setOnClickListener(mPrivacyGuardClickListener);
