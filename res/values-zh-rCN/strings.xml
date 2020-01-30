@@ -24,16 +24,16 @@
     <string name="start">开始</string>
     <string name="done">完成</string>
     <string name="ok">确定</string>
-    <string name="loading">稍等片刻\u2026</string>
+    <string name="loading">请稍等片刻\u2026</string>
     <string name="setup_complete">设置完成</string>
     <string name="setup_welcome">欢迎</string>
     <string name="setup_locale">语言</string>
-    <string name="setup_wifi">选择 Wi-Fi</string>
-    <string name="setup_sim_missing">SIM 卡未找到</string>
-    <string name="setup_choose_data_sim">选择一张用于数据的 SIM 卡</string>
+    <string name="setup_wifi">选择 WLAN</string>
+    <string name="setup_sim_missing">未找到 SIM 卡</string>
+    <string name="setup_choose_data_sim">选择一张用于数据连接的 SIM 卡</string>
     <string name="setup_location">位置服务</string>
-    <string name="setup_other">其他服务</string>
-    <string name="setup_datetime">日期和时间</string>
+    <string name="setup_other">其它服务</string>
+    <string name="setup_datetime">日期 &amp; 时间</string>
     <string name="setup_current_date">当前日期</string>
     <string name="setup_current_time">当前时间</string>
     <string name="sim_missing_summary" product="tablet">在您的平板电脑上未检测到 SIM 卡。请按照您平板电脑附带说明书中的操作方法插入 SIM 卡。</string>
@@ -57,7 +57,7 @@
     <string name="yes">是</string>
     <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">紧急电话</string>
-    <string name="setup_services">魔趣功能</string>
+    <string name="setup_services">MoKee 功能</string>
     <string name="services_explanation" product="tablet">这些服务用于扩展您的平板电脑的功能。数据将根据魔趣的 <xliff:g id="name" example="Privacy Policy">%s</xliff:g> 使用。</string>
     <string name="services_explanation" product="default">这些服务用于扩展您手机的功能。数据将根据魔趣的 <xliff:g id="name" example="Privacy Policy">%s</xliff:g> 使用。</string>
     <string name="services_privacy_policy">隐私政策</string>

@@ -62,10 +62,6 @@
     <string name="services_explanation" product="default">Ces services vous permettent d\'étendre les capacités de votre téléphone. Les données seront utilisées conformément aux directives de MoKee <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="services_privacy_policy">Politique de confidentialité</string>
     <string name="services_os_nav_keys_label"><b>Utilisation des touches de navigation de l\'écran</b> au lieu des touches physiques.</string>
-    <string name="services_os_bottom_gesture"><b>Utilisez des gestes de bas en haut</b> pour navigation.</string>
-    <string name="services_os_bottom_gesture_nav_keys"><b>Utilisez des gestes de bas en haut</b> au lieu des touches matérielles.</string>
-    <string name="services_os_bottom_gesture_nav_bar"><b>Utilisez des gestes de bas en haut</b> au lieu de clés de navigation d’écran.</string>
-    <string name="services_os_privacy_guard"><b>Activer la protection des données</b>afin que vos données personnelles telles que les contacts, les messages ou les journaux d\'appels ne soient pas disponibles pour les applications nouvellement installées</string>
     <string name="setup_unlock">Déverrouiller</string>
     <string name="setup_device_locked">Cet appareil a été verrouillé par l\'utilisateur.</string>
     <string name="setup_device_locked_instructions"><i>Pour activer/désactiver cette fonction, veuillez accéder aux Paramètres de &gt; sécurité</i></string>

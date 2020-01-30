@@ -19,11 +19,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">స్థాపక నిర్దేశకం</string>
-    <string name="next">తదుపరి</string>
+    <string name="next">"తదుపరి"</string>
     <string name="skip">దాటవేయి</string>
     <string name="start">ప్రారంభించు</string>
     <string name="done">పూర్తయింది</string>
-    <string name="ok">సరే</string>
     <string name="loading">కేవలం ఒక్క సెకను\u2026</string>
     <string name="setup_complete">స్థాపన పూర్తయింది</string>
     <string name="setup_welcome">స్వాగతం</string>
@@ -52,9 +51,6 @@
     <string name="setup_mobile_data_no_service">సేవ లేదు</string>
     <string name="setup_mobile_data_emergency_only">అత్యవసర కాల్‌లు మాత్రమే</string>
     <string name="enable_mobile_data_summary">సెటప్ సమయంలో మీరు మొబైల్ డేటాను ఉపయోగించాలనుకుంటున్నారా? మొబైల్ డేటాను ప్రారంభించినట్లయితే డేటా చార్జీలు వర్తించవచ్చు.</string>
-    <string name="no">లేదు</string>
-    <string name="yes">హాజరు అవుతాము అన్నవి</string>
-    <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">అత్యవసర కాల్</string>
     <string name="services_privacy_policy">గోప్యతా విధానం</string>
     <string name="services_os_nav_keys_label"><b>హార్డ్‌వేర్ కీలకు బదులుగా ఆన్ స్క్రీన్ నావిగేషన్ కీలను</b> ఉపయోగించుము.</string>

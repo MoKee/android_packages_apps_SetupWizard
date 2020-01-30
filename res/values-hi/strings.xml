@@ -48,8 +48,7 @@
     <string name="location_network_gms">ऐपों को अपने स्थान का निर्धारण करने में मदद करने के लिए <b>गूगल की स्थान सेवा का उपयोग करें।</b> इसका मतलब है कि गूगल को गुमनाम स्थान डेटा तब भी भेजा जाएगा जब कोई भी ऐप नहीं चल रहा हो।</string>
     <string name="setup_mobile_data_no_service">कोई सेवा नहीं है</string>
     <string name="setup_mobile_data_emergency_only">केवल आपातकालीन कॉल</string>
-    <string name="no">नहीं</string>
-    <string name="yes">हाँ</string>
+    <string name="yes">हां</string>
     <string name="data_sim_name">सिम <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">आपातकालीन कॉल</string>
     <string name="services_privacy_policy">गोपनीयता नीति</string>

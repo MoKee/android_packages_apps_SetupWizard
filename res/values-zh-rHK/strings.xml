@@ -53,7 +53,7 @@
     <string name="setup_mobile_data_no_service">沒有服務</string>
     <string name="setup_mobile_data_emergency_only">僅可撥打緊急電話</string>
     <string name="enable_mobile_data_summary">你想在設定過程中使用流動網絡嗎？使用流動網絡可能會產生傳輸費用。</string>
-    <string name="no">否</string>
+    <string name="no">不</string>
     <string name="yes">是</string>
     <string name="data_sim_name">SIM 卡 <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">緊急電話</string>
@@ -62,10 +62,6 @@
     <string name="services_explanation" product="default">這些服務用來增強您的手機的功能。資料將根據 MoKee 的 <xliff:g id="name" example="Privacy Policy">%s</xliff:g> 來使用。</string>
     <string name="services_privacy_policy">私隱條例</string>
     <string name="services_os_nav_keys_label"><b>使用虛擬按鍵</b>而非實體按鍵。</string>
-    <string name="services_os_bottom_gesture"><b>使用底部向上滑動手勢</b>進行導航操作</string>
-    <string name="services_os_bottom_gesture_nav_keys"><b>使用底部向上滑動的手勢</b>而不是實體按鍵。</string>
-    <string name="services_os_bottom_gesture_nav_bar"><b>使用底部向上滑動的手勢</b>而不是螢幕導航鍵。</string>
-    <string name="services_os_privacy_guard"><b>啟用隱私守衛</b>，使您的個人資料，如聯絡人、訊息或通話記錄無法用於新安裝的應用程式</string>
     <string name="setup_unlock">解鎖</string>
     <string name="setup_device_locked">已被使用者鎖定此裝置。</string>
     <string name="setup_device_locked_instructions"><i>如要開啟/關閉此功能，請至設定 &gt; 安全性</i></string>

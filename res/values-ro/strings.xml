@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Expert de instalare</string>
-    <string name="next">Următoarea</string>
+    <string name="next">Înainte</string>
     <string name="skip">Omite</string>
     <string name="start">Pornire</string>
     <string name="done">Efectuat</string>

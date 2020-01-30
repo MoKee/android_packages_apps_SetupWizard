@@ -19,15 +19,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">ಸೆಟಪ್ ವಿಝಾರ್ಡ್</string>
-    <string name="next">ಮುಂದೆ</string>
+    <string name="next">ಮುಂದಿನ</string>
     <string name="skip">ಸ್ಕಿಪ್</string>
     <string name="start">ಪ್ರಾರಂಭಿಸಿ</string>
     <string name="done">ಮುಗಿದಿದೆ</string>
-    <string name="ok">ಆಯ್ತು</string>
+    <string name="ok">ಸರಿ</string>
     <string name="loading">ಒಂದೇ ಒಂದು ಕ್ಷಣ\u2026</string>
     <string name="setup_complete">ಸೆಟಪ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
     <string name="setup_welcome">ಸುಸ್ವಾಗತ</string>
-    <string name="setup_locale">ಭಾಷೆ</string>
     <string name="setup_wifi">ವೈ-ಫೈ ಆಯ್ಕೆಮಾಡಿ</string>
     <string name="setup_sim_missing">ಸಿಮ್ ಕಾರ್ಡ್ ಇಲ್ಲ</string>
     <string name="setup_choose_data_sim">ಡೇಟಾಗಾಗಿ ಒಂದು ಸಿಮ್ ಆರಿಸಿ</string>
@@ -57,29 +56,20 @@
     <string name="yes">ಹೌದು</string>
     <string name="data_sim_name">ಸಿಮ್ <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">ತುರುಪರೀಸ್ಥಿತಿ ಕರೆ</string>
-    <string name="setup_services">MoKee ವೈಶಿಷ್ಟ್ಯಗಳು</string>
-    <string name="services_explanation" product="tablet">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ ನ ಸಾಮರ್ಥ್ಯವನ್ನು ಹೆಚ್ಚಿಸಲು ಈ ಸೇವೆಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ. ಮಾಹಿತಿಗಳು MoKee ಯ ಪ್ರಕಾರ ಬಳಸಲ್ಪಡುತ್ತವೆ.<xliff:g id="ಹೆಸರು" ಉದಾಹರಣೆ="ಗೌಪ್ಯತಾ ನೀತಿ">%s</xliff:g>.</string>
-    <string name="services_explanation" product="default">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ ನ ಸಾಮರ್ಥ್ಯವನ್ನು ಹೆಚ್ಚಿಸಲು ಈ ಸೇವೆಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ. ಮಾಹಿತಿಗಳು MoKee ಯ ಪ್ರಕಾರ ಬಳಸಲ್ಪಡುತ್ತವೆ.<xliff:g id="ಹೆಸರು" ಉದಾಹರಣೆ="ಗೌಪ್ಯತಾ ನೀತಿ">%s</xliff:g>.</string>
     <string name="services_privacy_policy">ಗೌಪ್ಯತಾ ನೀತಿ</string>
     <string name="services_os_nav_keys_label">ಹಾರ್ಡ್‍ವೇರ್ ಕೀಗಳ ಬದಲಾಗಿ <b>ಪರದೆಯ ಮೇಲಿನ ನಾವಿಗೇಶನ್ ಕೀಗಳನ್ನು ಉಪಯೋಗಿಸಿ</b>.</string>
-    <string name="services_os_bottom_gesture">ನ್ಯಾವೀಗೆಷನ್‌ಗಾಗಿ <b>ಕೆಳಗಡೆಯಿರುವ ಮೇಲೆ ಜರುಗಿಸುವ ಸನ್ನೆಗಳನ್ನು ಬಳಸಿ</b>.</string>
-    <string name="services_os_bottom_gesture_nav_keys">ಭೌತಿಕ ಕೀಲಿಗಳ ಬದಲಾಗಿ <b>ಕೆಳಗಡೆಯಿರುವ ಮೇಲೆ ಜರುಗಿಸುವ ಸನ್ನೆಗಳನ್ನು ಬಳಸಿ</b>.</string>
-    <string name="services_os_bottom_gesture_nav_bar">ಪರದೆ ನ್ಯಾವೀಗೆಷನ್‌ ಕೀಲಿಗಳ ಬದಲಾಗಿ <b>ಕೆಳಗಡೆಯಿರುವ ಮೇಲೆ ಜರುಗಿಸುವ ಸನ್ನೆಗಳನ್ನು ಬಳಸಿ</b>.</string>
-    <string name="services_os_privacy_guard">ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಗಳಾದ ಸಂಪರ್ಕಗಳು, ಸಂದೇಶಗಳು ಅಥವಾ ಕರೆಗಳ ಪಟ್ಟಿಗಳು ಹೊಸದಾಗಿ ಅಳವಡಿಸಿದ ಕಿರುತಂತ್ರಾಂಶಗಳಿಗೆ ಲಭ್ಯವಿಲ್ಲದಿದ್ದಲ್ಲಿ <b>ಗೌಪ್ಯತಾ ರಕ್ಷಕವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸು</b></string>
-    <string name="setup_unlock">ಕೀಲಿ ತೆಗೆಯಿರಿ</string>
-    <string name="setup_device_locked">ಬಳಕೆದಾರನಿಂದ ಸಾಧನವು ಕೀಲಿ ಹಾಕಲ್ಪಟ್ಟಿದೆ.</string>
-    <string name="setup_device_locked_instructions"><i>ಈ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಆರಿಸಲು/ಆರಂಭ ಮಾಡಲು. ದಯವಿಟ್ಟು ಸಂಯೋಜನೆಗಳು &gt;: ಭದ್ರತೆಗೆ </i> ಹೋಗಿ</string>
-    <string name="settings_fingerprint_setup_title">ಬ್ಯಾಕಪ್ ಪರದೆ ಕೀಲಿಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
-    <string name="settings_fingerprint_setup_details">ನಿಮ್ಮ ಪರದೆಯನ್ನು ನೀವು ಹೇಗೆ ಬೀಗ ಹಾಕಲು ಬಯಸುವಿರಿ?</string>
-    <string name="fingerprint_setup_title">ಬೆರಳಚ್ಚು ಸಂಯೋಜನೆ</string>
+    <string name="setup_unlock">ಅನ್‍ಲಾಕ್</string>
+    <string name="setup_device_locked">ಸಾಧನವನ್ನು ಬಳಕೆದಾರನು ಲಾಕ್ ಮಾಡಿದ್ದಾರೆ.</string>
+    <string name="setup_device_locked_instructions"><i>ಈ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಆಫ್/ಆನ್ ಮಾಡಲು. ದಯವಿಟ್ಟು ಸೆಟ್ಟಿಂಗ್ಸ್ &gt;: ಭದ್ರತೆಗೆ ಹೋಗಿ</i></string>
+    <string name="settings_fingerprint_setup_title">ಬ್ಯಾಕಪ್ ಪರದೆ ಲಾಕ್ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="settings_fingerprint_setup_details">ನಿಮ್ಮ ಪರದೆಯನ್ನು ನೀವು ಹೇಗೆ ಲಾಕ್ ಮಾಡಲು ಬಯಸುವಿರಿ?</string>
+    <string name="fingerprint_setup_title">ಫಿಂಗರ್‍ಪ್ರಿಂಟ್ ಸೆಟಪ್</string>
     <string name="fingerprint_setup_summary">ನಿಮ್ಮ ಫಿಂಗರ್‍ಪ್ರಿಂಟ್ ಸಂವೇದಕವನ್ನು ಉಪಯೋಗಿಸಿ ನಿಮ್ಮ ಪರದೆಯನ್ನು ಅನ್‍ಲಾಕ್ ಮಾಡಲು, ನೀವು ಹೀಗೆ ಮಾಡಬೇಕಾಗುತ್ತದೆ:</string>
     <string name="fingerprint_setup_backup_lock_method">ಒಂದು ದ್ವಿತೀಯಕ ಅನ್‍ಲಾಕ್ ಪ್ರಕಾರವನ್ನು ಸೆಟಪ್ ಮಾಡಿ</string>
     <string name="fingerprint_setup_add_fingerprint">ನಿಮ್ಮ ಫಿಂಗರ್‍ಪ್ರಿಂಟನ್ನು ಸೇರಿಸಿ</string>
     <string name="fingerprint_setup_screen_lock_setup">ಪರದೆ ಲಾಕ್ ಸೆಟಪ್ ಮಾಡಿ</string>
     <string name="sim_locale_changed">%1$s SIM ಗುರುತಿಸಲ್ಪಟ್ಟಿದೆ</string>
-    <string name="settings_lockscreen_setup_title">ಪರದೆ ಕೀಲಿ ಮಾದರಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
     <string name="settings_lockscreen_setup_details">ನಿಮ್ಮ ಪರದೆಯನ್ನು ನೀವು ಹೇಗೆ ಲಾಕ್ ಮಾಡಲು ಬಯಸುವಿರಿ?</string>
     <string name="lockscreen_setup_title" product="default">ನಿಮ್ಮ ಫೋನನ್ನು ರಕ್ಷಿಸಿ</string>
     <string name="lockscreen_setup_summary"><b>ಸಾಧನ ರಕ್ಷಿಸಿ</b>. ಸ್ಕ್ರೀನ್‌ ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಪಿನ್, ಪ್ಯಾಟರ್ನ್, ಪಾಸ್‌ವರ್ಡ್ ಬೇಕಾಗುತ್ತದೆ</string>
-    <string name="lockscreen_setup_screen_lock_setup">ಹೊಂದಿಸು</string>
 </resources>

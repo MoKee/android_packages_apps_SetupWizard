@@ -19,11 +19,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">معالج الإعداد</string>
-    <string name="next">التالي</string>
+    <string name="next">القادم</string>
     <string name="skip">تخطي</string>
-    <string name="start">البداية</string>
+    <string name="start">ابدأ</string>
     <string name="done">تم</string>
-    <string name="ok">موافق</string>
+    <string name="ok">حسناً</string>
     <string name="loading">ثانية واحدة</string>
     <string name="setup_complete">الإعداد تم</string>
     <string name="setup_welcome">مرحبا</string>
@@ -62,9 +62,6 @@
     <string name="services_explanation" product="default">تعمل هذه الخدمات لتوسيع قدرات الهاتف الخاص بك. ستستخدم البيانات وفقا لموكي <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="services_privacy_policy">سياسة الخصوصية</string>
     <string name="services_os_nav_keys_label"><b>استخدام مفاتيح التنقل على الشاشة</b> بدلاً من مفاتيح الأجهزة.</string>
-    <string name="services_os_bottom_gesture"><b>استخدم الإيماءات السفلية لأعلى</b> للتنقل.</string>
-    <string name="services_os_bottom_gesture_nav_keys"><b>استخدم الإيماءات السفلية لأعلى</b> بدلاً من مفاتيح الأجهزة.</string>
-    <string name="services_os_bottom_gesture_nav_bar"><b>استخدم الإيماءات السفلية لأعلى</b> بدلاً من مفاتيح التنقل في الشاشة.</string>
     <string name="setup_unlock">فتح القفل</string>
     <string name="setup_device_locked">هذا الجهاز تم قفله من قبل المستخدم.</string>
     <string name="setup_device_locked_instructions"><i>من أجل تشغيل/تعطيل هذه الميزة، الرجاء إذهب إلى إعدادات &gt; الأمان</i></string>

@@ -19,11 +19,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">સેટઅપ વિઝાર્ડ</string>
-    <string name="next">આગલું</string>
+    <string name="next">"આગામી"</string>
     <string name="skip">છોડી દો</string>
     <string name="start">પ્રારંભ કરો</string>
     <string name="done">થઈ ગયું</string>
-    <string name="ok">ઑકે</string>
     <string name="loading">માત્ર એક સેકન્ડ\u2026</string>
     <string name="setup_complete">સેટઅપ પૂર્ણ થયું</string>
     <string name="setup_welcome">સ્વાગત છે</string>
@@ -52,9 +51,6 @@
     <string name="setup_mobile_data_no_service">કોઇ સેવા નથી</string>
     <string name="setup_mobile_data_emergency_only">ફક્ત કટોકટીના કૉલ્સ</string>
     <string name="enable_mobile_data_summary">શું સેટઅપ દરમિયાન તમારે મોબાઇલ ડેટાનો ઉપયોગ કરવો છે? મોબાઇલ ડેટા ચાલુ કરવો ડેટા શુલ્કોને આધિન હશે.</string>
-    <string name="no">નહીં</string>
-    <string name="yes">હા</string>
-    <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">કટોકટીનો કૉલ</string>
     <string name="services_privacy_policy">ગોપનીયતા નીતિ સાથે સહમતિ દર્શાવો છો</string>
     <string name="services_os_nav_keys_label">હાર્ડવેર કીને બદલે <b>સ્ક્રીન નૅવિગેશન કીનો ઉપયોગ કરો</b>.</string>

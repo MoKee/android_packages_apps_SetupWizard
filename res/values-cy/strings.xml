@@ -22,7 +22,6 @@
     <string name="next">Nesaf</string>
     <string name="skip">Neidio</string>
     <string name="start">Dechrau</string>
-    <string name="done">Cwblhau</string>
     <string name="ok">Iawn</string>
     <string name="loading">Un eiliad\u2026</string>
     <string name="setup_complete">Mae\'r gosodiad wedi ei gwblhau.</string>
@@ -53,7 +52,7 @@
     <string name="setup_mobile_data_no_service">Dim gwasanaeth</string>
     <string name="setup_mobile_data_emergency_only">Galwadau brys yn unig</string>
     <string name="enable_mobile_data_summary">Wyt ti am ddefnyddio data symudol yn ystod y gosod? Gall troi data symudol ymlaen arwain at gostau defnydd data.</string>
-    <string name="no">Ydw</string>
+    <string name="no">Na</string>
     <string name="yes">Iawn</string>
     <string name="data_sim_name">SIM <xliff:g id="sub">%d </xliff:g>-<xliff:g id="name">%s </xliff:g></string>
     <string name="emergency_call">Galwad brys</string>

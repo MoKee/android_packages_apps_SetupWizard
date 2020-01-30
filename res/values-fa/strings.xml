@@ -19,11 +19,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">راهنمای راه‌اندازی</string>
-    <string name="next">مرحله بعد</string>
+    <string name="next">بعدی</string>
     <string name="skip">رد شدن</string>
     <string name="start">شروع</string>
     <string name="done">انجام شد</string>
-    <string name="ok">بسیارخب</string>
     <string name="loading">یک لحظه لطفا\u2026</string>
     <string name="setup_complete">راه‌اندازی کامل شد</string>
     <string name="setup_welcome">خوش آمدید</string>
@@ -48,7 +47,6 @@
     <string name="location_network_gms">از <b>سرویس مکان گوگل</b> برای بهبود مکان‌یابی در برنامه‌ها استفاده کنید. این استفاده به معنای ارسال داده‌های ناشناس مکانی به گوگل است، حتی هنگامی که برنامه‌ای در حال اجرا نیست.</string>
     <string name="setup_mobile_data_no_service">بدون سرویس</string>
     <string name="setup_mobile_data_emergency_only">فقط تماس اضطراری</string>
-    <string name="no">خیر</string>
     <string name="yes">بله</string>
     <string name="data_sim_name">سیم کارت <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">تماس اضطراری</string>

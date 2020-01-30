@@ -61,7 +61,6 @@
     <string name="services_explanation" product="default">Ang mga serbisyong ito ay gumagana upang palawakin ang mga kakayahan ng iyong telepono. Ang data ay gagamitin alinsunod sa <xliff:g id="name" example="Privacy Policy">%s</xliff:g> ng MoKee.</string>
     <string name="services_privacy_policy">Palihim na patakaran</string>
     <string name="services_os_nav_keys_label"><b>Gamitin sa mga pindutan ng screen navigation</b> sa halip na mga hardware na pindutan.</string>
-    <string name="services_os_privacy_guard"><b>Paganahin ang Privacy guard</b> upang gawing hindi available sa mga bagong na-install na mga app ang iyong personal na mga data katulad ng mga kontak, mga mensahe o mga log ng tawag</string>
     <string name="setup_unlock">I-unlock</string>
     <string name="setup_device_locked">Ang device na ito ay ini-lock ng user.</string>
     <string name="setup_device_locked_instructions"><i>Upang i-on ang feature na ito, mangyaring pumunta sa Settings &gt; Security</i></string>

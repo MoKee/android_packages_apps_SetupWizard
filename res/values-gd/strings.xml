@@ -19,7 +19,4 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="done">Deiseil</string>
-    <string name="no">Chan eil</string>
-    <string name="yes">Tha</string>
-    <string name="lockscreen_setup_summary"><b>Dìon an t-uidheam seo</b> agus iarr PIN, pàtran no facal-faire gus a’ ghlas a thoirt far na sgrìn</string>
 </resources>
