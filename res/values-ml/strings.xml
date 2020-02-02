@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">സജ്ജമാക്കല്‍ വിസാർഡ്</string>
-    <string name="next">"അടുത്തത്"</string>
+    <string name="next">അടുത്തത്</string>
     <string name="skip">ഒഴിവാക്കുക</string>
     <string name="start">ആരംഭിക്കുക</string>
     <string name="done">പൂർത്തിയാക്കി</string>

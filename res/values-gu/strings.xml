@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">સેટઅપ વિઝાર્ડ</string>
-    <string name="next">"આગામી"</string>
+    <string name="next">આગામી</string>
     <string name="skip">છોડી દો</string>
     <string name="start">પ્રારંભ કરો</string>
     <string name="done">થઈ ગયું</string>

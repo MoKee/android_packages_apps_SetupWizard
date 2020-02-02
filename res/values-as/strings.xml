@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">ছেটআপ ৱিজাৰ্ড</string>
-    <string name="next">"পৰৱৰ্তী"</string>
+    <string name="next">পৰৱৰ্তী</string>
     <string name="skip">বাদ দিয়া</string>
     <string name="start">আৰম্ভ</string>
     <string name="done">কৰা হল</string>
