@@ -53,7 +53,6 @@
     <string name="enable_mobile_data_summary">ಸೆಟಪ್ ವೇಳೆ ಮೊಬೈಲ್ ಡೇಟಾ ಉಪಯೋಗಿಸಲು ನೀವು ಬಯಸುತ್ತೀರಾ? ಮೊಬೈಲ್ ಡೇಟಾ ಆನ್ ಮಾಡುವುದು ಡೇಟಾ ಶುಲ್ಕಗಳಿಗೆ ಒಳಪಟ್ಟಿರುತ್ತದೆ.</string>
     <string name="no">ಬೇಡ</string>
     <string name="yes">ಹೌದು</string>
-    <string name="data_sim_name">ಸಿಮ್ <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">ತುರುಪರೀಸ್ಥಿತಿ ಕರೆ</string>
     <string name="services_privacy_policy">ಗೌಪ್ಯತಾ ನೀತಿ</string>
     <string name="services_os_nav_keys_label">ಹಾರ್ಡ್‍ವೇರ್ ಕೀಗಳ ಬದಲಾಗಿ <b>ಪರದೆಯ ಮೇಲಿನ ನಾವಿಗೇಶನ್ ಕೀಗಳನ್ನು ಉಪಯೋಗಿಸಿ</b>.</string>

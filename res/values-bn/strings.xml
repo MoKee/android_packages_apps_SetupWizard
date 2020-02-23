@@ -39,7 +39,6 @@
     <string name="setup_mobile_data_emergency_only">শুধুমাত্র জরুরী কল</string>
     <string name="no">না</string>
     <string name="yes">হ্যাঁ</string>
-    <string name="data_sim_name">সিম <xliff:g id="sub">%d </xliff:g> - <xliff:g id="name">%s </xliff:g></string>
     <string name="emergency_call">জরুরী কল</string>
     <string name="services_privacy_policy">প্রাইভেসি পলিসি</string>
 </resources>

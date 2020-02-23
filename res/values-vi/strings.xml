@@ -54,7 +54,6 @@
     <string name="enable_mobile_data_summary">Bạn có muốn sử dụng dữ liệu di động trong lúc thiết lập? Bật dữ liệu di động có thể phải chịu phí dữ liệu.</string>
     <string name="no">Không</string>
     <string name="yes">Có</string>
-    <string name="data_sim_name">SIM <xliff:g id="sub">%d </xliff:g> - <xliff:g id="name">%s </xliff:g></string>
     <string name="emergency_call">Cuộc gọi khẩn cấp</string>
     <string name="setup_services">Các tính năng MoKee</string>
     <string name="services_explanation" product="tablet">Các dịch vụ này giúp mở rộng khả năng làm việc máy tính bảng của bạn. Dữ liệu sẽ được sử dụng theo MoKee\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>

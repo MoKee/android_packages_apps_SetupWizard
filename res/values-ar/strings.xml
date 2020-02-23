@@ -54,7 +54,6 @@
     <string name="enable_mobile_data_summary">هل تريد استخدام البيانات الخلوية أثناء عملية الإعداد؟ قد يخضع تشغيل البيانات الخلوية إلى تطبيق رسوم بيانات.</string>
     <string name="no">لا</string>
     <string name="yes">نعم</string>
-    <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g> شريحة</string>
     <string name="emergency_call">مكالمة طوارئ</string>
     <string name="setup_services">ميزات MoKee</string>
     <string name="services_explanation" product="tablet">تعمل هذه الخدمات لتوسيع قدرات الجهاز اللوحي الخاص بك. ستستخدم البيانات وفقا لموكي <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
@@ -74,6 +73,7 @@
     <string name="sim_locale_changed">تم اكتشاف %1$s SIM</string>
     <string name="settings_lockscreen_setup_title">حدد نوع شاشة القفل</string>
     <string name="settings_lockscreen_setup_details">كيف تريد إقفال الشاشة؟</string>
+    <string name="lockscreen_setup_title" product="tablet">حماية جهازك اللوحي</string>
     <string name="lockscreen_setup_title" product="default">حماية هاتفك</string>
     <string name="lockscreen_setup_summary"><b>حماية هذا الجهاز</b> وطلب رقم تعريف شخصي أو نمط أو كلمة مرور لإلغاء قفل الشاشة.</string>
     <string name="lockscreen_setup_screen_lock_setup">إعداد</string>

@@ -54,7 +54,6 @@
     <string name="enable_mobile_data_summary">Pretende usar os dados móveis durante a configuração? Usar os dados móveis pode estar sujeito a taxas de dados.</string>
     <string name="no">Não</string>
     <string name="yes">Sim</string>
-    <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">Chamada de emergência</string>
     <string name="setup_services">Funcionalidades MoKee</string>
     <string name="services_explanation" product="tablet">Estes serviços servem para ampliar os recursos do seu tablet. Os dados serão utilizados em conformidade com a <xliff:g id="name" example="Privacy Policy">%s</xliff:g> da MoKee.</string>
