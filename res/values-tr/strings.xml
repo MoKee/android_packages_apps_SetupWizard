@@ -54,6 +54,7 @@
     <string name="enable_mobile_data_summary">Kurulum sırasında mobil veriyi kullanmak istiyor musunuz? Mobil veriyi açarak veri ücretlerine tabi olabilirsiniz.</string>
     <string name="no">Hayır</string>
     <string name="yes">Evet</string>
+    <string name="data_sim_name">SIM <xliff:g id="sub">%1$d</xliff:g> - <xliff:g id="name">%2$s</xliff:g></string>
     <string name="emergency_call">Acil durum çağrısı</string>
     <string name="setup_services">MoKee özellikleri</string>
     <string name="services_explanation" product="tablet">Bu hizmetler telefonunuzun yeteneklerini arttırır. Veriler MoKee <xliff:g id="name" example="Gizlilik Politikası">%s</xliff:g> ilkelerine uygun olarak kullanılacaktır.</string>

@@ -54,6 +54,7 @@
     <string name="enable_mobile_data_summary">Czy chcesz użyć mobilnej transmisji danych podczas instalacji? Włączenie transmisji danych może wiązać się z dodatkowymi opłatami.</string>
     <string name="no">Nie</string>
     <string name="yes">Tak</string>
+    <string name="data_sim_name">SIM <xliff:g id="sub">%1$d</xliff:g> - <xliff:g id="name">%2$s</xliff:g></string>
     <string name="emergency_call">Połączenie alarmowe</string>
     <string name="setup_services">Funkcje MoKee</string>
     <string name="services_explanation" product="tablet">Te usługi są uruchomione w celu rozszerzenia możliwości twojego tabletu. Dane będą używane zgodnie z MoKee <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
@@ -73,6 +74,7 @@
     <string name="sim_locale_changed">Wykryto %1$s SIM</string>
     <string name="settings_lockscreen_setup_title">Wybierz typ blokady ekranu</string>
     <string name="settings_lockscreen_setup_details">Jak chcesz blokować swój ekran?</string>
+    <string name="lockscreen_setup_title" product="tablet">Chroń swój tablet</string>
     <string name="lockscreen_setup_title" product="default">Zabezpiecz telefon</string>
     <string name="lockscreen_setup_summary"><b>Zabezpiecz to urządzenie</b>, wymagając kodu PIN, wzoru lub hasła do odblokowania ekranu</string>
     <string name="lockscreen_setup_screen_lock_setup">Konfiguracja</string>
