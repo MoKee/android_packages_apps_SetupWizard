@@ -54,6 +54,7 @@
     <string name="enable_mobile_data_summary">Бажаєте використовувати мобільні дані під час налаштування? Увімкнення мобільних даних може коштувати вам грошей.</string>
     <string name="no">Ні</string>
     <string name="yes">Так</string>
+    <string name="data_sim_name">SIM <xliff:g id="sub">%1$d</xliff:g> - <xliff:g id="name">%2$s</xliff:g></string>
     <string name="emergency_call">Екстрений виклик</string>
     <string name="setup_services">Функції MoKee</string>
     <string name="services_explanation" product="tablet">Ці послуги створено, щоб розширити можливості Вашого пристрою. Особисті дані буде використано у відповідності до <xliff:g id="name" example="Privacy Policy">%s </xliff:g> MoKee.</string>
@@ -61,6 +62,9 @@
     <string name="services_privacy_policy">Політика Конфіденційності</string>
     <string name="services_os_nav_keys_label"><b>Використовувати навігаційні кнопки на екрані
 </b> замість апаратних.</string>
+    <string name="services_os_bottom_gesture"><b>використовувати жести знизу вгору </b> для навігації.</string>
+    <string name="services_os_bottom_gesture_nav_keys"><b>використовувати жести знизу вгору</b> замість апаратних кнопок.</string>
+    <string name="services_os_bottom_gesture_nav_bar"><b>використовувати жести знизу вгору</b> замість кнопок навігації екрану.</string>
     <string name="services_os_privacy_guard"><b>Увімкнути Вартового приватності</b> щоб зробити ваші особисті дані, такі як контакти, повідомлення або журнал викликів не доступними для застосунків, що будуть встановлені</string>
     <string name="setup_unlock">Розблокувати</string>
     <string name="setup_device_locked">Цей пристрій заблоковано користувачем.</string>
@@ -75,6 +79,7 @@
     <string name="sim_locale_changed">%1$s SIM-карту виявлено</string>
     <string name="settings_lockscreen_setup_title">Виберіть тип блокування екрану</string>
     <string name="settings_lockscreen_setup_details">Як би ви хотіли блокувати екран?</string>
+    <string name="lockscreen_setup_title" product="tablet">Захистіть свій планшет</string>
     <string name="lockscreen_setup_title" product="default">Захистіть свій телефон</string>
     <string name="lockscreen_setup_summary"><b>Захистити цей пристрій</b> та запитувати PIN-код, графічний ключ або пароль для розблокування екрану</string>
     <string name="lockscreen_setup_screen_lock_setup">Налаштувати</string>
