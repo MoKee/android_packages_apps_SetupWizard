@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2015 The CyanogenMod Project
-     Copyright (C) 2017,2019 The LineageOS Project
-     Copyright (C) 2017,2019 The MoKee Open Source Project
+     Copyright (C) 2017-2020 The LineageOS Project
+     Copyright (C) 2017,2020 The MoKee Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -44,10 +44,6 @@
     <string name="other_services_summary">Гэтыя службы дазваляюць Google пашырыць магчымасці прылады. Вы можаце выключыць іх у кожны час. Дадзеныя будуць выкарыстоўвацца ў адпаведнасці з <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="location_services_summary">Службы месцазнаходжання дазваляюць сістэме і ўсталяваным дадаткам збіраць і скарыстаць такія дадзеныя, як ваша прыблізнае месцазнаходжанне. Прыкладам, дадатак можа шукаць кавярні паблізу, засноўваючыся на дадзеных пра ваша месцазнаходжанне.</string>
     <string name="location_access_summary"><b>Дазволіць дадаткам, якія запыталі ваш дазвол</b> скарыстаць інфармацыю пра ваша месцазнаходжанне. Гэта можа ўлучаць ваша бягучае і мінулыя месцазнаходжанні.</string>
-    <string name="location_battery_saving"><b>Зменшыць энергаспажыванне</b>, абмяжоўваючы колькасць абнаўленняў GPS у гадзіну.</string>
-    <string name="location_network"><b>Скарыстаць Wi-F</b> для вызначэння месцазнаходжання.</string>
-    <string name="location_network_telephony"><b>Выкарыстоўваць Wi-Fi ды сотавую сетку</b> каб дапамагчы дадаткам вызначаць ваша месцазнаходжанне.</string>
-    <string name="location_network_gms"><b>Скарыстаць службы месцазнаходжання Google</b>, каб дапамагчы дадаткам вызначаць ваша месцазнаходжанне. Гэта азначае, што яны будуць адпраўляць ананімныя дадзеныя пра месцазнаходжанне ў Google нават тады, калі ніякія дадаткі не запушчаны.</string>
     <string name="setup_mobile_data">Падлучыць мабільны трафік</string>
     <string name="setup_mobile_data_no_service">Няма сеткі</string>
     <string name="setup_mobile_data_emergency_only">Толькі экстраныя выклікі</string>

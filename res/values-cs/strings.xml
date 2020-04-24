@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2015 The CyanogenMod Project
-     Copyright (C) 2017,2019 The LineageOS Project
-     Copyright (C) 2017,2019 The MoKee Open Source Project
+     Copyright (C) 2017-2020 The LineageOS Project
+     Copyright (C) 2017,2020 The MoKee Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -44,10 +44,6 @@
     <string name="other_services_summary">Tyto služby Vám nabízí Google a Vy je můžete kdykoliv povolit či zakázat. Data budou použita v souladu se zásadami ochrany osobních údajů Google - <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="location_services_summary">Určování polohy umožňuje systému a dalším aplikacím sbírat data a používat je jako vaši přibližnou polohu. Aplikace tak může například vaši přibližnou polohu k nalezení blízkých kaváren.</string>
     <string name="location_access_summary"><b>Povolit aplikace, které požádaly o svolení</b>, aby mohly využívat informaci o poloze. To může zahrnovat vaši současnou i minulou polohu.</string>
-    <string name="location_battery_saving"><b>Snížit spotřebu energie</b> omezenit počet GPS aktualizací za hodinu.</string>
-    <string name="location_network"><b>Použít Wi\u2011Fi</b> pro zlepšení zjištění přibližné polohy.</string>
-    <string name="location_network_telephony"><b>Použít Wi\u2011Fi a mobilní sítě</b> pro zlepšení zjištění přibližné polohy.</string>
-    <string name="location_network_gms">Pro rychlejší určení vaší polohy <b>použijte lokační službu Google (Location Services)</b>. To znamená anonymní odesílání dat o poloze Googlu, i když žádné aplikace právě neběží.</string>
     <string name="setup_mobile_data">Zapnout mobilní data</string>
     <string name="setup_mobile_data_no_service">Žádná síť</string>
     <string name="setup_mobile_data_emergency_only">Pouze tísňová volání</string>

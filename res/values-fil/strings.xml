@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2015 The CyanogenMod Project
-     Copyright (C) 2017,2019 The LineageOS Project
-     Copyright (C) 2017,2019 The MoKee Open Source Project
+     Copyright (C) 2017-2020 The LineageOS Project
+     Copyright (C) 2017,2020 The MoKee Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -44,10 +44,6 @@
     <string name="other_services_summary">Maglagay ng mga serbisyo ang Google para gumana para sa iyo, at maari ninyo itong i-on o i-off sa anumang oras. Datos ay gagamitin sa alinsunod ni Google <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="location_services_summary">Pinapayagan ng mga serbisyo ng lokasyon ang mga system at mga apps ng third party na magtipon at gumamit ng data tulad ng iyong tinatayang lokasyon. Halimbawa, maaaring gamitin ng isang app ang iyong tinatayang lokasyon upang mahanap ang mga kalapit na tindahan ng kape.</string>
     <string name="location_access_summary"><b> Payagan ang mga app na humiling ng iyong pahintulot </b> upang gamitin ang impormasyon ng iyong lokasyon. Maaaring kasama nito ang iyong kasalukuyang lokasyon at mga nakaraang lokasyon.</string>
-    <string name="location_battery_saving"><b> Bawasan ang pagkonsumo ng baterya </b> sa pamamagitan ng paghihigpit sa bilang ng mga pag-update ng GPS kada oras.</string>
-    <string name="location_network"><b> Gumamit ng Wi-Fi </b> upang matulungan ang mga app na matukoy ang iyong lokasyon.</string>
-    <string name="location_network_telephony"><b> Gumamit ng Wi-Fi at cellular network </b> upang matulungan ang mga app na matukoy ang iyong lokasyon.</string>
-    <string name="location_network_gms"><b> Gamitin ang serbisyo ng lokasyon ng Google </b> upang matulungan ang mga app na matukoy ang iyong lokasyon. Nangangahulugan ito ng pagpapadala ng hindi nakikilalang data ng lokasyon sa Google, kahit na walang tumatakbo ang mga app.</string>
     <string name="setup_mobile_data">I-on ang cellular data</string>
     <string name="setup_mobile_data_no_service">Walang serbisyo</string>
     <string name="setup_mobile_data_emergency_only">Emergency na tawag lang</string>

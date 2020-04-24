@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2015 The CyanogenMod Project
-     Copyright (C) 2017,2019 The LineageOS Project
-     Copyright (C) 2017,2019 The MoKee Open Source Project
+     Copyright (C) 2017-2020 The LineageOS Project
+     Copyright (C) 2017,2020 The MoKee Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -40,8 +40,6 @@
     <string name="choose_data_sim_summary" product="default">Kë kartë SIM doni të përdorni për t\'u lidhur me internetin? SIM-i i zgjedhur mund të rrisë pagesën që do i detyroheni operatorit pasi do të përdoret për të konfiguruar telefonin.</string>
     <string name="date_time_summary">Cakto zonën kohore dhe rregullo datën dhe orën nëse është e nevojshme</string>
     <string name="backup_data_summary"><b>Bëj një kopje</b> të të dhënave të aplikacioneve, fjalëkalimeve të Wi-Fi, dhe parametrave të tjerë dhe ruaji në serverat e Google</string>
-    <string name="location_network"><b>Përdor Wi-Fi</b> për të ndihmuar aplikacionet që të përcaktojnë vendndodhjen tënde.</string>
-    <string name="location_network_telephony"><b>Përdor Wi-Fi dhe rrjetet celulare</b> për të ndihmuar aplikacionet që të përcaktojnë vendndodhjen tënde.</string>
     <string name="setup_mobile_data">Aktivizo internetin e celularit</string>
     <string name="setup_mobile_data_no_service">Nuk ka shërbim</string>
     <string name="setup_mobile_data_emergency_only">Vetëm thirrjet emergjente</string>

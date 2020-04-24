@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2015 The CyanogenMod Project
-     Copyright (C) 2017,2019 The LineageOS Project
-     Copyright (C) 2017,2019 The MoKee Open Source Project
+     Copyright (C) 2017-2020 The LineageOS Project
+     Copyright (C) 2017,2020 The MoKee Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -42,10 +42,6 @@
     <string name="other_services_summary">આ સેવાઓ Google પાસે તમારું કાર્ય કરાવે છે, અને તમે તે કોઇ પણ સમયે તેને ચાલુ અથવા બંધ કરી શકો છો. ડેટાનો ઉપયોગ Googleના <xliff:g id="name" example="Privacy Policy">%s</xliff:g> અનુસાર થશે.</string>
     <string name="location_services_summary">લોકેશન સેવાઓ સિસ્ટમને અને ત્રાહિત પક્ષ ઍપને તમારો ડેટા એકઠો કરી વાપરવાની છૂટ આપે છે જેમકે આશરે તમારું લોકેશન. દાખલા તરીકે, એપ્લિકેશન નજીક હોય તેવી કૉફીશૉપ શોધવા માટે તમારા આશરેના લોકેશનનો ઉપયોગ કરી શકે.</string>
     <string name="location_access_summary">તમારી લોકેશન માહિતી વાપરવાની <b>પરવાનગી માંગી હોય એવા ઍપ્સને છૂટ આપો</b>. આમાં તમારા હાલના લોકેશન અને ભૂતકાલીન લોકેશનોનો સમાવેશ થઈ શકે.</string>
-    <string name="location_battery_saving">કલાક દીઠ GPS અપડેટોની સંખ્યા મર્યાદિત કરીને <b>બેટરીનો વપરાશ ઘટાડો</b>.</string>
-    <string name="location_network">તમારું લોકેશન નિર્ધારિત કરવામાં ઍપ્સને મદદ કરવા <b>Wi-Fi વાપરો</b>.</string>
-    <string name="location_network_telephony">તમારું લોકેશન નિર્ધારિત કરવામાં ઍપ્સને મદદ કરવા <b>Wi-Fi અને મોબાઇલ નેટવર્ક્સ વાપરો</b>.</string>
-    <string name="location_network_gms">તમારું લોકેશન નિર્ધારિત કરવામાં ઍપ્સને મદદ કરવા <b>Googleની લોકેશન સેવા વાપરો</b>. આનો અર્થ થાય છે Google ને અનામી લોકેશન ડેટા મોકલવો, જ્યારે કોઈ એપ્સ ચાલી રહી ન હોય ત્યારે પણ.</string>
     <string name="setup_mobile_data">મોબાઇલ ડેટા ચાલુ કરો</string>
     <string name="setup_mobile_data_no_service">કોઇ સેવા નથી</string>
     <string name="setup_mobile_data_emergency_only">ફક્ત કટોકટીના કૉલ્સ</string>
