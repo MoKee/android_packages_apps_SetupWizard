@@ -59,10 +59,10 @@
     </WizardAction>
 
     <WizardAction wizard:uri="intent:#Intent;action=org.mokee.setupwizard.MOKEE_SETTINGS;end" id="mokee_settings">
-        <result wizard:action="fingerprint_settings" />
+        <result wizard:action="biometric_settings" />
     </WizardAction>
 
-    <WizardAction wizard:uri="intent:#Intent;action=org.mokee.setupwizard.MOKEE_FINGERPRINT_SETTINGS;end" id="fingerprint_settings">
+    <WizardAction wizard:uri="intent:#Intent;action=org.mokee.setupwizard.MOKEE_BIOMETRIC_SETTINGS;end" id="biometric_settings">
         <result wizard:action="lockscreen_settings" />
     </WizardAction>
 
