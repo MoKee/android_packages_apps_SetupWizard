@@ -26,6 +26,7 @@
     <string name="loading">வெறும் ஒரு வினாடி\u2026</string>
     <string name="setup_complete">அமைப்பு நிறைவடைந்தது</string>
     <string name="setup_welcome">நல்வரவு</string>
+    <string name="setup_locale">மொழி</string>
     <string name="setup_wifi">தேர்வுசெய்யவும் Wi-fi</string>
     <string name="setup_sim_missing">SIM கார்டு காணவில்லை</string>
     <string name="setup_choose_data_sim">தரவுகளுக்காக SIM ஒன்றை தேர்வுசெய்க</string>
@@ -54,6 +55,7 @@
     <string name="no">அனுமதிக்கப்படவில்லை</string>
     <string name="yes">அனுமதிக்கப்பட்டது</string>
     <string name="emergency_call">அவசரகால அழைப்பு</string>
+    <string name="setup_services">MoKee அம்சங்கள்</string>
     <string name="services_privacy_policy">தனியுரிமைக் கொள்கை</string>
     <string name="services_os_nav_keys_label"><b>வன்பொருள் விசைகளுக்கு பதிலாக திரையிலுள்ள</b> வழிச்செல்லுதல் விசைகளை பயன்படுத்தவும்</string>
     <string name="setup_unlock">தடைநீக்கு</string>
@@ -70,4 +72,5 @@
     <string name="settings_lockscreen_setup_details">உங்கள் திரையை நீங்கள் எவ்வாறு பூட்ட விரும்புகிறீர்கள்?</string>
     <string name="lockscreen_setup_title" product="default">மொபைலைப் பாதுகாக்கவும்</string>
     <string name="lockscreen_setup_summary">திரையை திறக்க பின், வடிவம் அல்லது கடவுச்சொல் கேட்கும்படி அமைத்து, <b>சாதனத்தைப் பாதுகாக்கலாம்</b></string>
+    <string name="lockscreen_setup_screen_lock_setup">அமை</string>
 </resources>
