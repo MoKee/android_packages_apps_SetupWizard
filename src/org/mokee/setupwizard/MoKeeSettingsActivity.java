@@ -44,8 +44,8 @@ import com.google.android.setupcompat.util.WizardManagerHelper;
 
 import org.mokee.setupwizard.R;
 
-import mokee.hardware.MKHardwareManager;
-import mokee.providers.MKSettings;
+import mokee.hardware.MoKeeHardwareManager;
+import mokee.providers.MoKeeSettings;
 
 public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
 
@@ -101,8 +101,8 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
         mNavKeys = (CheckBox) findViewById(R.id.nav_keys_checkbox);
         mSupportsKeyDisabler = isKeyDisablerSupported(this);
         if (mSupportsKeyDisabler) {
-            mNavKeys.setChecked(MKSettings.System.getIntForUser(getContentResolver(),
-                    MKSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0);
+            mNavKeys.setChecked(MoKeeSettings.System.getIntForUser(getContentResolver(),
+                    MoKeeSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0);
         } else {
             navKeysRow.setVisibility(View.GONE);
         }
@@ -148,8 +148,8 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
     private void updateDisableNavkeysOption() {
         if (mSupportsKeyDisabler) {
             final Bundle myPageBundle = mSetupWizardApp.getSettingsBundle();
-            boolean enabled = MKSettings.System.getIntForUser(getContentResolver(),
-                    MKSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0;
+            boolean enabled = MoKeeSettings.System.getIntForUser(getContentResolver(),
+                    MoKeeSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0;
             boolean checked = myPageBundle.containsKey(DISABLE_NAV_KEYS) ?
                     myPageBundle.getBoolean(DISABLE_NAV_KEYS) :
                     enabled;
@@ -159,7 +159,7 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
     }
 
     private static boolean isKeyDisablerSupported(Context context) {
-        final MKHardwareManager hardware = MKHardwareManager.getInstance(context);
-        return hardware.isSupported(MKHardwareManager.FEATURE_KEY_DISABLE);
+        final MoKeeHardwareManager hardware = MoKeeHardwareManager.getInstance(context);
+        return hardware.isSupported(MoKeeHardwareManager.FEATURE_KEY_DISABLE);
     }
 }

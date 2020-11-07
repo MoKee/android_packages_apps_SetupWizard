@@ -43,7 +43,7 @@ import com.google.android.setupcompat.util.WizardManagerHelper;
 
 import org.mokee.setupwizard.util.EnableAccessibilityController;
 
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 public class FinishActivity extends BaseSetupWizardActivity {
 
@@ -188,26 +188,26 @@ public class FinishActivity extends BaseSetupWizardActivity {
     private static void writeDisableNavkeysOption(Context context, boolean enabled) {
         final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 
-        final boolean virtualKeysEnabled = MKSettings.System.getIntForUser(
-                    context.getContentResolver(), MKSettings.System.FORCE_SHOW_NAVBAR, 0,
+        final boolean virtualKeysEnabled = MoKeeSettings.System.getIntForUser(
+                    context.getContentResolver(), MoKeeSettings.System.FORCE_SHOW_NAVBAR, 0,
                     UserHandle.USER_CURRENT) != 0;
         if (enabled != virtualKeysEnabled) {
-            MKSettings.System.putIntForUser(context.getContentResolver(),
-                    MKSettings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0,
+            MoKeeSettings.System.putIntForUser(context.getContentResolver(),
+                    MoKeeSettings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0,
                     UserHandle.USER_CURRENT);
         }
 
         /* Save/restore button timeouts to disable them in softkey mode */
         if (enabled) {
-            MKSettings.Secure.putInt(context.getContentResolver(),
-                    MKSettings.Secure.BUTTON_BRIGHTNESS, 0);
+            MoKeeSettings.Secure.putInt(context.getContentResolver(),
+                    MoKeeSettings.Secure.BUTTON_BRIGHTNESS, 0);
         } else {
-            int currentBrightness = MKSettings.Secure.getInt(context.getContentResolver(),
-                    MKSettings.Secure.BUTTON_BRIGHTNESS, 100);
+            int currentBrightness = MoKeeSettings.Secure.getInt(context.getContentResolver(),
+                    MoKeeSettings.Secure.BUTTON_BRIGHTNESS, 100);
             int oldBright = prefs.getInt(KEY_BUTTON_BACKLIGHT,
                     currentBrightness);
-            MKSettings.Secure.putInt(context.getContentResolver(),
-                    MKSettings.Secure.BUTTON_BRIGHTNESS, oldBright);
+            MoKeeSettings.Secure.putInt(context.getContentResolver(),
+                    MoKeeSettings.Secure.BUTTON_BRIGHTNESS, oldBright);
         }
     }
 }
