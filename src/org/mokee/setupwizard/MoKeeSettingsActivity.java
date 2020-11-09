@@ -121,11 +121,6 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
     }
 
     @Override
-    protected int getTransition() {
-        return TRANSITION_ID_SLIDE;
-    }
-
-    @Override
     protected int getLayoutResId() {
         return R.layout.setup_mokee_settings;
     }
