@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
- * Copyright (C) 2017-2019 The LineageOS Project
- * Copyright (C) 2017-2019 The MoKee Open Source Project
+ * Copyright (C) 2017-2020 The LineageOS Project
+ * Copyright (C) 2017-2020 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,6 @@
 package org.mokee.setupwizard;
 
 import static org.mokee.setupwizard.SetupWizardApp.DISABLE_NAV_KEYS;
-import static org.mokee.setupwizard.SetupWizardApp.KEY_BUTTON_BACKLIGHT;
 import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.animation.Animator;
@@ -195,19 +194,6 @@ public class FinishActivity extends BaseSetupWizardActivity {
             MoKeeSettings.System.putIntForUser(context.getContentResolver(),
                     MoKeeSettings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0,
                     UserHandle.USER_CURRENT);
-        }
-
-        /* Save/restore button timeouts to disable them in softkey mode */
-        if (enabled) {
-            MoKeeSettings.Secure.putInt(context.getContentResolver(),
-                    MoKeeSettings.Secure.BUTTON_BRIGHTNESS, 0);
-        } else {
-            int currentBrightness = MoKeeSettings.Secure.getInt(context.getContentResolver(),
-                    MoKeeSettings.Secure.BUTTON_BRIGHTNESS, 100);
-            int oldBright = prefs.getInt(KEY_BUTTON_BACKLIGHT,
-                    currentBrightness);
-            MoKeeSettings.Secure.putInt(context.getContentResolver(),
-                    MoKeeSettings.Secure.BUTTON_BRIGHTNESS, oldBright);
         }
     }
 }
