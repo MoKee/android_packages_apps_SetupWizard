@@ -59,13 +59,13 @@
     <string name="setup_unlock">Desbloquea</string>
     <string name="setup_device_locked">Este dispositivo ha sido bloqueado por el usuario.</string>
     <string name="setup_device_locked_instructions"><i>Para activar/desactivar esta función, por favor, ve a Configuración &gt; Seguridad</i></string>
-    <string name="settings_fingerprint_setup_title">Seleccione el tipo de bloqueo de la pantalla de copia de seguridad</string>
-    <string name="settings_fingerprint_setup_details">¿Cómo quieres bloquear tu pantalla?</string>
+    <string name="settings_biometric_setup_title">Seleccione el tipo de bloqueo de la pantalla de copia de seguridad</string>
+    <string name="settings_biometric_setup_details">¿Cómo quieres bloquear tu pantalla?</string>
     <string name="fingerprint_setup_title">Configuración de la huella dactilar</string>
     <string name="fingerprint_setup_summary">Para utilizar el sensor de huella dactilar para desbloquear la pantalla, necesitará:</string>
-    <string name="fingerprint_setup_backup_lock_method">Configuración de un metodo de desbloqueo  secundario</string>
+    <string name="biometric_setup_backup_lock_method">Configuración de un metodo de desbloqueo  secundario</string>
     <string name="fingerprint_setup_add_fingerprint">Añade tu huella dactilar</string>
-    <string name="fingerprint_setup_screen_lock_setup">Bloqueo de pantalla de configuración</string>
+    <string name="biometric_setup_screen_lock_setup">Bloqueo de pantalla de configuración</string>
     <string name="sim_locale_changed">%1$s SIM detectada</string>
     <string name="settings_lockscreen_setup_title">Seleccione el tipo de bloqueo de la pantalla</string>
     <string name="settings_lockscreen_setup_details">¿Cómo quieres bloquear tu pantalla?</string>
