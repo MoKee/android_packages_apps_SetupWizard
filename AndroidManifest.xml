@@ -43,8 +43,8 @@
     <uses-permission android:name="mokee.permission.HARDWARE_ABSTRACTION_ACCESS" />
     <uses-permission android:name="android.permission.BACKUP" />
     <uses-permission android:name="mokee.permission.FINISH_SETUP" />
-    <uses-permission android:name="mokee.permission.WRITE_SETTINGS"/>
-    <uses-permission android:name="mokee.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="mokee.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="mokee.permission.WRITE_SECURE_SETTINGS" />
 
     <permission
         android:name="mokee.permission.FINISH_SETUP"
@@ -243,7 +243,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.mokee.setupwizard.MOKEE_FINGERPRINT_SETTINGS" />
+                <action android:name="org.mokee.setupwizard.MOKEE_BIOMETRIC_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

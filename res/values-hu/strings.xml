@@ -60,13 +60,13 @@
     <string name="setup_unlock">Feloldás</string>
     <string name="setup_device_locked">A felhasználó zárolta a készüléket.</string>
     <string name="setup_device_locked_instructions"><i>A szolgáltatás ki/be kapcsolásához, kérjük menjen ide: Beállítások &gt; Biztonság</i></string>
-    <string name="settings_fingerprint_setup_title">Válasszon másodlagos feloldási módot</string>
-    <string name="settings_fingerprint_setup_details">Hogyan szeretné zárolni a képernyőt?</string>
+    <string name="settings_biometric_setup_title">Válasszon másodlagos feloldási módot</string>
+    <string name="settings_biometric_setup_details">Hogyan szeretné zárolni a képernyőt?</string>
     <string name="fingerprint_setup_title">Ujjlenyomat-beállítások</string>
     <string name="fingerprint_setup_summary">Az ujjlenyomat-érzékelő használatával történő képernyő-feloldásához, a következőre van szüksége:</string>
-    <string name="fingerprint_setup_backup_lock_method">A másodlagos feloldási mód beállításai</string>
+    <string name="biometric_setup_backup_lock_method">A másodlagos feloldási mód beállításai</string>
     <string name="fingerprint_setup_add_fingerprint">Adja hozzá ujjlenyomatát</string>
-    <string name="fingerprint_setup_screen_lock_setup">Állítson be képernyőzárat</string>
+    <string name="biometric_setup_screen_lock_setup">Állítson be képernyőzárat</string>
     <string name="sim_locale_changed">SIM %1$s észlelve</string>
     <string name="settings_lockscreen_setup_title">Válasszon Záróképernyő-típust</string>
     <string name="settings_lockscreen_setup_details">Hogyan szeretné zárolni a képernyőt?</string>

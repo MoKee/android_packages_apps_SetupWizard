@@ -59,13 +59,13 @@
     <string name="setup_unlock">I-unlock</string>
     <string name="setup_device_locked">Ang device na ito ay ini-lock ng user.</string>
     <string name="setup_device_locked_instructions"><i>Upang i-on ang feature na ito, mangyaring pumunta sa Settings &gt; Security</i></string>
-    <string name="settings_fingerprint_setup_title">Pumili ng klase sa screen lock</string>
-    <string name="settings_fingerprint_setup_details">Paano mo gustong i-lock ang iyong screen?</string>
+    <string name="settings_biometric_setup_title">Pumili ng klase sa screen lock</string>
+    <string name="settings_biometric_setup_details">Paano mo gustong i-lock ang iyong screen?</string>
     <string name="fingerprint_setup_title">Pag-setup ng fingerprint</string>
     <string name="fingerprint_setup_summary">Upang gamitin ang iyong fingerprint sensor upang i-unlock ang iyong screen, kinakailangan mo na:</string>
-    <string name="fingerprint_setup_backup_lock_method">Mag-setup ng pangalawang paraan sa pag-unlock</string>
+    <string name="biometric_setup_backup_lock_method">Mag-setup ng pangalawang paraan sa pag-unlock</string>
     <string name="fingerprint_setup_add_fingerprint">Idagdag ang iyong fingerprint</string>
-    <string name="fingerprint_setup_screen_lock_setup">I-setup ang screen lock</string>
+    <string name="biometric_setup_screen_lock_setup">I-setup ang screen lock</string>
     <string name="sim_locale_changed">%1$s SIM na-detect</string>
     <string name="settings_lockscreen_setup_title">Pumili ng klase sa screen lock</string>
     <string name="settings_lockscreen_setup_details">Paano mo gustong i-lock ang iyong screen?</string>
