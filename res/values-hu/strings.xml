@@ -64,8 +64,8 @@
     <string name="settings_biometric_setup_details">Hogyan szeretné zárolni a képernyőt?</string>
     <string name="fingerprint_setup_title">Ujjlenyomat-beállítások</string>
     <string name="fingerprint_setup_summary">Az ujjlenyomat-érzékelő használatával történő képernyő-feloldásához, a következőre van szüksége:</string>
-    <string name="biometric_setup_backup_lock_method">A másodlagos feloldási mód beállításai</string>
     <string name="fingerprint_setup_add_fingerprint">Adja hozzá ujjlenyomatát</string>
+    <string name="biometric_setup_backup_lock_method">A másodlagos feloldási mód beállításai</string>
     <string name="biometric_setup_screen_lock_setup">Állítson be képernyőzárat</string>
     <string name="sim_locale_changed">SIM %1$s észlelve</string>
     <string name="settings_lockscreen_setup_title">Válasszon Záróképernyő-típust</string>
@@ -74,4 +74,8 @@
     <string name="lockscreen_setup_title" product="default">Óvja meg telefonját</string>
     <string name="lockscreen_setup_summary"><b>Óvja meg készülékét</b>, és a képernyőzár feloldásához állítson be PIN kódot, mintát vagy jelszót</string>
     <string name="lockscreen_setup_screen_lock_setup">Beállítás</string>
+    <string name="intro_restore_title">Alkalmazások és adatok visszaállítása</string>
+    <string name="intro_restore_subtitle" product="tablet">Ha készült MoKeeOS mentés az előző tabletjéről, akkor azt itt visszaállíthatja.</string>
+    <string name="intro_restore_subtitle" product="default">Ha készült MoKeeOS mentés az előző telefonjáról, akkor azt itt visszaállíthatja.</string>
+    <string name="intro_restore_button">Visszaállítás biztonsági másolatból</string>
 </resources>
