@@ -41,8 +41,13 @@
     <string name="choose_data_sim_summary" product="default">Kë kartë SIM doni të përdorni për t\'u lidhur me internetin? SIM-i i zgjedhur mund të rrisë pagesën që do i detyroheni operatorit pasi do të përdoret për të konfiguruar telefonin.</string>
     <string name="date_time_summary">Cakto zonën kohore dhe rregullo datën dhe orën nëse është e nevojshme</string>
     <string name="backup_data_summary"><b>Bëj një kopje</b> të të dhënave të aplikacioneve, fjalëkalimeve të Wi-Fi, dhe parametrave të tjerë dhe ruaji në serverat e Google</string>
+    <string name="other_services_summary">Këto shërbime e vendosin Google të punojë për ju dhe ju mund t\'i aktivizoni ose çaktivizoni ato në çdo kohë.  Të dhënat do të përdoren në përputhje me ato të Google &lt;xliff:g id="name" example="Privacy Policy"&gt;&lt;xliff:g id="name" example="Privacy Policy"&gt;</string>
+    <string name="location_services_summary">Shërbimet e vendndodhjes lejojnë që aplikacionet e sistemit dhe të palëve të treta të mbledhin dhe të përdorin të dhëna të tilla si vendndodhja juaj e përafërt.  Për shembull, një aplikacion mund të përdorë vendndodhjen tuaj të përafërt për të lokalizuar kafenetë aty pranë.</string>
+    <string name="location_access_summary"><b> Lejo programe që kanë kërkuar lejen tënde</b> të përdorin informacionin mbi vendndodhjen tuaj. Kjo mund të përfshijë vendndodhjen tuaj aktuale dhe vendodhje tuajat të mëparshme.</string>
+    <string name="location_battery_saving"><b>Redukto konsumin e baterisë</b> duke kufizuar numrin e përditësimeve të GPS në orë.</string>
     <string name="location_network"><b>Përdor Wi-Fi</b> për të ndihmuar aplikacionet që të përcaktojnë vendndodhjen tënde.</string>
     <string name="location_network_telephony"><b>Përdor Wi-Fi dhe rrjetet celulare</b> për të ndihmuar aplikacionet që të përcaktojnë vendndodhjen tënde.</string>
+    <string name="location_network_gms"><b> Përdorni shërbimin e vendndodhjes së Google </b> për të ndihmuar aplikacionet të përcaktojnë vendndodhjen tuaj.  Kjo nënkupton dërgimin e të dhënave anonime të vendndodhjes te Google, edhe kur nuk ekzekutohen aplikacione.</string>
     <string name="setup_mobile_data">Aktivizo internetin e celularit</string>
     <string name="setup_mobile_data_no_service">Nuk ka shërbim</string>
     <string name="setup_mobile_data_emergency_only">Vetëm thirrjet emergjente</string>
