@@ -65,6 +65,9 @@
     <string name="fingerprint_setup_title">Nastavení otisku prstu</string>
     <string name="fingerprint_setup_summary">Chcete-li použít snímač otisků prstů pro odemknutí obrazovky, budete muset:</string>
     <string name="fingerprint_setup_add_fingerprint">Přidat svůj otisk prstu</string>
+    <string name="face_setup_title">Nastavení obličeje</string>
+    <string name="face_setup_summary">Chcete‑li k odemknutí obrazovky použít obličej, budete muset:</string>
+    <string name="face_setup_add_face">Přidat svůj obličej</string>
     <string name="biometric_setup_backup_lock_method">Nastavit vedlejší odemykací metodu</string>
     <string name="biometric_setup_screen_lock_setup">Nastavit zámek obrazovky</string>
     <string name="sim_locale_changed">Zjištěna %1$s SIM</string>
