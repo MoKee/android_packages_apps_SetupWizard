@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher 2ECD2531 1609228388 +0800\npushee ssh://mokeedev.review:29418/MoKee/android_packages_apps_SetupWizard\nnonce 1609228388-053547B8E06604618C40CA868A054F0738CE3ED3\n\n0000000000000000000000000000000000000000 11cca532072260af811d4384bfd9a62222c35a6a refs/for/mkq-mr1\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEE/Y8fKHw84zhHjhP78iL05i7NJTEFAl/q4GQACgkQ8iL05i7N\nJTEfJQf/SIC4FfH1/Uz2UOBzZQh/5EHQKJRngrJbetYfixLSElXPWLPyUCKSpL9o\n7A0yKXtyXKn3zd24dIhX9y0mfXSmypCLy1Zc9RPxcbg9hJn7ciWN/2mE0EkN8JPD\nieg78Zp+IBd6kQu8pcPrx2PeYzyZ14ip7zyMa3u8lvkqfj9wdb8GuEiKT7tDVoGr\nuMMr9r6wC1d16w1uamqxqKGeiBUS6tHkCzvOuFaYMaRcaxsQFxoA181yTf0W5gk0\nsoEgdO/ufYfKt9Kloh0e5pM/Ac9Y1uDRoLUEkcjFF6on+oEJgX7jZiawextlu3UD\nbk6RO5ewVdoJ2twWALx7582ypkOUCw\u003d\u003d\n\u003dbLQ4\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
