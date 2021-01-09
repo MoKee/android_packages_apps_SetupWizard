@@ -28,8 +28,8 @@
     <string name="setup_welcome">Hoş geldiniz</string>
     <string name="setup_locale">Dil</string>
     <string name="setup_wifi">Wi-Fi seçin</string>
-    <string name="setup_sim_missing">SIM kart yok</string>
-    <string name="setup_choose_data_sim">Veri için bir SIM seçin</string>
+    <string name="setup_sim_missing">SIM kart eksik</string>
+    <string name="setup_choose_data_sim">Mobil veri için bir SIM kart seçin</string>
     <string name="setup_location">Konum servisleri</string>
     <string name="setup_other">Diğer servisler</string>
     <string name="setup_datetime">Tarih ve saat</string>
@@ -65,6 +65,9 @@
     <string name="fingerprint_setup_title">Parmak izi kurulumu</string>
     <string name="fingerprint_setup_summary">Ekran kilidini açmak ve parmak izi sensörünü kullanmak için şunları yapmanız gerekir:</string>
     <string name="fingerprint_setup_add_fingerprint">Parmak izinizi ekleyin</string>
+    <string name="face_setup_title">Yüz kurulumu</string>
+    <string name="face_setup_summary">Ekranınızın kilidini açmak üzere yüzünüzü kullanmak için yapmanız gerekenler:</string>
+    <string name="face_setup_add_face">Yüzünü ekleyin</string>
     <string name="biometric_setup_backup_lock_method">İkincil kilit açma yöntemi kur</string>
     <string name="biometric_setup_screen_lock_setup">Ekran kilidini ayarla</string>
     <string name="sim_locale_changed">%1$s SIM tespit edildi</string>
@@ -74,4 +77,8 @@
     <string name="lockscreen_setup_title" product="default">Telefonunuzu koruyun</string>
     <string name="lockscreen_setup_summary"><b>Bu cihazı koruyun</b> ve ekranın kilidini açmak için bir PIN, desen veya şifre gerekiyor</string>
     <string name="lockscreen_setup_screen_lock_setup">Kur</string>
+    <string name="intro_restore_title">Uygulamaları ve verileri geri yükle</string>
+    <string name="intro_restore_subtitle" product="tablet">Son MoKee tabletinizden bir yedeğiniz varsa, onu buradan geri yükleyebilirsiniz.</string>
+    <string name="intro_restore_subtitle" product="default">Son MoKee telefonunuzun bir yedeğiniz varsa, onu buradan geri yükleyebilirsiniz.</string>
+    <string name="intro_restore_button">Yedekten geri yükle</string>
 </resources>
