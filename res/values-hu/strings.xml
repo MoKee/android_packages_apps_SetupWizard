@@ -68,8 +68,8 @@
     <string name="face_setup_title">Arcbeállítások</string>
     <string name="face_setup_summary">Az arcával történő képernyő-feloldásához, a következőkre van szüksége:</string>
     <string name="face_setup_add_face">Az arcképe hozzá legyen rendelve a feloldáshoz</string>
-    <string name="biometric_setup_backup_lock_method">A másodlagos feloldási mód beállításai</string>
-    <string name="biometric_setup_screen_lock_setup">Állítson be képernyőzárat</string>
+    <string name="biometric_setup_backup_lock_method">Másodlagos feloldási mód beállításai</string>
+    <string name="biometric_setup_screen_lock_setup">Képernyőzár beállítása</string>
     <string name="sim_locale_changed">SIM %1$s észlelve</string>
     <string name="settings_lockscreen_setup_title">Válasszon Záróképernyő-típust</string>
     <string name="settings_lockscreen_setup_details">Hogyan szeretné zárolni a képernyőt?</string>
