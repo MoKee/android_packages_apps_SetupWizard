@@ -18,10 +18,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Asistenti i Konfigurimit</string>
-    <string name="next">Vazhdo</string>
+    <string name="next">Tjetra</string>
     <string name="skip">Jo tani</string>
     <string name="start">Fillo</string>
-    <string name="done">U krye</string>
+    <string name="done">Mbarova</string>
+    <string name="ok">Në rregull</string>
     <string name="loading">Një sekondë\u2026</string>
     <string name="setup_complete">Konfigurimi u plotësua</string>
     <string name="setup_welcome">Mirësevini</string>
@@ -40,6 +41,9 @@
     <string name="choose_data_sim_summary" product="default">Kë kartë SIM doni të përdorni për t\'u lidhur me internetin? SIM-i i zgjedhur mund të rrisë pagesën që do i detyroheni operatorit pasi do të përdoret për të konfiguruar telefonin.</string>
     <string name="date_time_summary">Cakto zonën kohore dhe rregullo datën dhe orën nëse është e nevojshme</string>
     <string name="backup_data_summary"><b>Bëj një kopje</b> të të dhënave të aplikacioneve, fjalëkalimeve të Wi-Fi, dhe parametrave të tjerë dhe ruaji në serverat e Google</string>
+    <string name="other_services_summary">Këto shërbime e vendosin Google të punojë për ju dhe ju mund t\'i aktivizoni ose çaktivizoni ato në çdo kohë.  Të dhënat do të përdoren në përputhje me ato të Google &lt;xliff:g id="name" example="Privacy Policy"&gt;&lt;xliff:g id="name" example="Privacy Policy"&gt;</string>
+    <string name="location_services_summary">Shërbimet e vendndodhjes lejojnë që aplikacionet e sistemit dhe të palëve të treta të mbledhin dhe të përdorin të dhëna të tilla si vendndodhja juaj e përafërt.  Për shembull, një aplikacion mund të përdorë vendndodhjen tuaj të përafërt për të lokalizuar kafenetë aty pranë.</string>
+    <string name="location_access_summary"><b> Lejo programe që kanë kërkuar lejen tënde</b> të përdorin informacionin mbi vendndodhjen tuaj. Kjo mund të përfshijë vendndodhjen tuaj aktuale dhe vendodhje tuajat të mëparshme.</string>
     <string name="setup_mobile_data">Aktivizo internetin e celularit</string>
     <string name="setup_mobile_data_no_service">Nuk ka shërbim</string>
     <string name="setup_mobile_data_emergency_only">Vetëm thirrjet emergjente</string>
@@ -59,8 +63,8 @@
     <string name="settings_biometric_setup_details">Si doni që ta bllokoni ekranin?</string>
     <string name="fingerprint_setup_title">Konfigurimi i shenjave të gishtave</string>
     <string name="fingerprint_setup_summary">Për të përdorur sensorin e shenjave të gishtave që të zhbllokosh ekranin, duhet të:</string>
-    <string name="biometric_setup_backup_lock_method">Konfigurosh një metodë të dytë zhbllokimi</string>
     <string name="fingerprint_setup_add_fingerprint">Shtosh shenjat e gishtave</string>
+    <string name="biometric_setup_backup_lock_method">Konfigurosh një metodë të dytë zhbllokimi</string>
     <string name="biometric_setup_screen_lock_setup">Konfigurosh bllokimin e ekranit</string>
     <string name="sim_locale_changed">%1$s SIM u lidh</string>
     <string name="settings_lockscreen_setup_title">Zgjidh mënyrën e bllokimit të ekranit</string>

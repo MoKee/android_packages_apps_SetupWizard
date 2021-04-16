@@ -63,8 +63,8 @@
     <string name="settings_biometric_setup_details">Paano mo gustong i-lock ang iyong screen?</string>
     <string name="fingerprint_setup_title">I-set up ang fingerprint</string>
     <string name="fingerprint_setup_summary">Upang gamitin ang iyong fingerprint sensor upang i-unlock ang iyong screen, kakailanganin mong:</string>
-    <string name="biometric_setup_backup_lock_method">I-setup ang isang pangalawang paraan ng pag-unlock</string>
     <string name="fingerprint_setup_add_fingerprint">Idagdag ang iyong fingerprint</string>
+    <string name="biometric_setup_backup_lock_method">I-setup ang isang pangalawang paraan ng pag-unlock</string>
     <string name="biometric_setup_screen_lock_setup">I-setup ang lock ng screen</string>
     <string name="sim_locale_changed">%1$s ang SIM ay nakita</string>
     <string name="settings_lockscreen_setup_title">Piliin ang uri ng lock ng screen</string>

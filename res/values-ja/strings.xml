@@ -39,7 +39,7 @@
     <string name="sim_missing_summary" product="default">お使いの端末でSIMカードが検出されませんでした。SIMカードの挿入方法については、端末に付属している説明書をご覧ください。</string>
     <string name="choose_data_sim_summary" product="tablet">どちらのSIMをデータ通信に使用しますか？選択したSIMを端末のセットアップに使用するため、パケット通信料を請求される可能性があります。</string>
     <string name="choose_data_sim_summary" product="default">どちらのSIMをデータ通信に使用しますか？選択したSIMを端末のセットアップに使用するため、パケット通信料を請求される可能性があります。</string>
-    <string name="date_time_summary">タイムゾーンを設定して必要であれば現在の日付と時刻を調整して下さい</string>
+    <string name="date_time_summary">タイムゾーンを設定して、必要であれば現在の日付と時刻を調整してください</string>
     <string name="backup_data_summary">アプリのデータ、Wi-Fiパスワード、その他の設定をGoogleのサーバーに<b>バックアップする</b></string>
     <string name="other_services_summary">これらのサービスはGoogleアプリを動作させるもので、いつでもONまたはOFFにすることができます。データはGoogleの<xliff:g id="name" example="Privacy Policy">%s</xliff:g>に従って使用されます。</string>
     <string name="location_services_summary">位置情報サービスは、おおよその位置情報などのデータの収集や使用をマップやサードパーティのアプリに許可します。例えば、アプリが最寄りの喫茶店を探すために、おおよその位置情報を使用するかもしれません。</string>
@@ -55,7 +55,7 @@
     <string name="services_explanation" product="tablet">これらのサービスは端末の機能を拡張するために動作します。データは MoKee の<xliff:g id="name" example="Privacy Policy">%s</xliff:g>に従って使用されます。</string>
     <string name="services_explanation" product="default">これらのサービスは端末の機能を拡張するために動作します。データは MoKee の<xliff:g id="name" example="Privacy Policy">%s</xliff:g>に従って使用されます。</string>
     <string name="services_privacy_policy">プライバシーポリシー</string>
-    <string name="services_os_nav_keys_label">ハードウェアキーのかわりに<b>スクリーンナビゲーションキーを使用します</b></string>
+    <string name="services_os_nav_keys_label">ハードウェアキーのかわりに<b>スクリーンナビゲーションキーを使用します</b>。</string>
     <string name="setup_unlock">ロック解除</string>
     <string name="setup_device_locked">この端末はユーザーによってロックされています。</string>
     <string name="setup_device_locked_instructions"><i>この機能をOFF/ONするには、設定→プライバシーを開いてください</i></string>
@@ -63,8 +63,8 @@
     <string name="settings_biometric_setup_details">どのように画面をロックしますか？</string>
     <string name="fingerprint_setup_title">指紋のセットアップ</string>
     <string name="fingerprint_setup_summary">指紋センターを画面のロック解除に使用するには、以下のことを行う必要があります:</string>
-    <string name="biometric_setup_backup_lock_method">予備のロック解除方法をセットアップ</string>
     <string name="fingerprint_setup_add_fingerprint">指紋を追加</string>
+    <string name="biometric_setup_backup_lock_method">予備のロック解除方法をセットアップ</string>
     <string name="biometric_setup_screen_lock_setup">画面のロックをセットアップ</string>
     <string name="sim_locale_changed">%1$sのSIMを検出しました</string>
     <string name="settings_lockscreen_setup_title">画面のロックの種類を選択</string>

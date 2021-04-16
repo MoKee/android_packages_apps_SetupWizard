@@ -21,6 +21,7 @@
     <string name="next">Nesaf</string>
     <string name="skip">Neidio</string>
     <string name="start">Dechrau</string>
+    <string name="done">Cwblhau</string>
     <string name="ok">Iawn</string>
     <string name="loading">Un eiliad\u2026</string>
     <string name="setup_complete">Mae\'r gosodiad wedi ei gwblhau.</string>
@@ -62,8 +63,8 @@
     <string name="settings_biometric_setup_details">Sut hoffet gloi dy sgrin?</string>
     <string name="fingerprint_setup_title">Gosod ôl bys</string>
     <string name="fingerprint_setup_summary">I ddefnyddio\'r synhwyrydd olion bysedd i ddatgloi dy sgrin, mae angen:</string>
-    <string name="biometric_setup_backup_lock_method">Gosod ail ddull o ddatgloi</string>
     <string name="fingerprint_setup_add_fingerprint">Ychwanegu ôl dy fys</string>
+    <string name="biometric_setup_backup_lock_method">Gosod ail ddull o ddatgloi</string>
     <string name="biometric_setup_screen_lock_setup">Gosod clo\'r sgrin</string>
     <string name="sim_locale_changed">Synhwyrwyd %1$s SIM</string>
     <string name="settings_lockscreen_setup_title">Dewis math o sgrin cloi</string>
