@@ -63,8 +63,8 @@
     <string name="settings_biometric_setup_details">Hvordan vil du gerne låse din skærm?</string>
     <string name="fingerprint_setup_title">Konfigurerring af fingeraftryk</string>
     <string name="fingerprint_setup_summary">Hvis du vil bruge din fingeraftryksensor til at låse din skærm op, skal du:</string>
-    <string name="biometric_setup_backup_lock_method">Konfigurere en sekundær låsemetode</string>
     <string name="fingerprint_setup_add_fingerprint">Tilføje dit fingeraftryk</string>
+    <string name="biometric_setup_backup_lock_method">Konfigurere en sekundær låsemetode</string>
     <string name="biometric_setup_screen_lock_setup">Konfigurere skærmlås</string>
     <string name="sim_locale_changed">%1$s SIM-kort fundet</string>
     <string name="settings_lockscreen_setup_title">Vælg skærmlåstype</string>

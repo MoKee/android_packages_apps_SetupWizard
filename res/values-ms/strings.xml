@@ -56,8 +56,8 @@
     <string name="settings_biometric_setup_details">Bagaimana anda mahu kunci skrin anda?</string>
     <string name="fingerprint_setup_title">Tetapan cap jari</string>
     <string name="fingerprint_setup_summary">Untuk menggunakan sensor cap jari bagi membuka kunci skrin, anda memerlukan:</string>
-    <string name="biometric_setup_backup_lock_method">Tetapan kedua untuk kaedah membuka kunci</string>
     <string name="fingerprint_setup_add_fingerprint">Masukkan cap jari anda</string>
+    <string name="biometric_setup_backup_lock_method">Tetapan kedua untuk kaedah membuka kunci</string>
     <string name="biometric_setup_screen_lock_setup">Tetapan kekunci skrin</string>
     <string name="sim_locale_changed">%1$s SIM dikesan</string>
     <string name="settings_lockscreen_setup_title">Pilih jenis kunci skrin</string>
