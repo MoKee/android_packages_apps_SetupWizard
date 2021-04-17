@@ -64,8 +64,10 @@
     <string name="settings_biometric_setup_details">Comment voulez-vous verrouiller votre écran ?</string>
     <string name="fingerprint_setup_title">Paramétrage de l\'empreinte digitale</string>
     <string name="fingerprint_setup_summary">Pour utiliser votre capteur d\'empreintes digitales pour déverrouiller votre écran, vous devrez :</string>
-    <string name="biometric_setup_backup_lock_method">Méthode de déblocage de configuration secondaire</string>
     <string name="fingerprint_setup_add_fingerprint">Ajoutez votre empreinte digitale</string>
+    <string name="face_setup_title">Configuration du visage</string>
+    <string name="face_setup_add_face">Ajoutez votre visage</string>
+    <string name="biometric_setup_backup_lock_method">Méthode de déblocage de configuration secondaire</string>
     <string name="biometric_setup_screen_lock_setup">Configurer le verrouillage de l\'appareil</string>
     <string name="sim_locale_changed">%1$s SIM détectée</string>
     <string name="settings_lockscreen_setup_title">Sélectionner le type de verrouillage de l\'écran</string>
@@ -74,4 +76,7 @@
     <string name="lockscreen_setup_title" product="default">Protégez votre téléphone</string>
     <string name="lockscreen_setup_summary"><b>Protégez cet appareil</b> et nécessite un code PIN, un dessin ou un mot de passe pour déverrouiller l’écran</string>
     <string name="lockscreen_setup_screen_lock_setup">Configuration</string>
+    <string name="intro_restore_title">Restaurer les applications et les données</string>
+    <string name="intro_restore_subtitle" product="default">Si vous avez une sauvegarde de votre précédent téléphone MoKee, vous pouvez la restaurer ici.</string>
+    <string name="intro_restore_button">Restaurer depuis une sauvegarde</string>
 </resources>
