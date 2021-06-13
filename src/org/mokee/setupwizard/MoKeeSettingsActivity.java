@@ -90,8 +90,10 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
                 }
             }
         };
+        int ppStartIndex = policySummary.indexOf(privacy_policy);
         ss.setSpan(clickableSpan,
-                spanStart, spanEnd, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                ppStartIndex, ppStartIndex + privacy_policy.length(),
+                Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         TextView privacyPolicy = (TextView) findViewById(R.id.privacy_policy);
         privacyPolicy.setMovementMethod(LinkMovementMethod.getInstance());
         privacyPolicy.setText(ss);
