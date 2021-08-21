@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
- * Copyright (C) 2017-2018,2020 The LineageOS Project
+ * Copyright (C) 2017-2021 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -86,7 +86,6 @@ public class BiometricActivity extends SubBaseActivity {
         Intent intent = new Intent(ACTION_SETUP_BIOMETRIC);
         intent.putExtra(EXTRA_FIRST_RUN, true);
         intent.putExtra(EXTRA_ALLOW_SKIP, true);
-        intent.putExtra(EXTRA_USE_IMMERSIVE, true);
         intent.putExtra(EXTRA_THEME, EXTRA_MATERIAL_LIGHT);
         intent.putExtra(EXTRA_AUTO_FINISH, false);
             /*intent.putExtra(LockPatternUtils.LOCKSCREEN_BIOMETRIC_FALLBACK, true);*/
