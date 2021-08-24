@@ -253,6 +253,10 @@ public class SetupWizardUtils {
         return PhoneMonitor.getInstance().simMissing();
     }
 
+    public static boolean singleSimInserted() {
+        return PhoneMonitor.getInstance().singleSimInserted();
+    }
+
     public static boolean isMultiSimDevice() {
         return PhoneMonitor.getInstance().isMultiSimDevice();
     }
@@ -271,7 +275,7 @@ public class SetupWizardUtils {
         } else if (!simMissing()) {
             disableComponent(context, SimMissingActivity.class);
         }
-        if (!isMultiSimDevice()) {
+        if (!isMultiSimDevice() || singleSimInserted()) {
             disableComponent(context, ChooseDataSimActivity.class);
         }
         if (!SetupWizardUtils.hasWifi(context) ||
