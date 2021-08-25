@@ -17,6 +17,9 @@
 
 package org.mokee.setupwizard.backup;
 
+import static org.mokee.setupwizard.SetupWizardApp.ACTION_RESTORE_FROM_BACKUP;
+import static org.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_RESTORE;
+
 import android.app.Activity;
 import android.content.Intent;
 
@@ -25,9 +28,6 @@ import com.google.android.setupcompat.util.WizardManagerHelper;
 import org.lineageos.setupwizard.NavigationLayout;
 import org.mokee.setupwizard.R;
 import org.mokee.setupwizard.SubBaseActivity;
-
-import static org.mokee.setupwizard.SetupWizardApp.ACTION_RESTORE_FROM_BACKUP;
-import static org.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_RESTORE;
 
 public class RestoreIntroActivity extends SubBaseActivity {
 

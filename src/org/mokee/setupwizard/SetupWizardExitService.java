@@ -16,7 +16,6 @@
 
 package org.mokee.setupwizard;
 
-
 import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.annotation.Nullable;

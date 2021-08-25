@@ -25,7 +25,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.RemoteException;
 import android.os.UserHandle;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -34,15 +33,11 @@ import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
 import android.util.Log;
-import android.view.IWindowManager;
 import android.view.View;
-import android.view.WindowManagerGlobal;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
 import com.google.android.setupcompat.util.WizardManagerHelper;
-
-import org.mokee.setupwizard.R;
 
 import mokee.hardware.MoKeeHardwareManager;
 import mokee.providers.MoKeeSettings;
@@ -59,7 +54,7 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
 
     private boolean mSupportsKeyDisabler = false;
 
-    private View.OnClickListener mNavKeysClickListener = view -> {
+    private final View.OnClickListener mNavKeysClickListener = view -> {
         boolean checked = !mNavKeys.isChecked();
         mNavKeys.setChecked(checked);
         mSetupWizardApp.getSettingsBundle().putBoolean(DISABLE_NAV_KEYS, checked);

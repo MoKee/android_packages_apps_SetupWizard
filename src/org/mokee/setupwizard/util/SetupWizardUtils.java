@@ -40,28 +40,28 @@ import android.content.pm.ComponentInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ServiceInfo;
+import android.content.res.Resources;
 import android.hardware.face.FaceManager;
 import android.hardware.fingerprint.FingerprintManager;
+import android.net.ConnectivityManager;
 import android.os.Binder;
 import android.os.SystemProperties;
 import android.os.UserHandle;
-import android.net.ConnectivityManager;
 import android.provider.Settings;
 import android.telephony.ServiceState;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
+import org.mokee.internal.util.PackageManagerUtils;
+import org.mokee.setupwizard.BiometricActivity;
 import org.mokee.setupwizard.BluetoothSetupActivity;
 import org.mokee.setupwizard.ChooseDataSimActivity;
-import org.mokee.setupwizard.BiometricActivity;
 import org.mokee.setupwizard.MobileDataActivity;
 import org.mokee.setupwizard.SetupWizardApp;
 import org.mokee.setupwizard.SimMissingActivity;
 import org.mokee.setupwizard.WifiSetupActivity;
 import org.mokee.setupwizard.wizardmanager.WizardManager;
-
-import org.mokee.internal.util.PackageManagerUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -76,7 +76,8 @@ public class SetupWizardUtils {
 
     private static final String PROP_BUILD_DATE = "ro.build.date.utc";
 
-    private SetupWizardUtils(){}
+    private SetupWizardUtils() {
+    }
 
     public static SharedPreferences getPrefs(Context context) {
         return context.getSharedPreferences("SetupWizardPrefs", MODE_PRIVATE);
@@ -117,7 +118,7 @@ public class SetupWizardUtils {
     }
 
     public static boolean isRadioReady(Context context, ServiceState state) {
-        final SetupWizardApp setupWizardApp = (SetupWizardApp)context.getApplicationContext();
+        final SetupWizardApp setupWizardApp = (SetupWizardApp) context.getApplicationContext();
         if (setupWizardApp.isRadioReady()) {
             return true;
         } else {
@@ -126,7 +127,6 @@ public class SetupWizardUtils {
             setupWizardApp.setRadioReady(ready);
             return ready;
         }
-
     }
 
     public static boolean isOwner() {
@@ -219,7 +219,7 @@ public class SetupWizardUtils {
 
     public static boolean isEthernetConnected(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context.
-            getSystemService(Context.CONNECTIVITY_SERVICE);
+                getSystemService(Context.CONNECTIVITY_SERVICE);
 
         return (cm.getActiveNetworkInfo() != null &&
                 cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_ETHERNET);
@@ -285,8 +285,7 @@ public class SetupWizardUtils {
         if (!isMultiSimDevice() || singleSimInserted()) {
             disableComponent(context, ChooseDataSimActivity.class);
         }
-        if (!SetupWizardUtils.hasWifi(context) ||
-            isEthernetConnected(context)) {
+        if (!hasWifi(context) || isEthernetConnected(context)) {
             disableComponent(context, WifiSetupActivity.class);
         }
     }
@@ -305,7 +304,7 @@ public class SetupWizardUtils {
         intent.addCategory("android.intent.category.HOME");
         intent.setPackage(context.getPackageName());
         ComponentName comp = intent.resolveActivity(context.getPackageManager());
-        if (SetupWizardApp.LOGV) {
+        if (LOGV) {
             Log.v(TAG, "resolveActivity for intent=" + intent + " returns " + comp);
         }
         return comp;
@@ -335,7 +334,6 @@ public class SetupWizardUtils {
         setComponentEnabledState(context, new ComponentName(context, cls),
                 COMPONENT_ENABLED_STATE_DEFAULT);
     }
-
 
     public static void setComponentEnabledState(Context context, ComponentName componentName,
             int enabledState) {
@@ -381,12 +379,11 @@ public class SetupWizardUtils {
         return componentNames;
     }
 
-
-    public static final ComponentName mTvwifisettingsActivity =
+    public static final ComponentName sTvWifiSetupSettingsActivity =
             new ComponentName("com.android.tv.settings",
                     "com.android.tv.settings.connectivity.setup.WifiSetupActivity");
 
-    public static final ComponentName mTvAddAccessorySettingsActivity =
+    public static final ComponentName sTvAddAccessorySettingsActivity =
             new ComponentName("com.android.tv.settings",
                     "com.android.tv.settings.accessories.AddAccessoryActivity");
 

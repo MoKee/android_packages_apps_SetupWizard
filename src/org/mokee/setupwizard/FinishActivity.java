@@ -18,6 +18,9 @@
 
 package org.mokee.setupwizard;
 
+import static android.os.Binder.getCallingUserHandle;
+
+import static org.mokee.setupwizard.Manifest.permission.FINISH_SETUP;
 import static org.mokee.setupwizard.SetupWizardApp.ACTION_SETUP_COMPLETE;
 import static org.mokee.setupwizard.SetupWizardApp.DISABLE_NAV_KEYS;
 import static org.mokee.setupwizard.SetupWizardApp.LOGV;
@@ -45,9 +48,6 @@ import org.mokee.setupwizard.util.EnableAccessibilityController;
 
 import mokee.providers.MoKeeSettings;
 
-import static android.os.Binder.getCallingUserHandle;
-import static org.mokee.setupwizard.Manifest.permission.FINISH_SETUP;
-
 public class FinishActivity extends BaseSetupWizardActivity {
 
     public static final String TAG = FinishActivity.class.getSimpleName();
@@ -61,7 +61,6 @@ public class FinishActivity extends BaseSetupWizardActivity {
     private final Handler mHandler = new Handler();
 
     private volatile boolean mIsFinishing = false;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -159,10 +158,12 @@ public class FinishActivity extends BaseSetupWizardActivity {
             }
 
             @Override
-            public void onAnimationCancel(Animator animation) {}
+            public void onAnimationCancel(Animator animation) {
+            }
 
             @Override
-            public void onAnimationRepeat(Animator animation) {}
+            public void onAnimationRepeat(Animator animation) {
+            }
         });
         anim.start();
     }
