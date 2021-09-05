@@ -26,7 +26,7 @@ import android.content.Intent;
 import com.google.android.setupcompat.util.WizardManagerHelper;
 import static com.google.android.setupcompat.util.ResultCodes.RESULT_SKIP;
 
-import org.lineageos.setupwizard.NavigationLayout;
+import org.mokee.setupwizard.NavigationLayout;
 import org.mokee.setupwizard.R;
 import org.mokee.setupwizard.SubBaseActivity;
 

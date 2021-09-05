@@ -28,11 +28,9 @@ import static org.mokee.setupwizard.SetupWizardApp.ACTION_EMERGENCY_DIAL;
 import static org.mokee.setupwizard.SetupWizardApp.ACTION_NEXT;
 import static org.mokee.setupwizard.SetupWizardApp.ACTION_SETUP_COMPLETE;
 import static org.mokee.setupwizard.SetupWizardApp.EXTRA_ACTION_ID;
-import static org.mokee.setupwizard.SetupWizardApp.EXTRA_FIRST_RUN;
 import static org.mokee.setupwizard.SetupWizardApp.EXTRA_HAS_MULTIPLE_USERS;
 import static org.mokee.setupwizard.SetupWizardApp.EXTRA_RESULT_CODE;
 import static org.mokee.setupwizard.SetupWizardApp.EXTRA_SCRIPT_URI;
-import static org.mokee.setupwizard.SetupWizardApp.EXTRA_USE_IMMERSIVE;
 import static org.mokee.setupwizard.SetupWizardApp.LOGV;
 
 import android.annotation.NonNull;

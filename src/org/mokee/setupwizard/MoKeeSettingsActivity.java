@@ -65,11 +65,8 @@ public class MoKeeSettingsActivity extends BaseSetupWizardActivity {
         super.onCreate(savedInstanceState);
         mSetupWizardApp = (SetupWizardApp) getApplication();
         setNextText(R.string.next);
-        String policySummary = getString(R.string.services_explanation);
         String privacy_policy = getString(R.string.services_privacy_policy);
-        int spanStart = policySummary.indexOf("%s");
-        int spanEnd = spanStart + privacy_policy.length();
-        policySummary = policySummary.replace("%s", privacy_policy);
+        String policySummary = getString(R.string.services_explanation, privacy_policy);
         SpannableString ss = new SpannableString(policySummary);
         ClickableSpan clickableSpan = new ClickableSpan() {
             @Override

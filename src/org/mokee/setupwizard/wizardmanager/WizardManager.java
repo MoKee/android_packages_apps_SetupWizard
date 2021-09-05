@@ -36,7 +36,7 @@ import com.google.android.setupcompat.util.ResultCodes;
 import com.google.android.setupcompat.util.WizardManagerHelper;
 import com.google.android.setupdesign.util.ThemeHelper;
 
-import org.lineageos.setupwizard.util.SetupWizardUtils;
+import org.mokee.setupwizard.util.SetupWizardUtils;
 
 import java.util.HashMap;
 

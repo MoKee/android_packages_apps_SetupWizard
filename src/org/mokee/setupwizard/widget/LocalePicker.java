@@ -16,7 +16,6 @@
 
 package org.mokee.setupwizard.widget;
 
-import org.mokee.setupwizard.R;
 import android.annotation.Widget;
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -58,7 +57,7 @@ import android.widget.TextView;
 
 import libcore.icu.LocaleData;
 
-import org.lineageos.setupwizard.R;
+import org.mokee.setupwizard.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

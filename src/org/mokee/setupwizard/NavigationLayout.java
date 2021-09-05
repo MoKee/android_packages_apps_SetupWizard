@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.setupwizard;
+package org.mokee.setupwizard;
 
 import android.content.Context;
 import android.content.res.TypedArray;

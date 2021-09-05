@@ -39,7 +39,6 @@ import com.android.internal.telephony.util.LocaleUtils;
 
 import com.google.android.setupcompat.util.SystemBarHelper;
 
-import org.mokee.setupwizard.R;
 import org.mokee.setupwizard.widget.LocalePicker;
 
 import java.util.List;

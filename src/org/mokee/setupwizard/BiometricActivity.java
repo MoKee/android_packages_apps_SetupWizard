@@ -20,7 +20,6 @@ package org.mokee.setupwizard;
 import static org.mokee.setupwizard.SetupWizardApp.ACTION_SETUP_BIOMETRIC;
 import static org.mokee.setupwizard.SetupWizardApp.EXTRA_DETAILS;
 import static org.mokee.setupwizard.SetupWizardApp.EXTRA_TITLE;
-import static org.mokee.setupwizard.SetupWizardApp.EXTRA_USE_IMMERSIVE;
 import static org.mokee.setupwizard.SetupWizardApp.REQUEST_CODE_SETUP_BIOMETRIC;
 
 import android.content.Intent;

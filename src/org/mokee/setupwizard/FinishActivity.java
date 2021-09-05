@@ -46,6 +46,7 @@ import com.google.android.setupcompat.util.SystemBarHelper;
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
 import org.mokee.setupwizard.util.EnableAccessibilityController;
+import org.mokee.setupwizard.util.SetupWizardUtils;
 
 import mokee.providers.MoKeeSettings;
 
@@ -178,6 +179,7 @@ public class FinishActivity extends BaseSetupWizardActivity {
                 WallpaperManager.getInstance(mSetupWizardApp);
         wallpaperManager.forgetLoadedWallpaper();
         finishAllAppTasks();
+        SetupWizardUtils.enableStatusBar(this);
         Intent intent = WizardManagerHelper.getNextIntent(getIntent(),
                 Activity.RESULT_OK);
         startActivityForResult(intent, NEXT_REQUEST);
@@ -194,8 +196,8 @@ public class FinishActivity extends BaseSetupWizardActivity {
         final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 
         final boolean virtualKeysEnabled = MoKeeSettings.System.getIntForUser(
-                    context.getContentResolver(), MoKeeSettings.System.FORCE_SHOW_NAVBAR, 0,
-                    UserHandle.USER_CURRENT) != 0;
+                context.getContentResolver(), MoKeeSettings.System.FORCE_SHOW_NAVBAR, 0,
+                UserHandle.USER_CURRENT) != 0;
         if (enabled != virtualKeysEnabled) {
             MoKeeSettings.System.putIntForUser(context.getContentResolver(),
                     MoKeeSettings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0,

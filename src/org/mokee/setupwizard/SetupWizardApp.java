@@ -36,7 +36,7 @@ public class SetupWizardApp extends Application {
     public static final String ACTION_ACCESSIBILITY_SETTINGS =
             "android.settings.ACCESSIBILITY_SETTINGS_FOR_SUW";
     public static final String ACTION_SETUP_COMPLETE =
-            "org.mokee.setupwizard.LINEAGE_SETUP_COMPLETE";
+            "org.mokee.setupwizard.MOKEE_SETUP_COMPLETE";
     public static final String ACTION_FINISHED = "org.mokee.setupwizard.SETUP_FINISHED";
     public static final String ACTION_SETUP_WIFI = "android.net.wifi.SETUP_WIFI_NETWORK";
     public static final String ACTION_SETUP_BIOMETRIC = "android.settings.BIOMETRIC_ENROLL";
