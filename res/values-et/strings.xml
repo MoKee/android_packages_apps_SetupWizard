@@ -56,7 +56,6 @@
     <string name="setup_services">MoKee funktsioonid</string>
     <string name="services_explanation" product="tablet">Need teenused aitavad teil oma tableti võimalusi laiendada. Andmeid kasutatakse vastavalt MoKee\'le <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="services_explanation" product="default">Need teenused aitavad teil oma telefoni võimalusi laiendada. Andmeid kasutatakse vastavalt MoKee\'le <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
-    <string name="services_privacy_policy">Privaatsuspoliitika</string>
     <string name="services_os_nav_keys_label"><b>Kasuta ekraanil olevaid navigeerimisklahve</b> riistvaraliste nuppude asemel.</string>
     <string name="setup_unlock">Ava lukustus</string>
     <string name="setup_device_locked">Seade on kasutaja poolt lukustatud.</string>

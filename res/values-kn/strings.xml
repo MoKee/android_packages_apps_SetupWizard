@@ -52,9 +52,6 @@
     <string name="yes">ಹೌದು</string>
     <string name="emergency_call">ತುರುಪರೀಸ್ಥಿತಿ ಕರೆ</string>
     <string name="setup_services">MoKee ವೈಶಿಷ್ಟ್ಯಗಳು</string>
-    <string name="services_explanation" product="tablet">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ ನ ಸಾಮರ್ಥ್ಯವನ್ನು ಹೆಚ್ಚಿಸಲು ಈ ಸೇವೆಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ. ದತ್ತಾಂಶಗಳು MoKee ಯ ಪ್ರಕಾರ ಬಳಸಲ್ಪಡುತ್ತವೆ.<xliff:g id="ಹೆಸರು" ಉದಾಹರಣೆ="ಗೌಪ್ಯತಾ ನೀತಿ">%s</xliff:g>.</string>
-    <string name="services_explanation" product="default">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ ನ ಸಾಮರ್ಥ್ಯವನ್ನು ಹೆಚ್ಚಿಸಲು ಈ ಸೇವೆಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ. ದತ್ತಾಂಶಗಳು MoKee ಯ ಪ್ರಕಾರ ಬಳಸಲ್ಪಡುತ್ತವೆ.<xliff:g id="ಹೆಸರು" ಉದಾಹರಣೆ="ಗೌಪ್ಯತಾ ನೀತಿ">%s</xliff:g>.</string>
-    <string name="services_privacy_policy">ಗೌಪ್ಯತಾ ನೀತಿ</string>
     <string name="services_os_nav_keys_label">ಹಾರ್ಡ್‍ವೇರ್ ಕೀಗಳ ಬದಲಾಗಿ <b>ಪರದೆಯ ಮೇಲಿನ ನಾವಿಗೇಶನ್ ಕೀಗಳನ್ನು ಉಪಯೋಗಿಸಿ</b>.</string>
     <string name="setup_unlock">ಅನ್‍ಲಾಕ್</string>
     <string name="setup_device_locked">ಸಾಧನವನ್ನು ಬಳಕೆದಾರನು ಲಾಕ್ ಮಾಡಿದ್ದಾರೆ.</string>

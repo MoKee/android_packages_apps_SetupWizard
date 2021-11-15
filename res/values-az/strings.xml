@@ -48,7 +48,6 @@
     <string name="enable_mobile_data_summary">Quraşdırma vaxtı mobil verilənlərdən istifadə etmək istəyirsiniz? Mobil verilənləri açmaq əlavə ödənişə səbəb ola bilər.</string>
     <string name="yes">Bəli</string>
     <string name="emergency_call">Fövqəladə vəziyyət zəngləri</string>
-    <string name="services_privacy_policy">Gizlilik Siyasəti</string>
     <string name="services_os_nav_keys_label"><b>Avadanlıq düymələri əvəzinə ekran üstü hərəkət düymələrindən istifadə edin.</b></string>
     <string name="setup_unlock">Kilidi aç</string>
     <string name="setup_device_locked">Bu cihaz istifadəçisi tərəfindən kilidlənib.</string>
