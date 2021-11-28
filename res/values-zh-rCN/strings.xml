@@ -78,7 +78,7 @@
     <string name="lockscreen_setup_summary"><b>为此设备启用保护功能</b>，并要求输入 PIN 码、图案或密码才能解锁屏幕</string>
     <string name="lockscreen_setup_screen_lock_setup">设置</string>
     <string name="intro_restore_title">还原应用程序和数据</string>
-    <string name="intro_restore_subtitle" product="tablet">如果你有来自你上一台MoKee平板的备份，你可以在这里还原它。</string>
-    <string name="intro_restore_subtitle" product="default">如果你有来自你上一台MoKee平板的备份，你可以在这里还原它。</string>
+    <string name="intro_restore_subtitle" product="tablet">如果你有来自你上一台魔趣平板的备份，你可以在这里还原它。</string>
+    <string name="intro_restore_subtitle" product="default">如果你有来自你上一台魔趣手机的备份，你可以在这里还原它。</string>
     <string name="intro_restore_button">从备份还原</string>
 </resources>
