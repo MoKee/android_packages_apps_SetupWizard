@@ -41,10 +41,6 @@
     </WizardAction>
 
     <WizardAction wizard:uri="intent:#Intent;action=org.mokee.setupwizard.MOKEE_SETTINGS;end" id="mokee_settings">
-        <result wizard:action="restore" />
-    </WizardAction>
-
-    <WizardAction wizard:uri="intent:#Intent;action=org.mokee.setupwizard.MOKEE_RESTORE_BACKUP;end" id="restore">
         <result wizard:action="finish" />
     </WizardAction>
 
