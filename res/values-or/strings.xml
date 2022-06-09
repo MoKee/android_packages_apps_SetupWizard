@@ -22,9 +22,11 @@
     <string name="skip">ସ୍କିପ୍</string>
     <string name="start">ଆରମ୍ଭ</string>
     <string name="done">ସମାପ୍ତ</string>
+    <string name="ok">ଠିକ୍ ଅଛି</string>
     <string name="loading">ଏକ ‍କ୍ଷଣ ମାତ୍ର\u2026</string>
     <string name="setup_complete">ସେଟ୍‍ଅପ୍‍ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଛି</string>
     <string name="setup_welcome">ସ୍ଵାଗତ</string>
+    <string name="setup_locale">ଭାଷା</string>
     <string name="setup_wifi">Wi-Fi ଚୟନ କର୍ନ୍ତୁ</string>
     <string name="setup_sim_missing">SIM କାର୍ଡ ନାହିଁ</string>
     <string name="setup_choose_data_sim">ଡାଟା ପାଇଁ ଏକ SIM ଚୟନ କରନ୍ତୁ</string>
@@ -46,6 +48,8 @@
     <string name="setup_mobile_data_no_service">କୌଣସି ସେବା ନାହିଁ</string>
     <string name="setup_mobile_data_emergency_only">କେବଳ ଇମରଜେନ୍ସି କଲ୍ସ</string>
     <string name="enable_mobile_data_summary">ସେଟ୍‍ଅପ୍‍ ସମୟରେ ମୋବାଇଲ୍‍ ଡାଟା ବ୍ୟବହାର ପାଇଁ ଆପଣ ଚାହାଁନ୍ତି କି? ମୋବାଇଲ୍ ଡାଟା ଅନ୍‍ କାରଣରୁ ଡାଟା ଶୁଳ୍କ ଲାଗିପାରେ।</string>
+    <string name="no">ନାହିଁ</string>
+    <string name="yes">ହଁ</string>
     <string name="emergency_call">ଜରୁରୀକାଳୀନ କଲ୍</string>
     <string name="services_privacy_policy">ଗୋପନୀୟତା ନୀତି</string>
     <string name="services_os_nav_keys_label">ହା୍ର୍ଡ୍‍ଓୟାର୍‍ କୀ ବଦଳରେ<b>ଅନ୍‍ସ୍କ୍ରିନ୍‍ ନେଭିଗେସନ୍‍ କୀ ବ୍ୟବହାର କରନ୍ତୁ</b> ।</string>
